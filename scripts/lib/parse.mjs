@@ -95,16 +95,48 @@ function containsWord(haystack, needle) {
 }
 
 /**
- * A slug from a dance name. Latin-friendly; for Armenian-only names the caller
- * should pass a romanized string. Falls back to a stable hash-ish token.
+ * A slug from a dance name. Transliterates Armenian → Latin so slugs, URLs, and
+ * R2 keys are ASCII (a diaspora user's URL reads /dance/sgherdi-qochari, not
+ * percent-encoded Armenian). Latin input passes through. Empty → "".
  */
 export function slugify(name) {
   if (name == null) return "";
-  return String(name)
+  const latin = transliterateArmenian(String(name));
+  return latin
     .trim()
-    .toLocaleLowerCase()
-    .replace(/[^\p{Letter}\p{Number}]+/gu, "-")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+// Mesropian-ish Armenian → Latin transliteration for slugs. Not a scholarly
+// standard — it's tuned to produce readable, searchable diaspora spellings
+// (e.g. Քոչարի → qochari, Ֆնջան → fnjan). Longer digraphs first.
+const ARMENIAN_TRANSLIT = [
+  ["ու", "u"], ["ՈՒ", "U"], ["Ու", "U"],
+  ["և", "ev"],
+  ["ա", "a"], ["բ", "b"], ["գ", "g"], ["դ", "d"], ["ե", "e"], ["զ", "z"],
+  ["է", "e"], ["ը", "e"], ["թ", "t"], ["ժ", "zh"], ["ի", "i"], ["լ", "l"],
+  ["խ", "kh"], ["ծ", "ts"], ["կ", "k"], ["հ", "h"], ["ձ", "dz"], ["ղ", "gh"],
+  ["ճ", "ch"], ["մ", "m"], ["յ", "y"], ["ն", "n"], ["շ", "sh"], ["ո", "o"],
+  ["չ", "ch"], ["պ", "p"], ["ջ", "j"], ["ռ", "r"], ["ս", "s"], ["վ", "v"],
+  ["տ", "t"], ["ր", "r"], ["ց", "ts"], ["փ", "p"], ["ք", "q"], ["օ", "o"],
+  ["ֆ", "f"],
+];
+
+export function transliterateArmenian(text) {
+  let out = text;
+  for (const [hy, lat] of ARMENIAN_TRANSLIT) {
+    out = out.split(hy).join(lat);
+    // also handle uppercase Armenian by lowercasing input first is simpler:
+  }
+  // Uppercase Armenian letters: lowercase then re-map any leftover.
+  out = out.replace(/[\u0531-\u0556]/g, (ch) => {
+    const lower = ch.toLowerCase();
+    const hit = ARMENIAN_TRANSLIT.find(([hy]) => hy === lower);
+    return hit ? hit[1] : ch;
+  });
+  return out;
 }
 
 // Known Armenian regions seen in the source data. Extend as needed — this list

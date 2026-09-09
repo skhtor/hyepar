@@ -55,8 +55,12 @@ test("extractRegion: confident prefix, whole-word, else null", () => {
   assert.equal(extractRegion("Vandalism troupe showcase"), null);
 });
 
-test("slugify: latin + armenian-safe + trims", () => {
+test("slugify: latin + armenian transliteration + trims", () => {
   assert.equal(slugify("Sgherdi Qochari"), "sgherdi-qochari");
   assert.equal(slugify("  Fnjan!  "), "fnjan");
   assert.equal(slugify("Karno / Qochari"), "karno-qochari");
+  // Armenian transliterates to a readable Latin slug (no Armenian left in slugs)
+  assert.equal(slugify("Ֆնջան"), "fnjan");
+  assert.equal(slugify("Սղերդի Քոչարի"), "sgherdi-qochari");
+  assert.match(slugify("Բիճո"), /^[a-z0-9-]+$/); // ASCII-only guarantee
 });
