@@ -160,6 +160,12 @@ body {
   white-space: nowrap;
 }
 
+/* The [hidden] attribute must always win, even over display:flex/grid rules.
+   Without this, JS toggling `el.hidden = true` has no effect on flex rows. */
+[hidden] {
+  display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
