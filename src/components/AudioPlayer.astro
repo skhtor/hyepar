@@ -1,0 +1,178 @@
+---
+// Audio player for a dance's recordings. Points <audio src> directly at the R2
+// custom-domain URL (native range requests → seeking + progressive playback per
+// DESIGN.md / eng review — never proxied through a Worker).
+// Empty state is an ACTIVE contribution prompt (design review Pass 2).
+import type { Dance } from "../lib/dances";
+import { audioUrl, defaultRecording } from "../lib/dances";
+interface Props {
+  dance: Dance;
+}
+const { dance } = Astro.props;
+const recs = dance.recordings;
+const def = defaultRecording(dance);
+---
+
+{
+  recs.length === 0 ? (
+    <p class="gap">
+      No recording yet for this dance. Know one?{" "}
+      <a href={`https://github.com/skhtor/hyepar/issues/new?title=Recording for ${dance.name.hy}`}>
+        Contribute →
+      </a>
+    </p>
+  ) : (
+    <div class="player" data-player>
+      <button class="play" data-play aria-label="Play or pause">
+        <span data-icon>▶</span>
+      </button>
+      <div class="body">
+        <audio
+          data-audio
+          preload="none"
+          src={def ? audioUrl(def) : undefined}
+        />
+        <div class="scrubber" data-scrubber><span data-progress /></div>
+        {recs.length > 1 && (
+          <div class="recs" role="group" aria-label="Recordings">
+            {recs.map((r, i) => (
+              <button
+                class="rec"
+                data-rec
+                data-src={audioUrl(r)}
+                data-idx={i}
+                aria-pressed={r.is_default ? "true" : "false"}
+              >
+                {r.is_default && <span class="star" aria-hidden="true">★</span>}
+                <span lang={/[\u0530-\u058F]/.test(r.performer || "") ? "hy" : "en"}>
+                  {r.performer || `Recording ${i + 1}`}
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+<style>
+  .player {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--md);
+    background: var(--vellum-2);
+    border: 1px solid var(--hair);
+    border-radius: var(--r-lg);
+    padding: var(--md);
+    margin: var(--lg) 0;
+  }
+  .play {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    border-radius: var(--r-pill);
+    background: var(--vermilion);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    transition: box-shadow var(--dur-short) var(--ease-out);
+  }
+  .play[data-playing] {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--vermilion) 22%, transparent);
+  }
+  .body {
+    flex: 1;
+    min-width: 0;
+  }
+  .scrubber {
+    height: 4px;
+    background: var(--hair);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .scrubber [data-progress] {
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: var(--vermilion);
+  }
+  .recs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sm);
+    margin-top: var(--md);
+  }
+  .rec {
+    font-family: var(--ui);
+    font-size: 13px;
+    background: transparent;
+    border: 1px solid var(--hair);
+    border-radius: var(--r-pill);
+    padding: 4px 12px;
+    color: var(--ink-soft);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rec[aria-pressed="true"] {
+    border-color: var(--vermilion);
+    color: var(--ink);
+  }
+  .rec .star {
+    color: var(--gold);
+    margin-right: 4px;
+  }
+</style>
+
+<script>
+  // One self-contained controller per player on the page.
+  document.querySelectorAll<HTMLElement>("[data-player]").forEach((root) => {
+    const audio = root.querySelector<HTMLAudioElement>("[data-audio]");
+    const playBtn = root.querySelector<HTMLButtonElement>("[data-play]");
+    const icon = root.querySelector<HTMLElement>("[data-icon]");
+    const progress = root.querySelector<HTMLElement>("[data-progress]");
+    const scrubber = root.querySelector<HTMLElement>("[data-scrubber]");
+    if (!audio || !playBtn || !icon) return;
+
+    playBtn.addEventListener("click", () => {
+      if (audio.paused) audio.play();
+      else audio.pause();
+    });
+    audio.addEventListener("play", () => {
+      icon.textContent = "▮▮";
+      playBtn.setAttribute("data-playing", "");
+    });
+    audio.addEventListener("pause", () => {
+      icon.textContent = "▶";
+      playBtn.removeAttribute("data-playing");
+    });
+    audio.addEventListener("timeupdate", () => {
+      if (progress && audio.duration)
+        progress.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
+    });
+    scrubber?.addEventListener("click", (e) => {
+      if (!audio.duration) return;
+      const rect = scrubber.getBoundingClientRect();
+      audio.currentTime = ((e.clientX - rect.left) / rect.width) * audio.duration;
+    });
+
+    // Recording switcher
+    root.querySelectorAll<HTMLButtonElement>("[data-rec]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const src = btn.getAttribute("data-src");
+        if (!src) return;
+        root.querySelectorAll("[data-rec]").forEach((b) => b.setAttribute("aria-pressed", "false"));
+        btn.setAttribute("aria-pressed", "true");
+        const wasPlaying = !audio.paused;
+        audio.src = src;
+        if (wasPlaying) audio.play();
+      });
+    });
+  });
+</script>

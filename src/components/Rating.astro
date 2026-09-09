@@ -1,0 +1,33 @@
+---
+// Star rating display. value 0-5 or null (not yet rated → honest gap).
+interface Props {
+  value: number | null;
+  label: string;
+}
+const { value, label } = Astro.props;
+---
+{
+  value == null ? (
+    <span class="rating rating--empty" title={`${label}: not yet rated`}>
+      {label}: <span class="na">not yet rated</span>
+    </span>
+  ) : (
+    <span class="rating" aria-label={`${label}: ${value} of 5`}>
+      {label}: <span class="dots" aria-hidden="true">{"●".repeat(value)}{"○".repeat(5 - value)}</span>
+    </span>
+  )
+}
+<style>
+  .rating {
+    font-family: var(--ui);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .dots {
+    color: var(--vermilion);
+    letter-spacing: 1px;
+  }
+  .na {
+    font-style: italic;
+  }
+</style>

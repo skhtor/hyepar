@@ -1,0 +1,220 @@
+---
+import Base from "../../layouts/Base.astro";
+import Rating from "../../components/Rating.astro";
+import AudioPlayer from "../../components/AudioPlayer.astro";
+import { allDances, getDance, displayName, type Dance } from "../../lib/dances";
+
+export function getStaticPaths() {
+  return allDances.map((d) => ({ params: { slug: d.slug } }));
+}
+
+const { slug } = Astro.params;
+const dance = getDance(slug!) as Dance;
+
+// YouTube embed id from a watch/short url
+function ytId(url: string | null): string | null {
+  if (!url) return null;
+  const m = url.match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+const related = dance.family_tags.length
+  ? allDances.filter(
+      (d) => d.slug !== dance.slug && d.family_tags.some((f) => dance.family_tags.includes(f))
+    )
+  : [];
+---
+
+<Base title={displayName(dance)} description={`${displayName(dance)} — Armenian traditional dance.`}>
+  <main class="wrap detail">
+    <a href="/" class="back">← Archive</a>
+
+    <h1 class="serif name" lang="hy">{dance.name.hy}</h1>
+    {
+      displayName(dance) !== dance.name.hy && (
+        <p class="romanized">{dance.name.romanized || dance.name.en}</p>
+      )
+    }
+    <hr class="rule" />
+
+    <div class="badges">
+      {dance.region ? (
+        <span class="badge badge--region">{dance.region}</span>
+      ) : (
+        <span class="badge" style="opacity:.7">region: unknown</span>
+      )}
+      {dance.family_tags.map((f) => (
+        <a class="badge badge--family" href={`/?family=${f}`}>{f}</a>
+      ))}
+      {dance.hold_type && <span class="badge">{dance.hold_type}</span>}
+      {dance.gender && <span class="badge">{dance.gender}</span>}
+    </div>
+    <div class="ratings">
+      <Rating value={dance.difficulty} label="Difficulty" />
+      <Rating value={dance.energy} label="Energy" />
+    </div>
+
+    <!-- Audio (owned recordings from R2) -->
+    <AudioPlayer dance={dance} />
+
+    <!-- Video -->
+    {
+      dance.videos.length > 0 ? (
+        <section class="videos">
+          {dance.videos.map((v) => {
+            const id = ytId(v.url);
+            return (
+              <figure>
+                {id ? (
+                  <iframe
+                    src={`https://www.youtube-nocookie.com/embed/${id}`}
+                    title={v.title}
+                    loading="lazy"
+                    allowfullscreen
+                  />
+                ) : (
+                  <p lang="hy" class="vtitle">{v.title}</p>
+                )}
+                <figcaption>{v.kind === "tutorial" ? "Tutorial (ուս ուսի)" : "Performance"}</figcaption>
+              </figure>
+            );
+          })}
+        </section>
+      ) : (
+        <p class="gap">
+          No video yet.{" "}
+          <a href={`https://github.com/skhtor/hyepar/issues/new?title=Video for ${dance.name.hy}`}>
+            Contribute →
+          </a>
+        </p>
+      )
+    }
+
+    <!-- Story -->
+    <section class="story">
+      <h2>Background</h2>
+      {
+        dance.background.hy || dance.background.en ? (
+          <p lang={dance.background.hy ? "hy" : "en"}>{dance.background.hy || dance.background.en}</p>
+        ) : (
+          <p class="gap">
+            History not yet recorded.{" "}
+            <a href={`https://github.com/skhtor/hyepar/issues/new?title=Background for ${dance.name.hy}`}>
+              Contribute →
+            </a>
+          </p>
+        )
+      }
+
+      <h2>Lyrics</h2>
+      {
+        dance.lyrics.hy || dance.lyrics.en ? (
+          <p lang={dance.lyrics.hy ? "hy" : "en"} class="lyrics">{dance.lyrics.hy || dance.lyrics.en}</p>
+        ) : (
+          <p class="gap">No lyrics recorded (many dances are instrumental). Know some? <a href={`https://github.com/skhtor/hyepar/issues/new?title=Lyrics for ${dance.name.hy}`}>Contribute →</a></p>
+        )
+      }
+    </section>
+
+    <!-- Family footer -->
+    {
+      related.length > 0 && (
+        <section class="related">
+          <h2>Other {dance.family_tags.join(", ")} dances</h2>
+          <ul>
+            {related.map((r) => (
+              <li>
+                <a href={`/dance/${r.slug}/`}>
+                  <span lang="hy">{r.name.hy}</span>
+                  {r.region && <span class="rg"> · {r.region}</span>}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+  </main>
+
+  <style>
+    .back {
+      font-family: var(--ui);
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .name {
+      font-size: 48px;
+      margin: var(--md) 0 0;
+    }
+    .romanized {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 22px;
+      color: var(--ink-soft);
+      margin: 4px 0 0;
+    }
+    .badges {
+      display: flex;
+      gap: var(--sm);
+      flex-wrap: wrap;
+      margin: var(--md) 0;
+    }
+    .ratings {
+      display: flex;
+      gap: var(--lg);
+      margin-bottom: var(--md);
+    }
+    .videos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: var(--md);
+      margin: var(--lg) 0;
+    }
+    .videos figure {
+      margin: 0;
+    }
+    .videos iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 1px solid var(--hair);
+      border-radius: var(--r-md);
+    }
+    .videos figcaption {
+      font-family: var(--ui);
+      font-size: 12px;
+      color: var(--ink-soft);
+      margin-top: 6px;
+    }
+    .vtitle {
+      background: var(--vellum-2);
+      border: 1px solid var(--hair);
+      border-radius: var(--r-md);
+      padding: var(--md);
+    }
+    .story h2,
+    .related h2 {
+      font-size: 22px;
+      margin-top: var(--xl);
+    }
+    .lyrics {
+      white-space: pre-line;
+    }
+    .related ul {
+      list-style: none;
+      padding: 0;
+    }
+    .related li {
+      padding: var(--sm) 0;
+      border-bottom: 1px solid var(--hair);
+    }
+    .related a {
+      text-decoration: none;
+      font-family: var(--serif);
+      font-size: 19px;
+    }
+    .related .rg {
+      font-family: var(--ui);
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+  </style>
+</Base>

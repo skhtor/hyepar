@@ -1,0 +1,143 @@
+---
+import "../styles/global.css";
+interface Props {
+  title?: string;
+  description?: string;
+  practice?: boolean; // teacher practice view uses a leaner shell
+}
+const { title, description, practice = false } = Astro.props;
+const fullTitle = title ? `${title} · HyePar` : "HyePar — Armenian Traditional Dance";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@400;600;700&family=Noto+Sans+Armenian:wght@400;500;600&family=Geist:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- set theme before paint to avoid flash -->
+    <script is:inline>
+      (function () {
+        const t = localStorage.getItem("hyepar-theme");
+        if (t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
+    <style>
+      header.site {
+        border-bottom: 1px solid var(--hair);
+      }
+      header.site .bar {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: var(--md) var(--lg);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--md);
+      }
+      .brand {
+        font-family: var(--serif);
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: -0.02em;
+        color: var(--ink);
+        text-decoration: none;
+      }
+      .brand .hy {
+        color: var(--vermilion);
+      }
+      nav.site a {
+        font-family: var(--ui);
+        font-size: 14px;
+        color: var(--ink-soft);
+        text-decoration: none;
+        margin-left: var(--md);
+      }
+      nav.site a[aria-current="page"] {
+        color: var(--vermilion);
+      }
+      .theme {
+        background: var(--vellum-2);
+        color: var(--ink);
+        border: 1px solid var(--hair);
+        border-radius: var(--r-sm);
+        padding: 6px 10px;
+        font-size: 13px;
+      }
+      footer.site {
+        border-top: 1px solid var(--hair);
+        margin-top: var(--2xl);
+        font-family: var(--ui);
+        font-size: 13px;
+        color: var(--ink-soft);
+      }
+      footer.site .bar {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: var(--lg);
+      }
+    </style>
+  </head>
+  <body>
+    {
+      !practice && (
+        <header class="site">
+          <div class="bar">
+            <a class="brand" href="/"><span class="hy">Hye</span>Par</a>
+            <div style="display:flex;align-items:center;gap:var(--md)">
+              <nav class="site" aria-label="Primary">
+                <a href="/">Archive</a>
+                <a href="/practice">Practice</a>
+              </nav>
+              <button class="theme" id="theme-toggle" aria-label="Toggle light or dark theme">
+                ◐
+              </button>
+            </div>
+          </div>
+        </header>
+      )
+    }
+
+    <slot />
+
+    {
+      !practice && (
+        <footer class="site">
+          <div class="bar">
+            <p>
+              HyePar — a living archive of Armenian traditional dance. This is ours, and it's
+              more alive than ever.
+            </p>
+            <p>
+              Open source ·{" "}
+              <a href="https://github.com/skhtor/hyepar">github.com/skhtor/hyepar</a>
+            </p>
+          </div>
+        </footer>
+      )
+    }
+
+    <script is:inline>
+      document.getElementById("theme-toggle")?.addEventListener("click", () => {
+        const el = document.documentElement;
+        const dark = el.dataset.theme === "dark";
+        if (dark) {
+          delete el.dataset.theme;
+          localStorage.setItem("hyepar-theme", "light");
+        } else {
+          el.dataset.theme = "dark";
+          localStorage.setItem("hyepar-theme", "dark");
+        }
+      });
+    </script>
+  </body>
+</html>

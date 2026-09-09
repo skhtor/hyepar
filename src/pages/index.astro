@@ -1,0 +1,219 @@
+---
+import Base from "../layouts/Base.astro";
+import { allDances, facets, coverage, displayName } from "../lib/dances";
+
+// Serialize a compact search index for the client (Fuse.js runs in the browser).
+const searchDocs = allDances.map((d) => ({
+  slug: d.slug,
+  hy: d.name.hy,
+  romanized: d.name.romanized || "",
+  aliases: d.name.aliases,
+  region: d.region || "",
+  family: d.family_tags,
+  hold: d.hold_type || "",
+  hasAudio: d.recordings.length > 0,
+}));
+---
+
+<Base
+  title="Archive"
+  description="A living archive of Armenian traditional dance — browse, search, and filter by region, family, hold, and energy."
+>
+  <main class="wrap">
+    <h1 class="serif" style="font-size:44px;margin:0">
+      <span lang="hy">Ազգային Ավանդական Պարեր</span>
+    </h1>
+    <hr class="rule" />
+    <p style="max-width:60ch;color:var(--ink-soft)">
+      A living archive of Armenian traditional dance. Search a dance, filter by region or
+      family, hear the music. <strong>{coverage.documented} of {coverage.total}</strong> dances
+      documented so far — <a href="https://github.com/skhtor/hyepar/issues">help fill the gaps</a>.
+    </p>
+
+    <div class="controls">
+      <input
+        id="q"
+        type="search"
+        placeholder="Search a dance (try “qochari”)…"
+        aria-label="Search dances"
+        autocomplete="off"
+      />
+      <div class="facets" id="facets">
+        <select id="f-region" aria-label="Filter by region">
+          <option value="">All regions</option>
+          {facets.regions.map((r) => <option value={r}>{r}</option>)}
+        </select>
+        <select id="f-family" aria-label="Filter by family">
+          <option value="">All families</option>
+          {facets.families.map((f) => <option value={f}>{f}</option>)}
+        </select>
+        <select id="f-hold" aria-label="Filter by hold type">
+          <option value="">Any hold</option>
+          {facets.holds.map((h) => <option value={h}>{h}</option>)}
+        </select>
+      </div>
+    </div>
+
+    <p id="count" class="count"></p>
+
+    <ul class="index" id="list">
+      {
+        allDances.map((d) => (
+          <li class="row" data-slug={d.slug}>
+            <a href={`/dance/${d.slug}/`}>
+              <span class="nm serif" lang="hy">{d.name.hy}</span>
+              <span class="rom">{displayName(d) !== d.name.hy ? displayName(d) : ""}</span>
+            </a>
+            <span class="meta">
+              {d.region && <span class="badge badge--region">{d.region}</span>}
+              {d.family_tags.map((f) => <span class="badge badge--family">{f}</span>)}
+              {d.hold_type && <span class="badge">{d.hold_type}</span>}
+              {d.recordings.length > 0 && <span class="has" title="Has audio">♪</span>}
+            </span>
+          </li>
+        ))
+      }
+    </ul>
+    <p id="empty" class="gap" hidden>
+      No dance matches your search or filters.
+      <button id="reset" class="linkish">Clear all</button>
+    </p>
+  </main>
+
+  <script type="application/json" id="search-data" set:html={JSON.stringify(searchDocs)} />
+
+  <style>
+    .controls {
+      position: sticky;
+      top: 0;
+      background: var(--vellum);
+      padding: var(--md) 0;
+      z-index: 5;
+      border-bottom: 1px solid var(--hair);
+    }
+    #q {
+      width: 100%;
+      font-family: var(--sans);
+      font-size: 17px;
+      padding: 12px 14px;
+      border: 1px solid var(--hair);
+      border-radius: var(--r-md);
+      background: var(--vellum-2);
+      color: var(--ink);
+    }
+    .facets {
+      display: flex;
+      gap: var(--sm);
+      flex-wrap: wrap;
+      margin-top: var(--sm);
+    }
+    .facets select {
+      font-family: var(--ui);
+      font-size: 14px;
+      padding: 8px 10px;
+      border: 1px solid var(--hair);
+      border-radius: var(--r-sm);
+      background: var(--vellum);
+      color: var(--ink);
+    }
+    .count {
+      font-family: var(--ui);
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+    /* Catalog/index, not a card grid (DESIGN.md) */
+    .index {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: var(--md);
+      padding: var(--md) 0;
+      border-bottom: 1px solid var(--hair);
+      flex-wrap: wrap;
+    }
+    .row a {
+      text-decoration: none;
+      display: flex;
+      align-items: baseline;
+      gap: var(--sm);
+      flex-wrap: wrap;
+    }
+    .nm {
+      font-size: 22px;
+      color: var(--ink);
+    }
+    .rom {
+      font-family: var(--ui);
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+    .meta {
+      display: flex;
+      gap: var(--sm);
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .has {
+      color: var(--vermilion);
+    }
+    .linkish {
+      background: none;
+      border: none;
+      color: var(--vermilion);
+      font-family: var(--ui);
+      text-decoration: underline;
+    }
+  </style>
+
+  <script>
+    import Fuse from "fuse.js";
+    const docs = JSON.parse(document.getElementById("search-data")!.textContent!);
+    const fuse = new Fuse(docs, {
+      keys: ["hy", "romanized", "aliases", "region", "family", "hold"],
+      threshold: 0.4,
+      ignoreLocation: true,
+    });
+    const q = document.getElementById("q") as HTMLInputElement;
+    const fRegion = document.getElementById("f-region") as HTMLSelectElement;
+    const fFamily = document.getElementById("f-family") as HTMLSelectElement;
+    const fHold = document.getElementById("f-hold") as HTMLSelectElement;
+    const list = document.getElementById("list")!;
+    const count = document.getElementById("count")!;
+    const empty = document.getElementById("empty")!;
+    const rows = new Map<string, HTMLElement>();
+    list.querySelectorAll<HTMLElement>(".row").forEach((r) => rows.set(r.dataset.slug!, r));
+
+    function apply() {
+      const term = q.value.trim();
+      let slugs: Set<string>;
+      if (term) slugs = new Set(fuse.search(term).map((r: any) => r.item.slug));
+      else slugs = new Set(docs.map((d: any) => d.slug));
+
+      let shown = 0;
+      for (const [slug, row] of rows) {
+        const d = docs.find((x: any) => x.slug === slug);
+        const ok =
+          slugs.has(slug) &&
+          (!fRegion.value || d.region === fRegion.value) &&
+          (!fFamily.value || d.family.includes(fFamily.value)) &&
+          (!fHold.value || d.hold === fHold.value);
+        row.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = `${shown} dance${shown === 1 ? "" : "s"}`;
+      empty.hidden = shown !== 0;
+    }
+    [q, fRegion, fFamily, fHold].forEach((el) => el.addEventListener("input", apply));
+    document.getElementById("reset")?.addEventListener("click", () => {
+      q.value = "";
+      fRegion.value = fFamily.value = fHold.value = "";
+      apply();
+    });
+    apply();
+  </script>
+</Base>

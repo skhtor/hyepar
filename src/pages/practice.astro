@@ -1,0 +1,351 @@
+---
+import Base from "../layouts/Base.astro";
+import { allDances, facets, audioUrl, defaultRecording } from "../lib/dances";
+
+// Only dances with audio are useful in practice mode; show them first, but keep
+// all searchable (a teacher may look one up to check the video).
+const docs = allDances.map((d) => {
+  const def = defaultRecording(d);
+  return {
+    slug: d.slug,
+    hy: d.name.hy,
+    romanized: d.name.romanized || "",
+    aliases: d.name.aliases,
+    region: d.region || "",
+    family: d.family_tags,
+    hold: d.hold_type || "",
+    energy: d.energy,
+    src: def ? audioUrl(def) : "",
+    hasAudio: d.recordings.length > 0,
+  };
+});
+---
+
+<Base title="Practice" practice={true}>
+  <main class="practice">
+    <div class="searchbar">
+      <a href="/" class="exit" aria-label="Back to archive">←</a>
+      <input
+        id="pq"
+        type="search"
+        placeholder="Find a dance…"
+        aria-label="Search dances"
+        autocomplete="off"
+        autofocus
+      />
+      <button id="filters-toggle" class="ft" aria-expanded="false">Filters</button>
+    </div>
+
+    <div class="filters" id="filters" hidden>
+      <select id="pf-region" aria-label="Region">
+        <option value="">All regions</option>
+        {facets.regions.map((r) => <option value={r}>{r}</option>)}
+      </select>
+      <select id="pf-family" aria-label="Family">
+        <option value="">All families</option>
+        {facets.families.map((f) => <option value={f}>{f}</option>)}
+      </select>
+      <select id="pf-hold" aria-label="Hold">
+        <option value="">Any hold</option>
+        {facets.holds.map((h) => <option value={h}>{h}</option>)}
+      </select>
+    </div>
+
+    <ul class="results" id="presults">
+      {
+        docs.map((d) => (
+          <li>
+            <button
+              class="prow"
+              data-slug={d.slug}
+              data-src={d.src}
+              data-name={d.hy}
+              data-has={d.hasAudio ? "1" : "0"}
+              disabled={!d.hasAudio}
+            >
+              <span class="nm serif" lang="hy">{d.hy}</span>
+              <span class="sub">
+                {d.region}
+                {d.hasAudio ? "" : " · no audio yet"}
+              </span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+    <p id="pempty" class="pempty" hidden>No match. <button id="preset" class="linkish">Clear</button></p>
+  </main>
+
+  <!-- Pinned player -->
+  <div class="pinned" id="pinned" hidden>
+    <button class="pbtn" id="pbtn" aria-label="Play or pause"><span id="picon">▶</span></button>
+    <div class="pinfo">
+      <div class="pname serif" id="pname" lang="hy"></div>
+      <div class="pscrub" id="pscrub"><span id="pprog"></span></div>
+    </div>
+    <audio id="paudio" preload="none"></audio>
+  </div>
+
+  <script type="application/json" id="pdata" set:html={JSON.stringify(docs)} />
+
+  <style>
+    .practice {
+      min-height: 100vh;
+      padding-bottom: 96px; /* room for pinned player */
+    }
+    .searchbar {
+      position: sticky;
+      top: 0;
+      display: flex;
+      gap: var(--sm);
+      align-items: center;
+      background: var(--vellum);
+      padding: var(--md);
+      border-bottom: 1px solid var(--hair);
+      z-index: 5;
+    }
+    .exit {
+      font-size: 22px;
+      text-decoration: none;
+      color: var(--ink-soft);
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+    }
+    #pq {
+      flex: 1;
+      font-family: var(--sans);
+      font-size: 18px;
+      padding: 14px;
+      border: 1px solid var(--hair);
+      border-radius: var(--r-md);
+      background: var(--vellum-2);
+      color: var(--ink);
+    }
+    .ft {
+      min-height: 44px;
+      padding: 0 14px;
+      background: var(--vellum-2);
+      border: 1px solid var(--hair);
+      border-radius: var(--r-md);
+      color: var(--ink-soft);
+      font-size: 14px;
+    }
+    .filters {
+      display: flex;
+      gap: var(--sm);
+      padding: var(--sm) var(--md);
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--hair);
+    }
+    .filters select {
+      font-family: var(--ui);
+      font-size: 15px;
+      padding: 10px;
+      border: 1px solid var(--hair);
+      border-radius: var(--r-sm);
+      background: var(--vellum);
+      color: var(--ink);
+      flex: 1;
+    }
+    .results {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .prow {
+      width: 100%;
+      text-align: left;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--hair);
+      padding: 18px var(--md);
+      min-height: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      color: var(--ink);
+    }
+    .prow:disabled {
+      opacity: 0.45;
+    }
+    .prow[aria-current="true"] {
+      background: color-mix(in srgb, var(--vermilion) 8%, transparent);
+    }
+    .prow .nm {
+      font-size: 21px;
+    }
+    .prow .sub {
+      font-family: var(--ui);
+      font-size: 13px;
+      color: var(--lapis);
+    }
+    .pinned {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--md);
+      background: var(--ink);
+      color: var(--vellum);
+      padding: var(--md);
+      z-index: 20;
+    }
+    .pbtn {
+      width: 52px;
+      height: 52px;
+      min-width: 52px;
+      border-radius: var(--r-pill);
+      background: var(--vermilion);
+      color: #fff;
+      border: none;
+      font-size: 20px;
+      display: grid;
+      place-items: center;
+      transition: box-shadow var(--dur-short) var(--ease-out);
+    }
+    .pbtn[data-playing] {
+      box-shadow: 0 0 0 6px color-mix(in srgb, var(--vermilion) 30%, transparent);
+    }
+    .pinfo {
+      flex: 1;
+      min-width: 0;
+    }
+    .pname {
+      font-size: 18px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .pscrub {
+      height: 4px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 2px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .pscrub span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      background: var(--vermilion);
+    }
+    .pempty {
+      padding: var(--lg) var(--md);
+      color: var(--ink-soft);
+      font-family: var(--ui);
+    }
+    .linkish {
+      background: none;
+      border: none;
+      color: var(--vermilion);
+      text-decoration: underline;
+    }
+    @media (min-width: 720px) {
+      .practice {
+        max-width: 640px;
+        margin: 0 auto;
+      }
+      .pinned {
+        max-width: 640px;
+        margin: 0 auto;
+        border-radius: var(--r-lg) var(--r-lg) 0 0;
+      }
+    }
+  </style>
+
+  <script>
+    import Fuse from "fuse.js";
+    const docs = JSON.parse(document.getElementById("pdata")!.textContent!);
+    const fuse = new Fuse(docs, {
+      keys: ["hy", "romanized", "aliases", "region", "family", "hold"],
+      threshold: 0.4,
+      ignoreLocation: true,
+    });
+    const pq = document.getElementById("pq") as HTMLInputElement;
+    const fRegion = document.getElementById("pf-region") as HTMLSelectElement;
+    const fFamily = document.getElementById("pf-family") as HTMLSelectElement;
+    const fHold = document.getElementById("pf-hold") as HTMLSelectElement;
+    const results = document.getElementById("presults")!;
+    const empty = document.getElementById("pempty")!;
+    const rows = new Map<string, HTMLElement>();
+    results.querySelectorAll<HTMLElement>(".prow").forEach((r) => rows.set(r.dataset.slug!, r));
+
+    document.getElementById("filters-toggle")?.addEventListener("click", (e) => {
+      const btn = e.currentTarget as HTMLButtonElement;
+      const f = document.getElementById("filters")!;
+      const open = f.hasAttribute("hidden");
+      if (open) f.removeAttribute("hidden");
+      else f.setAttribute("hidden", "");
+      btn.setAttribute("aria-expanded", String(open));
+    });
+
+    function apply() {
+      const term = pq.value.trim();
+      const slugs = term
+        ? new Set(fuse.search(term).map((r: any) => r.item.slug))
+        : new Set(docs.map((d: any) => d.slug));
+      let shown = 0;
+      for (const [slug, row] of rows) {
+        const d = docs.find((x: any) => x.slug === slug);
+        const ok =
+          slugs.has(slug) &&
+          (!fRegion.value || d.region === fRegion.value) &&
+          (!fFamily.value || d.family.includes(fFamily.value)) &&
+          (!fHold.value || d.hold === fHold.value);
+        (row.parentElement as HTMLElement).hidden = !ok;
+        if (ok) shown++;
+      }
+      empty.hidden = shown !== 0;
+    }
+    [pq, fRegion, fFamily, fHold].forEach((el) => el.addEventListener("input", apply));
+    document.getElementById("preset")?.addEventListener("click", () => {
+      pq.value = "";
+      fRegion.value = fFamily.value = fHold.value = "";
+      apply();
+    });
+
+    // Cue + play
+    const pinned = document.getElementById("pinned")!;
+    const paudio = document.getElementById("paudio") as HTMLAudioElement;
+    const pbtn = document.getElementById("pbtn") as HTMLButtonElement;
+    const picon = document.getElementById("picon")!;
+    const pname = document.getElementById("pname")!;
+    const pprog = document.getElementById("pprog")!;
+
+    function cue(row: HTMLElement, play: boolean) {
+      const src = row.dataset.src;
+      if (!src) return;
+      rows.forEach((r) => r.setAttribute("aria-current", "false"));
+      row.setAttribute("aria-current", "true");
+      pname.textContent = row.dataset.name || "";
+      if (paudio.src !== src) paudio.src = src;
+      pinned.removeAttribute("hidden");
+      if (play) paudio.play();
+    }
+    rows.forEach((row) => {
+      if (row.dataset.has === "0") return;
+      row.addEventListener("click", () => cue(row, true));
+    });
+    pbtn.addEventListener("click", () => {
+      if (paudio.paused) paudio.play();
+      else paudio.pause();
+    });
+    paudio.addEventListener("play", () => {
+      picon.textContent = "▮▮";
+      pbtn.setAttribute("data-playing", "");
+    });
+    paudio.addEventListener("pause", () => {
+      picon.textContent = "▶";
+      pbtn.removeAttribute("data-playing");
+    });
+    paudio.addEventListener("timeupdate", () => {
+      if (paudio.duration) pprog.style.width = `${(paudio.currentTime / paudio.duration) * 100}%`;
+    });
+
+    apply();
+  </script>
+</Base>
