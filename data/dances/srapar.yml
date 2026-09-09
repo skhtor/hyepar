@@ -30,7 +30,7 @@ videos:
     title: Սրաբար - Ուսուցողական հոլովակ | Srabar - Teaching Video
     kind: tutorial
 recordings:
-  - file: srapar/rec-01.mp3
+  - file: srapar/srapar-srapar.mp3
     performer: Սրապար-Srapar
     tempo_bpm: null
     is_default: true

@@ -31,11 +31,11 @@ videos:
     title: Ուս ուսի. Գյոնդ - YouTube
     kind: tutorial
 recordings:
-  - file: gyovnd/rec-01.mp3
+  - file: gyovnd/gyovnd-msho-kher-hanig-nar-sasna-tsrer-hamuyt-hanig-nar-sasna-crer.mp3
     performer: Գյովնդ, Մշո Խըռ Հանիգ Նար «Սասնա ծռեր համույթ» Hanig nar Sasna Crer
     tempo_bpm: null
     is_default: true
-  - file: gyovnd/rec-02.mp3
+  - file: gyovnd/gyovnd-msho-kher-hars-em-gnum-menua-bend-gyovnd-msho-khr-wedding.mp3
     performer: Գյովնդ, Մշո Խըռ Հարս եմ գնում «Մենուա բենդ» Gyovnd, Msho khr Wedding
     tempo_bpm: null
     is_default: false

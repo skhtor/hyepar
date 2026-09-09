@@ -27,43 +27,43 @@ videos:
     title: Ուս ուսի. Նարե
     kind: tutorial
 recordings:
-  - file: nare/rec-01.mp3
+  - file: nare/nare.mp3
     performer: Nare
     tempo_bpm: null
     is_default: true
-  - file: nare/rec-02.mp3
+  - file: nare/nare-akunq.mp3
     performer: Նարե (Ակունք)
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-03.mp3
+  - file: nare/nare-shoghakn.mp3
     performer: Նարե (Շողակն)
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-04.mp3
+  - file: nare/nare-sasun.mp3
     performer: Նարե (Սասուն)
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-05.mp3
+  - file: nare/nare-nare-arants-heyeri-erkar.mp3
     performer: Նարե-Nare-առանց-հեյերի-երկար
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-06.mp3
+  - file: nare/nare-nare-heyerov.mp3
     performer: Նարե-Nare-հեյերով
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-07.mp3
+  - file: nare/nare-nare.mp3
     performer: Նարե-Nare
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-08.mp3
+  - file: nare/nare-2.mp3
     performer: Նարե
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-09.mp3
+  - file: nare/nare-karin-hamuyt-nare-arants-heyeri-erkar.mp3
     performer: Նարե «Կարին համույթ» Nare առանց հեյերի, երկար
     tempo_bpm: null
     is_default: false
-  - file: nare/rec-10.mp3
+  - file: nare/nare-karin-hamuyt-nare-heyerov.mp3
     performer: Նարե «Կարին համույթ» Nare հեյերով
     tempo_bpm: null
     is_default: false

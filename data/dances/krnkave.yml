@@ -27,11 +27,11 @@ videos:
     title: «ՄԱՍՈՒՆՔ» - Կռնկավե (Ղռունկ պար) | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 9) - YouTube
     kind: performance
 recordings:
-  - file: krnkave/rec-01.mp3
+  - file: krnkave/krnkave-masunq-hamuyt-krnkave.mp3
     performer: Կռնկավե - «Մասունք համույթ» - Krnkave
     tempo_bpm: null
     is_default: true
-  - file: krnkave/rec-02.mp3
+  - file: krnkave/krnkave-masunq-hamuyt-krnkave-nor.mp3
     performer: Կռնկավե «Մասունք համույթ» Krnkave նոր
     tempo_bpm: null
     is_default: false

@@ -35,7 +35,7 @@ function contentType(key) {
 
 function objectExists(bucket, key) {
   try {
-    execFileSync("npx", ["wrangler", "r2", "object", "get", `${bucket}/${key}`, "--pipe"], {
+    execFileSync("npx", ["wrangler", "r2", "object", "get", `${bucket}/${key}`, "--remote", "--pipe"], {
       stdio: ["ignore", "ignore", "ignore"],
     });
     return true;
@@ -80,7 +80,7 @@ async function main() {
       execFileSync(
         "npx",
         ["wrangler", "r2", "object", "put", `${bucket}/${job.key}`,
-         "--file", job.src, "--content-type", contentType(job.key)],
+         "--file", job.src, "--content-type", contentType(job.key), "--remote"],
         { stdio: ["ignore", "ignore", "pipe"] }
       );
       done++;

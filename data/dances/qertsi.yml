@@ -30,43 +30,43 @@ videos:
     title: Քերծի - Ուսուցողական հոլովակ | Kertsi - Teaching Video
     kind: tutorial
 recordings:
-  - file: qertsi/rec-01.mp3
+  - file: qertsi/qertsi-arayik-mkoyan.mp3
     performer: Քերծի (Արայիկ Մկոյան)
     tempo_bpm: null
     is_default: true
-  - file: qertsi/rec-02.mp3
+  - file: qertsi/qertsi-arman-parsyan.mp3
     performer: Քերծի (Արման Փարսյան)
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-03.mp3
+  - file: qertsi/qertsi-karin.mp3
     performer: Քերծի (Կարին)
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-04.mp3
+  - file: qertsi/qertsi-sasun-hin.mp3
     performer: Քերծի (Սասուն - հին)
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-05.mp3
+  - file: qertsi/qertsi-sasun-hamuyt-qertsi.mp3
     performer: Քերծի - «Սասուն համույթ» - Qertsi
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-06.mp3
+  - file: qertsi/qertsi-ozmi-razmakan-par.mp3
     performer: Քերծի Ոզմի ռազմական պար
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-07.mp3
+  - file: qertsi/qertsi-kesits-arman-parsyan.mp3
     performer: Քերծի կեսից -Արման Փարսյան
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-08.mp3
+  - file: qertsi/qertsi-ev-lutki-veradardz.mp3
     performer: Քերծի և Լուտկի-Վերադարձ
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-09.mp3
+  - file: qertsi/qertsi-qerci-3.mp3
     performer: Քերծի-Qerci-3
     tempo_bpm: null
     is_default: false
-  - file: qertsi/rec-10.mp3
+  - file: qertsi/qertsi-qerci.mp3
     performer: Քերծի-Qerci
     tempo_bpm: null
     is_default: false

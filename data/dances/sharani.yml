@@ -30,19 +30,19 @@ videos:
     title: Ուս ուսի. Շարանի - YouTube
     kind: tutorial
 recordings:
-  - file: sharani/rec-01.mp3
+  - file: sharani/sharani.mp3
     performer: Sharani
     tempo_bpm: null
     is_default: true
-  - file: sharani/rec-02.mp3
+  - file: sharani/sharani-karin-hamuyt-sharani.mp3
     performer: Շարանի - «Կարին համույթ» - Sharani
     tempo_bpm: null
     is_default: false
-  - file: sharani/rec-03.mp3
+  - file: sharani/sharani-sharani.mp3
     performer: Շարանի Sharani
     tempo_bpm: null
     is_default: false
-  - file: sharani/rec-04.mp3
+  - file: sharani/sharani-sharani-2.mp3
     performer: Շարանի-Sharani
     tempo_bpm: null
     is_default: false

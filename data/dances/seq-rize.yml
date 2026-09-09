@@ -27,15 +27,15 @@ videos:
     title: Veradardz folk ensemble - Hamshen / Վերադարձ համույթ «Սըք Ռիզե» - YouTube
     kind: performance
 recordings:
-  - file: seq-rize/rec-01.mp3
+  - file: seq-rize/seq-rize-aycan-yeter.mp3
     performer: Սըք Ռիզե (Aycan Yeter)
     tempo_bpm: null
     is_default: true
-  - file: seq-rize/rec-02.mp3
+  - file: seq-rize/seq-rize-chift-ayaq.mp3
     performer: Սըք Ռիզե Չիֆթ Այաք
     tempo_bpm: null
     is_default: false
-  - file: seq-rize/rec-03.mp3
+  - file: seq-rize/siq-rize.mp3
     performer: Սիք Ռիզե
     tempo_bpm: null
     is_default: false

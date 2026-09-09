@@ -31,23 +31,23 @@ videos:
     title: Ուս ուսի. Սղերդի քոչարի
     kind: tutorial
 recordings:
-  - file: qochari-sgherdi/rec-01.mp3
+  - file: qochari-sgherdi/gyovnd-mayroqe-msho-kher-yarkhushta-hambardzman-erkushabti-maratuk.mp3
     performer: Գյովնդ, մայրոքե, Մշո խըռ, յարխուշտա Համբարձման երկուշաբթի «Մարաթուկ
     tempo_bpm: null
     is_default: true
-  - file: qochari-sgherdi/rec-02.mp3
+  - file: qochari-sgherdi/qochari-sgherdi-vana-akunq.mp3
     performer: Քոչարի (Սղերդի, Վանա) - (Ակունք)
     tempo_bpm: null
     is_default: false
-  - file: qochari-sgherdi/rec-03.mp3
+  - file: qochari-sgherdi/qochari-sgherdi-vana.mp3
     performer: Քոչարի (Սղերդի, Վանա)
     tempo_bpm: null
     is_default: false
-  - file: qochari-sgherdi/rec-04.mp3
+  - file: qochari-sgherdi/qochari-sgherdi-vana-karin-hamuyt-sxerdi-vana-qochari.mp3
     performer: Քոչարի Սղերդի, Վանա «Կարին համույթ» Sxerdi Vana Qochari
     tempo_bpm: null
     is_default: false
-  - file: qochari-sgherdi/rec-05.mp3
+  - file: qochari-sgherdi/qochari-sgherdi-vana-karin-hamuyt-sxerdi-vana-qochari-2.mp3
     performer: Քոչարի Սղերդի, Վանա «Կարին համույթ» Sxerdi Vana Qochari 2
     tempo_bpm: null
     is_default: false

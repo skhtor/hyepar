@@ -24,23 +24,23 @@ lyrics:
   status: unknown
 videos: []
 recordings:
-  - file: romani/rec-01.mp3
+  - file: romani/romani-armen-parsyan.mp3
     performer: Ռոմանի (Արմեն Փարսյան)
     tempo_bpm: null
     is_default: true
-  - file: romani/rec-02.mp3
+  - file: romani/romani-sasun-hin.mp3
     performer: Ռոմանի (Սասուն) հին
     tempo_bpm: null
     is_default: false
-  - file: romani/rec-03.mp3
+  - file: romani/romani-sasun.mp3
     performer: Ռոմանի (Սասուն)
     tempo_bpm: null
     is_default: false
-  - file: romani/rec-04.mp3
+  - file: romani/romani-romani-1.mp3
     performer: Ռոմանի - Romani (1)
     tempo_bpm: null
     is_default: false
-  - file: romani/rec-05.mp3
+  - file: romani/romani.mp3
     performer: Ռոմանի
     tempo_bpm: null
     is_default: false

@@ -30,39 +30,39 @@ videos:
     title: Փափուռի - Ուսուցողական հոլովակ | Papuri - Teaching Video
     kind: tutorial
 recordings:
-  - file: papuri/rec-01.mp3
+  - file: papuri/msho-khr-mayroqe-papuri-gata-bend-azgagrakan.mp3
     performer: Մշո խռ, Մայրոքե, Փափուռի «Գաթա բենդ» Ազգագրական
     tempo_bpm: null
     is_default: true
-  - file: papuri/rec-02.mp3
+  - file: papuri/papuri-tsovak.mp3
     performer: Փափուռի (Ծովակ)
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-03.mp3
+  - file: papuri/papuri-shoghakn.mp3
     performer: Փափուռի (Շողակն)
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-04.mp3
+  - file: papuri/papuri-chukazyan-ansambl.mp3
     performer: Փափուռի (Չուկազյան անսամբլ)
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-05.mp3
+  - file: papuri/papuri-karin-hamuyt-papuri-2.mp3
     performer: Փափուռի - «Կարին համույթ» - Papuri (2)
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-06.mp3
+  - file: papuri/papuri-ghevik.mp3
     performer: Փափուռի - «Ղևիկ» -
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-07.mp3
+  - file: papuri/papuri-2-khorgom.mp3
     performer: Փափուռի 2(Խորգոմ)
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-08.mp3
+  - file: papuri/papuri-arman-parsyan-karen-zadiryan-koryun-hakobyan-papuri.mp3
     performer: Փափուռի «Արման Փարսյան, Կարեն Զադիրյան, Կորյուն Հակոբյան» Papuri
     tempo_bpm: null
     is_default: false
-  - file: papuri/rec-09.mp3
+  - file: papuri/papuri-sasun-hamuyt-papuri-2.mp3
     performer: Փափուռի «Սասուն համույթ» Papuri 2
     tempo_bpm: null
     is_default: false

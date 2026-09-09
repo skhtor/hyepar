@@ -24,27 +24,27 @@ lyrics:
   status: unknown
 videos: []
 recordings:
-  - file: ney-bar/rec-01.mp3
+  - file: ney-bar/ney-bar-hamshen.mp3
     performer: Նեյ բար (Համշեն)
     tempo_bpm: null
     is_default: true
-  - file: ney-bar/rec-02.mp3
+  - file: ney-bar/ney-bar-masunq.mp3
     performer: Նեյ բար (Մասունք)
     tempo_bpm: null
     is_default: false
-  - file: ney-bar/rec-03.mp3
+  - file: ney-bar/ney-bar-shoghakn.mp3
     performer: Նեյ բար (Շողակն)
     tempo_bpm: null
     is_default: false
-  - file: ney-bar/rec-04.mp3
+  - file: ney-bar/ney-bar-spartak-sagaryan.mp3
     performer: Նեյ բար (Սպարտակ Սագարյան)
     tempo_bpm: null
     is_default: false
-  - file: ney-bar/rec-05.mp3
+  - file: ney-bar/ney-bar-masunq-hamuyt-ney-bar.mp3
     performer: Նեյ բար - «Մասունք համույթ» - Ney bar
     tempo_bpm: null
     is_default: false
-  - file: ney-bar/rec-06.mp3
+  - file: ney-bar/ney-bar.mp3
     performer: Նեյ բար
     tempo_bpm: null
     is_default: false

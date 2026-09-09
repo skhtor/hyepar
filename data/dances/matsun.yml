@@ -27,15 +27,15 @@ videos:
     title: Անդոկ - Մածուն եմ դրել վըր դարուն
     kind: performance
 recordings:
-  - file: matsun/rec-01.mp3
+  - file: matsun/matsun-karin-hamuyt-matsun-em-drel-ver-darum-macun.mp3
     performer: Մածուն «Կարին համույթ» Մածուն եմ դրել վըր դարում Macun
     tempo_bpm: null
     is_default: true
-  - file: matsun/rec-02.mp3
+  - file: matsun/matsun-em-drel-ver-darum-muradyan-ansambl.mp3
     performer: Մածուն եմ դրել վըր դարում Մուրադյան անսամբլ
     tempo_bpm: null
     is_default: false
-  - file: matsun/rec-03.mp3
+  - file: matsun/matsun-em-drel-ver-darun-bekor-avandakan-ergi-pari-khumb-matsun.mp3
     performer: Մածուն եմ դրել վըր դարուն «Բեկոր ավանդական երգի պարի խումբ» Matsun
     tempo_bpm: null
     is_default: false

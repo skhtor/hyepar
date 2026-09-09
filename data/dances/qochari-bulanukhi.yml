@@ -29,11 +29,11 @@ videos:
       (ԸՆՏԱՆԻՔԸ ՈՒԺ Է)
     kind: performance
 recordings:
-  - file: qochari-bulanukhi/rec-01.mp3
+  - file: qochari-bulanukhi/bulankhi-qochari-bulanxi-qochari.mp3
     performer: Բուլանխի-քոչարի-Bulanxi-qochari
     tempo_bpm: null
     is_default: true
-  - file: qochari-bulanukhi/rec-02.mp3
+  - file: qochari-bulanukhi/qochari-bulankhi-masunq-hamuyt-bulanxi-qochari.mp3
     performer: Քոչարի Բուլանխի «Մասունք համույթ» Bulanxi qochari
     tempo_bpm: null
     is_default: false

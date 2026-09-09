@@ -66,6 +66,7 @@ async function main() {
 
   const manifest = { root, generatedAt: new Date().toISOString(), dances: [] };
   const warnings = [];
+  const globalKeys = new Map(); // de-dupe R2 keys across ALL dances/folders
 
   for (const folder of folders.sort((a, b) => a.name.localeCompare(b.name))) {
     const folderPath = join(root, folder.name);
@@ -86,11 +87,31 @@ async function main() {
 
     const recordings = [];
     for (const [idx, file] of files.sort().entries()) {
+      const danceSlug = slugify(primary);
+      // Key derived from the REAL filename (transliterated + slugified), so the
+      // public URL is readable AND ASCII-safe: e.g.
+      //   qochari-sgherdi/shavali-khosh-bilazig-oazis-ansambl.mp3
+      let base = slugify(basename(file, ext(file)));
+      if (!base) base = `rec-${idx + 1}`; // fallback if a name slugifies to empty
+      // Global de-dupe that is itself collision-proof: a synthetic "-2" suffix
+      // could clash with a real filename that already ends in "-2", so probe
+      // until the candidate key is genuinely unused, then reserve it.
+      let key = `${danceSlug}/${base}${ext(file)}`;
+      if (globalKeys.has(key)) {
+        let n = 2;
+        let candidate;
+        do {
+          candidate = `${danceSlug}/${base}-${n}${ext(file)}`;
+          n++;
+        } while (globalKeys.has(candidate));
+        key = candidate;
+      }
+      globalKeys.set(key, true);
+
       recordings.push({
-        // R2 key: keep it stable and ASCII-safe. Slug of the dance + index + original ext.
-        r2Key: `${slugify(romanizeHint(primary) || primary)}/rec-${String(idx + 1).padStart(2, "0")}${ext(file)}`,
+        r2Key: key,
         sourceFile: join(folder.name, file),
-        performer: recordingLabelFromFile(file),
+        performer: recordingLabelFromFile(file), // verbatim original name for display
         tempo_bpm: null,
         is_default: idx === 0, // first alphabetically as provisional default; human confirms
       });

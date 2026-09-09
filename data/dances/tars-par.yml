@@ -30,19 +30,19 @@ videos:
     title: Թարս պար - Ուսուցողական հոլովակ | Tars Par - Teaching Video
     kind: tutorial
 recordings:
-  - file: tars-par/rec-01.mp3
+  - file: tars-par/tars-par.mp3
     performer: Tars par
     tempo_bpm: null
     is_default: true
-  - file: tars-par/rec-02.mp3
+  - file: tars-par/tars-par-karin-hamuyt-tars-par.mp3
     performer: Թարս պար - «Կարին համույթ» - Tars par
     tempo_bpm: null
     is_default: false
-  - file: tars-par/rec-03.mp3
+  - file: tars-par/tars-par-tars-par.mp3
     performer: Թարս-պար-Tars-par
     tempo_bpm: null
     is_default: false
-  - file: tars-par/rec-04.mp3
+  - file: tars-par/tars-par-muradyan-ansaymbl-tars-par.mp3
     performer: Թարս պար «Մուրադյան անսայմբլ» Tars par
     tempo_bpm: null
     is_default: false

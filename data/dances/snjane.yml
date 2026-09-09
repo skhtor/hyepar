@@ -28,19 +28,19 @@ videos:
       YouTube
     kind: performance
 recordings:
-  - file: snjane/rec-01.mp3
+  - file: snjane/snjane-tom-bozigyan.mp3
     performer: Սնջանե (Թոմ Բոզիգյան)
     tempo_bpm: null
     is_default: true
-  - file: snjane/rec-02.mp3
+  - file: snjane/snjane-saro-danielyan.mp3
     performer: Սնջանե (Սարո Դանիելյան)
     tempo_bpm: null
     is_default: false
-  - file: snjane/rec-03.mp3
+  - file: snjane/snjane-snjane-2.mp3
     performer: Սնջանե - Snjane (2)
     tempo_bpm: null
     is_default: false
-  - file: snjane/rec-04.mp3
+  - file: snjane/snjane-sheykhana-van-levon-madoyan.mp3
     performer: Սնջանե Շեյխանա, Վան Լևոն Մադոյան
     tempo_bpm: null
     is_default: false

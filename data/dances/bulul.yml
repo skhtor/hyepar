@@ -31,15 +31,15 @@ videos:
     title: Ուս ուսի. Բուլուլ - YouTube
     kind: tutorial
 recordings:
-  - file: bulul/rec-01.mp3
+  - file: bulul/bulul-karin-hamuyt-bulul.mp3
     performer: Բուլուլ - «Կարին համույթ» - Bulul
     tempo_bpm: null
     is_default: true
-  - file: bulul/rec-02.mp3
+  - file: bulul/bulul-bulul.mp3
     performer: Բուլուլ-Bulul
     tempo_bpm: null
     is_default: false
-  - file: bulul/rec-03.mp3
+  - file: bulul/bulul-bekor-avandakan-ergi-pari-khumb-bulul-bekor-folk-group.mp3
     performer: Բուլուլ «Բեկոր ավանդական երգի պարի խումբ» Bulul Bekor Folk Group
     tempo_bpm: null
     is_default: false

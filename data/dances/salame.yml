@@ -30,19 +30,19 @@ videos:
     title: Амшенский танец SALAMA - YouTube
     kind: tutorial
 recordings:
-  - file: salame/rec-01.mp3
+  - file: salame/salame-akunq.mp3
     performer: Սալամե (Ակունք)
     tempo_bpm: null
     is_default: true
-  - file: salame/rec-02.mp3
+  - file: salame/salame-sasun.mp3
     performer: Սալամե (Սասուն)
     tempo_bpm: null
     is_default: false
-  - file: salame/rec-03.mp3
+  - file: salame/salame-spartak-sagaryan-1.mp3
     performer: Սալամե (Սպարտակ Սագարյան)(1)
     tempo_bpm: null
     is_default: false
-  - file: salame/rec-04.mp3
+  - file: salame/salame-spartak-sagaryan.mp3
     performer: Սալամե (Սպարտակ Սագարյան)
     tempo_bpm: null
     is_default: false

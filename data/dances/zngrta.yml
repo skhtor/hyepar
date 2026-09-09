@@ -27,11 +27,11 @@ videos:
     title: Արդվին - Զնգրթա - YouTube
     kind: performance
 recordings:
-  - file: zngrta/rec-01.mp3
+  - file: zngrta/zngrta-van.mp3
     performer: Զնգրթա (Վան)
     tempo_bpm: null
     is_default: true
-  - file: zngrta/rec-02.mp3
+  - file: zngrta/zngrta-ervand-ev-vahan-davudyanner.mp3
     performer: Զնգրթա Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false

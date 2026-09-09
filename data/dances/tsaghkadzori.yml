@@ -30,35 +30,35 @@ videos:
     title: Ծաղկաձորի - Ուսուցողական հոլովակ | Tsaghkadzori - Teaching Video
     kind: tutorial
 recordings:
-  - file: tsaghkadzori/rec-01.mp3
+  - file: tsaghkadzori/karin-ensemble-tsaxkadzori.mp3
     performer: Karin Ensemble - Tsaxkadzori
     tempo_bpm: null
     is_default: true
-  - file: tsaghkadzori/rec-02.mp3
+  - file: tsaghkadzori/tsaghkadzor-sasna-tsrer.mp3
     performer: Ծաղկաձոր (Սասնա ծռեր)
     tempo_bpm: null
     is_default: false
-  - file: tsaghkadzori/rec-03.mp3
+  - file: tsaghkadzori/tsaghkadzori-akunq.mp3
     performer: Ծաղկաձորի (Ակունք)
     tempo_bpm: null
     is_default: false
-  - file: tsaghkadzori/rec-04.mp3
+  - file: tsaghkadzori/tsaghkadzori-sevada-iritsyan.mp3
     performer: Ծաղկաձորի (Սևադա Իրիցյան)
     tempo_bpm: null
     is_default: false
-  - file: tsaghkadzori/rec-05.mp3
+  - file: tsaghkadzori/tsaghkadzori-bekor-avandakan-ergi-pari-khumb-tsaxkadzori-bekor-folk.mp3
     performer: Ծաղկաձորի «Բեկոր ավանդական երգի պարի խումբ» Tsaxkadzori Bekor Folk
     tempo_bpm: null
     is_default: false
-  - file: tsaghkadzori/rec-06.mp3
+  - file: tsaghkadzori/tsaghkadzori-karin-hamuyt-tsaxkadzori.mp3
     performer: Ծաղկաձորի «Կարին համույթ» Tsaxkadzori
     tempo_bpm: null
     is_default: false
-  - file: tsaghkadzori/rec-07.mp3
+  - file: tsaghkadzori/tsaghkadzori-sasna-tsrer-hamuyt-tsakhkadzori-sasna-crer-folk-group.mp3
     performer: Ծաղկաձորի «Սասնա ծռեր համույթ» Tsakhkadzori Sasna Crer Folk Group
     tempo_bpm: null
     is_default: false
-  - file: tsaghkadzori/rec-08.mp3
+  - file: tsaghkadzori/chachane-ev-tsaghkadzori-gevorg-dabaghyan.mp3
     performer: Չաչանե և Ծաղկաձորի Գևորգ Դաբաղյան
     tempo_bpm: null
     is_default: false

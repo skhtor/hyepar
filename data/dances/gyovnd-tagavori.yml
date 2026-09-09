@@ -31,15 +31,15 @@ videos:
     title: «Ուս ուսի». Թագավորի գյովնդ - YouTube
     kind: tutorial
 recordings:
-  - file: gyovnd-tagavori/rec-01.mp3
+  - file: gyovnd-tagavori/gyovnd-tagvori-ghevik.mp3
     performer: Գյովնդ Թագվորի - «Ղևիկ» -
     tempo_bpm: null
     is_default: true
-  - file: gyovnd-tagavori/rec-02.mp3
+  - file: gyovnd-tagavori/gyovnd-tagvori.mp3
     performer: Գյովնդ Թագվորի
     tempo_bpm: null
     is_default: false
-  - file: gyovnd-tagavori/rec-03.mp3
+  - file: gyovnd-tagavori/tagavori-gyovnd-tagavori-gyovnd.mp3
     performer: Թագավորի-գյովնդ-Tagavori-Gyovnd
     tempo_bpm: null
     is_default: false

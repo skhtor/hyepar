@@ -25,19 +25,19 @@ lyrics:
   status: unknown
 videos: []
 recordings:
-  - file: shoror-vaspurakani/rec-01.mp3
+  - file: shoror-vaspurakani/shoror-vaspurakan.mp3
     performer: Շորոր-Վասպուրական
     tempo_bpm: null
     is_default: true
-  - file: shoror-vaspurakani/rec-02.mp3
+  - file: shoror-vaspurakani/shoror-tamri-vaspurakan-muradyan-hamuyt.mp3
     performer: Շորոր Թամրի Վասպուրական Մուրադյան համույթ
     tempo_bpm: null
     is_default: false
-  - file: shoror-vaspurakani/rec-03.mp3
+  - file: shoror-vaspurakani/shoror-vaspurakani-saro-danielyan.mp3
     performer: Շորոր Վասպուրականի Սարո Դանիելյան
     tempo_bpm: null
     is_default: false
-  - file: shoror-vaspurakani/rec-04.mp3
+  - file: shoror-vaspurakani/shoror-vaspurakani-vaspurakan.mp3
     performer: Շորոր Վասպուրականի Վասպուրական
     tempo_bpm: null
     is_default: false

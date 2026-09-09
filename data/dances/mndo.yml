@@ -24,11 +24,11 @@ lyrics:
   status: unknown
 videos: []
 recordings:
-  - file: mndo/rec-01.mp3
+  - file: mndo/mndo-arayik-mkoyan.mp3
     performer: Մնդո (Արայիկ Մկոյան)
     tempo_bpm: null
     is_default: true
-  - file: mndo/rec-02.mp3
+  - file: mndo/mndo-sasun.mp3
     performer: Մնդո (Սասուն)
     tempo_bpm: null
     is_default: false

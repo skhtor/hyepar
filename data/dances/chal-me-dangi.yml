@@ -24,19 +24,19 @@ lyrics:
   status: unknown
 videos: []
 recordings:
-  - file: chal-me-dangi/rec-01.mp3
+  - file: chal-me-dangi/chalme-dangi-hin.mp3
     performer: Չալմը դանգի (հին)
     tempo_bpm: null
     is_default: true
-  - file: chal-me-dangi/rec-02.mp3
+  - file: chal-me-dangi/chalme-danke-armen-mandakunyan.mp3
     performer: Չալմը դանկը - Արմեն Մանդակունյան
     tempo_bpm: null
     is_default: false
-  - file: chal-me-dangi/rec-03.mp3
+  - file: chal-me-dangi/chalme-danki-chalme-danki.mp3
     performer: Չալմը-Դանկի-Chalme-Danki
     tempo_bpm: null
     is_default: false
-  - file: chal-me-dangi/rec-04.mp3
+  - file: chal-me-dangi/chalme-dangi-karin-hamuyt-chalme-danki.mp3
     performer: Չալմը դանգի «Կարին համույթ» Chalme Danki
     tempo_bpm: null
     is_default: false

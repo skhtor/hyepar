@@ -27,7 +27,7 @@ videos:
     title: Հոռմի բար - ՄԱՍՈՒՆՔ Hormi Bar - Masunq - YouTube
     kind: performance
 recordings:
-  - file: hormi-bar/rec-01.mp3
+  - file: hormi-bar/hormi-bar-masunq.mp3
     performer: Հոռմի բար (Մասունք)
     tempo_bpm: null
     is_default: true

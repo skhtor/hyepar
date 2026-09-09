@@ -30,23 +30,23 @@ videos:
     title: «Ուս ուսի» Լուտկի
     kind: tutorial
 recordings:
-  - file: lutki/rec-01.mp3
+  - file: lutki/lutki-akunq.mp3
     performer: Լուտկի (Ակունք)
     tempo_bpm: null
     is_default: true
-  - file: lutki/rec-02.mp3
+  - file: lutki/lutki-avag-margaryan.mp3
     performer: Լուտկի (Ավագ Մարգարյան)
     tempo_bpm: null
     is_default: false
-  - file: lutki/rec-03.mp3
+  - file: lutki/lutki-veradardz.mp3
     performer: Լուտկի (Վերադարձ)
     tempo_bpm: null
     is_default: false
-  - file: lutki/rec-04.mp3
+  - file: lutki/lutki-karin-hamuyt-lutki.mp3
     performer: Լուտկի - «Կարին համույթ» - Lutki
     tempo_bpm: null
     is_default: false
-  - file: lutki/rec-05.mp3
+  - file: lutki/qertsi-ev-lutki-veradardz.mp3
     performer: Քերծի և Լուտկի-Վերադարձ
     tempo_bpm: null
     is_default: false

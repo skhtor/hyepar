@@ -31,11 +31,11 @@ videos:
     title: Կարնո Քոչարի - Ուսուցողական հոլովակ | Karno Kochari - Teaching Video
     kind: tutorial
 recordings:
-  - file: qochari-karno/rec-01.mp3
+  - file: qochari-karno/qochari-karno-karno-qochari-hin.mp3
     performer: Քոչարի (Կարնո)  Karno Qochari (հին)
     tempo_bpm: null
     is_default: true
-  - file: qochari-karno/rec-02.mp3
+  - file: qochari-karno/qochari-karno-karin.mp3
     performer: Քոչարի (Կարնո) - (Կարին)
     tempo_bpm: null
     is_default: false

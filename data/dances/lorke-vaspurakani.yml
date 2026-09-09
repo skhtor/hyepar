@@ -27,7 +27,7 @@ videos:
     title: LORKE - Armenian folk dance - YouTube
     kind: performance
 recordings:
-  - file: lorke-vaspurakani/rec-01.mp3
+  - file: lorke-vaspurakani/lorke-vaspurakan.mp3
     performer: Լորկե Վասպուրական
     tempo_bpm: null
     is_default: true

@@ -30,27 +30,27 @@ videos:
     title: Ուս ուսի. Խըմ-խըմա - YouTube
     kind: tutorial
 recordings:
-  - file: kham-khama/rec-01.flac
+  - file: kham-khama/kayt-kham-khama.flac
     performer: Kayt - Kham Khama
     tempo_bpm: null
     is_default: true
-  - file: kham-khama/rec-02.mp3
+  - file: kham-khama/kham-khama-tom-bozikyan-kham-khama.mp3
     performer: Խամ խամա - «Թոմ Բոզիկյան» - Kham Khama
     tempo_bpm: null
     is_default: false
-  - file: kham-khama/rec-03.mp3
+  - file: kham-khama/khamkhama-karin.mp3
     performer: Խամխամա (Կարին)
     tempo_bpm: null
     is_default: false
-  - file: kham-khama/rec-04.mp3
+  - file: kham-khama/khamkhama-kayt-khamkhama-kayt.mp3
     performer: Խամխամա - «Կայթ» - Khamkhama Kayt
     tempo_bpm: null
     is_default: false
-  - file: kham-khama/rec-05.mp3
+  - file: kham-khama/khamkhama-4-katil-bend.mp3
     performer: Խամխամա 4 - Կաթիլ բենդ
     tempo_bpm: null
     is_default: false
-  - file: kham-khama/rec-06.mp3
+  - file: kham-khama/kham-khama-erazhshtutyun.mp3
     performer: խամ խամա երաժշտություն
     tempo_bpm: null
     is_default: false

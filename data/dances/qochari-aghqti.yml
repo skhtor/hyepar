@@ -28,19 +28,19 @@ videos:
     title: «Նաիրի» - Աղքտի Քոչարի
     kind: performance
 recordings:
-  - file: qochari-aghqti/rec-01.mp3
+  - file: qochari-aghqti/aghqti-qochari-akhqti-qochari.mp3
     performer: Աղքտի-Քոչարի-Akhqti-qochari
     tempo_bpm: null
     is_default: true
-  - file: qochari-aghqti/rec-02.mp3
+  - file: qochari-aghqti/taroni-erger-akhqti-qochari-taroni-ergerakhqti-qochari.mp3
     performer: Տարոնի-երգեր-Ախքտի-քոչարի-Taroni-ergerAkhqti-qochari
     tempo_bpm: null
     is_default: false
-  - file: qochari-aghqti/rec-03.mp3
+  - file: qochari-aghqti/qochari-aghqti-kayt-hamuyt-akhqti-qochari.mp3
     performer: Քոչարի Աղքտի «Կայթ համույթ» Akhqti qochari
     tempo_bpm: null
     is_default: false
-  - file: qochari-aghqti/rec-04.mp3
+  - file: qochari-aghqti/qochari-aghqti-taroni-erger-arev-folk-ansambl-taroni-ergerakhqti.mp3
     performer: Քոչարի Աղքտի Տարոնի երգեր «Արև ֆոլկ անսամբլ» Taroni ergerAkhqti
     tempo_bpm: null
     is_default: false

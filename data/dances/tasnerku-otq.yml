@@ -30,63 +30,63 @@ videos:
     title: Ուս ուսի. 12 ոտք - YouTube
     kind: tutorial
 recordings:
-  - file: tasnerku-otq/rec-01.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq-shoghakn-copy.mp3
     performer: Տասներկու ոտք - Tasnerku 12 votq (Շողակն) copy
     tempo_bpm: null
     is_default: true
-  - file: tasnerku-otq/rec-02.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq-shoghakn.mp3
     performer: Տասներկու ոտք - Tasnerku 12 votq (Շողակն)
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-03.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq-shoghakn-2.mp3
     performer: Տասներկու ոտք - Tasnerku 12 votq Շողակն
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-04.mp3
+  - file: tasnerku-otq/tasnerku-otq-1-bambir.mp3
     performer: Տասներկու ոտք 1 - Բամբիռ
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-05.mp3
+  - file: tasnerku-otq/tasnerku-otq-4-bambir.mp3
     performer: Տասներկու ոտք 4 - Բամբիռ
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-06.mp3
+  - file: tasnerku-otq/tasnerku-otq-akunq.mp3
     performer: Տասներկու ոտք-Ակունք
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-07.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq-2.mp3
     performer: Տասներկու-ոտք-Tasnerku-12-votq-2
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-08.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq-3.mp3
     performer: Տասներկու-ոտք-Tasnerku-12-votq-3
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-09.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq.mp3
     performer: Տասներկու-ոտք-Tasnerku-12-votq
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-10.mp3
+  - file: tasnerku-otq/tasnerku-otq-tasnerku-12-votq-4maymuqi-saro-danielyan.mp3
     performer: Տասներկու ոտք Tasnerku 12 votq 4մայմուքի Սարո դանիելյան
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-11.mp3
+  - file: tasnerku-otq/tasneroku-otq-aram-parsayan.mp3
     performer: Տասներոկու ոտք - (Արամ Փարսայան)
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-12.mp3
+  - file: tasnerku-otq/tasneroku-otq-arag-tasnerku-12-votq-arag.mp3
     performer: Տասներոկու-ոտք-արագ-Tasnerku-12-votq-arag
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-13.mp3
+  - file: tasnerku-otq/tasneroku-otq-arayik-mkoyan-tasnerku-12-votq.mp3
     performer: Տասներոկու ոտք «Արայիկ Մկոյան» Tasnerku 12 votq
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-14.mp3
+  - file: tasnerku-otq/tasneroku-otq-karin-hamuyt-tasnerku-12-votq.mp3
     performer: Տասներոկու ոտք «Կարին համույթ» Tasnerku 12 votq
     tempo_bpm: null
     is_default: false
-  - file: tasnerku-otq/rec-15.mp3
+  - file: tasnerku-otq/tasnerokuts-otq-karin-hamuyt-tasnerku-12-votq-arag.mp3
     performer: Տասներոկուց ոտք «Կարին համույթ» Tasnerku 12 votq arag
     tempo_bpm: null
     is_default: false

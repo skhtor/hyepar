@@ -31,99 +31,99 @@ videos:
       subtitles] - YouTube
     kind: tutorial
 recordings:
-  - file: yarkhushta/rec-01.mp3
+  - file: yarkhushta/karin-ensemble-yarkhushta.mp3
     performer: Karin Ensemble - Yarkhushta
     tempo_bpm: null
     is_default: true
-  - file: yarkhushta/rec-02.mp3
+  - file: yarkhushta/yarkhushta-2-sasun.mp3
     performer: Yarkhushta 2 - Սասուն
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-03.mp3
+  - file: yarkhushta/yarkhushta-3-erkaaar.mp3
     performer: Yarkhushta 3 - Երկաաար
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-04.mp3
+  - file: yarkhushta/yarkhushta-4-good-one.mp3
     performer: Yarkhushta 4 (Good one)
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-05.mp3
+  - file: yarkhushta/yarkhushta-5.mp3
     performer: Yarkhushta 5
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-06.mp3
+  - file: yarkhushta/yarkhushta.mp3
     performer: Yarkhushta
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-07.mp3
+  - file: yarkhushta/gyovnd-mayroqe-qochari-yarkhushta-sasna-tsrer-hamuyt-govynd-mayroqe.mp3
     performer: Գյովնդ, Մայրոքե, Քոչարի, Յարխուշտա «Սասնա ծռեր համույթ» Govynd Mayroqe
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-08.mp3
+  - file: yarkhushta/mayroqe-msho-kher-yarkhushta.mp3
     performer: Մայրոքե, Մշո խըռ, Յարխուշտա
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-09.mp3
+  - file: yarkhushta/yarkhushta-muradyan-ansambl.mp3
     performer: Յարխուշտա  մուրադյան անսամբլ.
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-10.mp3
+  - file: yarkhushta/yarkhushta-sasna-tsrer-hin.mp3
     performer: Յարխուշտա (Սասնա ծռեր - հին)
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-11.mp3
+  - file: yarkhushta/yarkhushta-sasun-hin.mp3
     performer: Յարխուշտա (Սասուն - հին)
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-12.mp3
+  - file: yarkhushta/yarkhushta-saro-danielyan.mp3
     performer: Յարխուշտա (Սարո Դանիելյան)
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-13.mp3
+  - file: yarkhushta/yarkhushta-erkar.mp3
     performer: Յարխուշտա (երկար)
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-14.mp3
+  - file: yarkhushta/yarkhushta-sahari-sasna-tsrer.mp3
     performer: Յարխուշտա , սահարի - Սասնա Ծռեր
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-15.mp3
+  - file: yarkhushta/yarkhushta-sasna-tsrer.mp3
     performer: Յարխուշտա - Սասնա Ծռեր
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-16.mp3
+  - file: yarkhushta/yarkhushta-tigran-sasuntsi.mp3
     performer: Յարխուշտա - Տիգրան Սասունցի
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-17.mp3
+  - file: yarkhushta/yarkhushta-2.mp3
     performer: Յարխուշտա
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-18.mp3
+  - file: yarkhushta/yarkhushta-arayik-mkoyan-yarkhushta-4.mp3
     performer: Յարխուշտա «Արայիկ Մկոյան» Yarkhushta 4
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-19.mp3
+  - file: yarkhushta/yarkhushta-muradyan-ansambl-yarkhushta-5.mp3
     performer: Յարխուշտա «Մուրադյան անսամբլ» Yarkhushta 5
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-20.mp3
+  - file: yarkhushta/yarkhushta-sasun-hamuyt-yarkhushta-2-sasun.mp3
     performer: Յարխուշտա «Սասուն համույթ» Yarkhushta 2 Սասուն
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-21.mp3
+  - file: yarkhushta/yarkhushta-arag-masunq-hamuyt-yarkhushta-arag.mp3
     performer: Յարխուշտա արագ «Մասունք համույթ» Yarkhushta arag
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-22.mp3
+  - file: yarkhushta/yarkhushta-dandagh-sasun-hamuyt-yarkhushta.mp3
     performer: Յարխուշտա դանդաղ «Սասուն համույթ» Yarkhushta
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-23.mp3
+  - file: yarkhushta/yarkhushta-mi-dzerqov-masunq-hamuyt-yarxushta-mi-dzerqov.mp3
     performer: Յարխուշտա մի ձեռքով «Մասունք համույթ» Yarxushta mi dzerqov
     tempo_bpm: null
     is_default: false
-  - file: yarkhushta/rec-24.mp3
+  - file: yarkhushta/yarkhushta-shat-dandagh-sasun-hamuyt-yarkhushta.mp3
     performer: Յարխուշտա շատ դանդաղ «Սասուն համույթ» Yarkhushta
     tempo_bpm: null
     is_default: false

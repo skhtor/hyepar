@@ -30,7 +30,7 @@ videos:
     title: "?"
     kind: tutorial
 recordings:
-  - file: hinayi-par/rec-01.mp3
+  - file: hinayi-par/hinayi-par-hinayi-par.mp3
     performer: Հինայի պար Hinayi par
     tempo_bpm: null
     is_default: true

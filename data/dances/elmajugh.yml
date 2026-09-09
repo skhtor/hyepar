@@ -27,11 +27,11 @@ videos:
     title: Էլմաջուղ (Համշեն)
     kind: performance
 recordings:
-  - file: elmajugh/rec-01.mp3
+  - file: elmajugh/elmajugh-spartak-sagaryan.mp3
     performer: Էլմաջուղ (Սպարտակ Սագարյան)
     tempo_bpm: null
     is_default: true
-  - file: elmajugh/rec-02.mp3
+  - file: elmajugh/elmajugh-hamshen.mp3
     performer: Էլմաջուղ(Համշեն)
     tempo_bpm: null
     is_default: false

@@ -30,7 +30,7 @@ videos:
     title: Ուս ուսի. Պոզարե
     kind: tutorial
 recordings:
-  - file: pozare/rec-01.mp3
+  - file: pozare/karin-ensemble-pozare.mp3
     performer: Karin Ensemble - Պոզարե
     tempo_bpm: null
     is_default: true

@@ -27,43 +27,43 @@ videos:
     title: «ԱԿՈՒՆՔ» - Սեբաստիո պարեր | ՄԱՍ 3 - YouTube
     kind: performance
 recordings:
-  - file: ereq-otq-sebastio/rec-01.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-tom-bozigyan.mp3
     performer: Երեք ոտք (Սեբաստիա) (Թոմ Բոզիգյան)
     tempo_bpm: null
     is_default: true
-  - file: ereq-otq-sebastio/rec-02.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-sebo.mp3
     performer: Երեք ոտք (Սեբաստիա) (Սեբո)
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-03.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-veradardz.mp3
     performer: Երեք ոտք (Սեբաստիա) (Վերադարձ)
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-04.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-hin.mp3
     performer: Երեք ոտք (Սեբաստիա) (հին)
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-05.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia.mp3
     performer: Երեք ոտք (Սեբաստիա)
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-06.mp3
+  - file: ereq-otq-sebastio/ereq-otq-2-sebastia.mp3
     performer: Երեք ոտք 2 (Սեբաստիա)
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-07.mp3
+  - file: ereq-otq-sebastio/ereq-otq-2-sebastia-norayr-qartashyan.mp3
     performer: Երեք ոտք 2 Սեբաստիա Նորայր Քարտաշյան
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-08.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-norayr-qartashyan.mp3
     performer: Երեք ոտք Սեբաստիա Նորայր Քարտաշյան
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-09.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-chukazyan-ansambl.mp3
     performer: Երեք ոտք Սեբաստիա Չուկազյան անսամբլ
     tempo_bpm: null
     is_default: false
-  - file: ereq-otq-sebastio/rec-10.mp3
+  - file: ereq-otq-sebastio/ereq-otq-sebastia-dandagh-muradyan-ansambl.mp3
     performer: Երեք ոտք Սեբաստիա դանդաղ մուրադյան անսամբլ
     tempo_bpm: null
     is_default: false

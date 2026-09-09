@@ -27,20 +27,20 @@ videos:
     title: https://www.youtube.com/clip/UgkxKAS2Ge12yspgXQ2pdNYnGFiClbf65sjk
     kind: performance
 recordings:
-  - file: tovlama/rec-01.mp3
+  - file: tovlama/tsovak-ishkhanats-par-tovlama-mamer-gutan-2024-mrro-azgayin-arvesti-kentron.mp3
     performer: «Ծովակ» - Իշխանաց պար, Թովլամա, Մամըռ  «Գութան» 2024 - «Մրրո» ազգային
       արվեստի կենտրոն
     tempo_bpm: null
     is_default: true
-  - file: tovlama/rec-02.mp3
+  - file: tovlama/tovlama-1-ervand-ev-vahan-davudyanner.mp3
     performer: Թովլամա 1 Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false
-  - file: tovlama/rec-03.mp3
+  - file: tovlama/tovlama-2-ervand-ev-vahan-davudyanner.mp3
     performer: Թովլամա 2 Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false
-  - file: tovlama/rec-04.mp3
+  - file: tovlama/tovlama-3-ervand-ev-vahan-davudyanner.mp3
     performer: Թովլամա 3 Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false

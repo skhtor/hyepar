@@ -28,7 +28,7 @@ videos:
       Urfane - YouTube
     kind: performance
 recordings:
-  - file: urfane/rec-01.mp3
+  - file: urfane/urfane-akunq.mp3
     performer: Ուրֆանե (Ակունք)
     tempo_bpm: null
     is_default: true

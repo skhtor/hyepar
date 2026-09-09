@@ -30,11 +30,11 @@ videos:
     title: Դափկի. Կիլիկյան Հայաստանի մարգարիտը
     kind: tutorial
 recordings:
-  - file: dabki/rec-01.mp3
+  - file: dabki/dabki-lorke.mp3
     performer: Դաբկի, Լորկե
     tempo_bpm: null
     is_default: true
-  - file: dabki/rec-02.mp3
+  - file: dabki/dabki-lorke-karch.mp3
     performer: Դաբկի, լորկե (կարճ)
     tempo_bpm: null
     is_default: false
