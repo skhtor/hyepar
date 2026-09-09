@@ -1,0 +1,38 @@
+slug: shoror-komitasi
+name:
+  hy: Շորոր Կոմիտասի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags:
+  - Shoror
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ԿԱՐԻՆ» - Շորոր (Կոմիտաս) | «ՀԱՅՈՑ ԵՐԳԻ ՀԱՅՐԻԿԸ»
+    kind: performance
+recordings:
+  - file: shoror-komitasi/rec-01.mp3
+    performer: Շորոր (Կոմիտասի) - (Կարին)
+    tempo_bpm: null
+    is_default: true
+  - file: shoror-komitasi/rec-02.mp3
+    performer: Շորոր Կոմիտասի «Կարին համույթ» Komitasi shoror
+    tempo_bpm: null
+    is_default: false

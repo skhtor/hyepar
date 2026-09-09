@@ -1,0 +1,37 @@
+slug: tak-tanzara
+name:
+  hy: Թակ թանզարա
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: TAK-TANZARA - KARIN | ԹԱԿ-ԹԱՆԶԱՐԱ - ԿԱՐԻՆ - YouTube
+    kind: performance
+recordings:
+  - file: tak-tanzara/rec-01.mp3
+    performer: Թակ թանզարա
+    tempo_bpm: null
+    is_default: true
+  - file: tak-tanzara/rec-02.mp3
+    performer: Թակ-թանզարա-Tak-Tanzara-Hamsheni-qochari
+    tempo_bpm: null
+    is_default: false

@@ -94,6 +94,38 @@ function containsWord(haystack, needle) {
   return tokens.includes(needle.toLocaleLowerCase());
 }
 
+// Known Armenian dance families — a dance whose name contains one of these gets
+// the family tag, enabling "filter on Qochari" without a hierarchy (flat tags,
+// per the office-hours design). Match is on the Armenian name OR romanized slug.
+// Extend as more families surface in the data.
+export const DANCE_FAMILIES = [
+  { tag: "Qochari", hy: ["Քոչարի"], latin: ["qochari", "kochari", "kotchari"] },
+  { tag: "Shoror", hy: ["Շորոր"], latin: ["shoror"] },
+  { tag: "Yalli", hy: ["Յալլի"], latin: ["yalli"] },
+  { tag: "Tamzara", hy: ["Թամզարա"], latin: ["tamzara"] },
+  { tag: "Govand", hy: ["Գյովնդ", "Գյովընդ"], latin: ["govand", "gyovnd", "gyovand"] },
+  { tag: "Bulul", hy: ["Բուլուլ"], latin: ["bulul"] },
+];
+
+/**
+ * Infer flat family tags for a dance from its Armenian name + slug.
+ * Returns an array (possibly empty). A dance can belong to more than one family.
+ * @param {string} nameHy
+ * @param {string} slug
+ * @returns {string[]}
+ */
+export function inferFamilyTags(nameHy, slug) {
+  const tags = [];
+  const hy = (nameHy || "").toString();
+  const lat = (slug || "").toString().toLowerCase();
+  for (const fam of DANCE_FAMILIES) {
+    const hitHy = fam.hy.some((h) => hy.includes(h));
+    const hitLat = fam.latin.some((l) => lat.includes(l));
+    if (hitHy || hitLat) tags.push(fam.tag);
+  }
+  return tags;
+}
+
 /**
  * A slug from a dance name. Transliterates Armenian → Latin so slugs, URLs, and
  * R2 keys are ASCII (a diaspora user's URL reads /dance/sgherdi-qochari, not

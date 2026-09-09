@@ -1,0 +1,45 @@
+slug: kayne-fidan
+name:
+  hy: Կայնե ֆիդան
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ՄԱՍՈՒՆՔ» «Կայնե, ֆիդան բոյիդ մատաղ» Ջավախքի պարերգ - YouTube
+    kind: performance
+recordings:
+  - file: kayne-fidan/rec-01.mp3
+    performer: Մոմերով պար (Կայնե ֆիդան) - (Գառնի)
+    tempo_bpm: null
+    is_default: true
+  - file: kayne-fidan/rec-02.mp3
+    performer: Մոմերով պար Կայնե ֆիդան «Համլետ բարսեղյան» Kayne fidan
+    tempo_bpm: null
+    is_default: false
+  - file: kayne-fidan/rec-03.mp3
+    performer: Մոմերով պար Կայնե ֆիդան «Մասունք համույթ» Kayne fidan
+    tempo_bpm: null
+    is_default: false
+  - file: kayne-fidan/rec-04.mp3
+    performer: Մոմերով պար կայնե ֆիդան Շողակն
+    tempo_bpm: null
+    is_default: false

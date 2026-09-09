@@ -1,0 +1,33 @@
+slug: mamr
+name:
+  hy: Մամռ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Անդոկ - Մամռ, Թովլամա - YouTube
+    kind: performance
+recordings:
+  - file: mamr/rec-01.mp3
+    performer: Մամըռ Երվանդ և Վահան Դավուդյաններ
+    tempo_bpm: null
+    is_default: true

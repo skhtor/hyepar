@@ -1,0 +1,85 @@
+slug: ververi
+name:
+  hy: Վերվերի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: null
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Ververi / Կարին - Վերվերի - YouTube
+    kind: performance
+recordings:
+  - file: ververi/rec-01.mp3
+    performer: Ververi combined mp3
+    tempo_bpm: null
+    is_default: true
+  - file: ververi/rec-02.wav
+    performer: Ververi combined mp3
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-03.wav
+    performer: Ververi combined
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-04.mp3
+    performer: Գորանի +Հանինա, Վերվերի, Թաշկինակներով պար
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-05.mp3
+    performer: Վերվերի (Դինո) - Ինգա Անուշ
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-06.mp3
+    performer: Վերվերի (Զուռնի պար) - «Թագպար»
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-07.mp3
+    performer: Վերվերի (Նորայր Քամալյան)
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-08.mp3
+    performer: Վերվերի (Սալմաստ) - (Նուբար)
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-09.mp3
+    performer: Վերվերի (Սալմաստ) - (Սասուն)
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-10.mp3
+    performer: Վերվերի (Սալմաստ)-Վերադարձ
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-11.mp3
+    performer: Վերվերի - «Ղևիկ» -
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-12.mp3
+    performer: Վերվերի
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-13.mp3
+    performer: Վերվերի Թամադա Նորայր Քարտաշյան
+    tempo_bpm: null
+    is_default: false
+  - file: ververi/rec-14.mp3
+    performer: Վերվերի մանր «Կարին համույթ» Ververi manr
+    tempo_bpm: null
+    is_default: false

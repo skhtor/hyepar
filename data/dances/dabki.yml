@@ -1,0 +1,40 @@
+slug: dabki
+name:
+  hy: Դաբկի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: null
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ԿԱՐԻՆ» - Մուսա լեռան Դաբկի և Չալմը դանգը | «Ի ԶԵ՛Ն»
+    kind: performance
+  - url: null
+    title: Դափկի. Կիլիկյան Հայաստանի մարգարիտը
+    kind: tutorial
+recordings:
+  - file: dabki/rec-01.mp3
+    performer: Դաբկի, Լորկե
+    tempo_bpm: null
+    is_default: true
+  - file: dabki/rec-02.mp3
+    performer: Դաբկի, լորկե (կարճ)
+    tempo_bpm: null
+    is_default: false

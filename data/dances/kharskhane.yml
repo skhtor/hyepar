@@ -1,0 +1,33 @@
+slug: kharskhane
+name:
+  hy: Խարսխանե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Sasna Crer - Խարսխանէ - Kharskhane - YouTube
+    kind: performance
+recordings:
+  - file: kharskhane/rec-01.mp3
+    performer: Խարսխանե (Սասնա ծռեր)
+    tempo_bpm: null
+    is_default: true

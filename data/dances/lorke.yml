@@ -1,0 +1,56 @@
+slug: lorke
+name:
+  hy: Լորկե
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Lorke / Կարին - Լորկէ
+    kind: performance
+  - url: null
+    title: Լորկե - Ուսուցողական հոլովակ | Lorke - Teaching Video
+    kind: tutorial
+recordings:
+  - file: lorke/rec-01.mp3
+    performer: Aida Sargsyan - Lorke
+    tempo_bpm: null
+    is_default: true
+  - file: lorke/rec-02.mp3
+    performer: Դաբկի, Լորկե
+    tempo_bpm: null
+    is_default: false
+  - file: lorke/rec-03.mp3
+    performer: Լորկե - Lorke
+    tempo_bpm: null
+    is_default: false
+  - file: lorke/rec-04.mp3
+    performer: Լորկե - Մալ Բարսամյան
+    tempo_bpm: null
+    is_default: false
+  - file: lorke/rec-05.mp3
+    performer: Լորկե, Դաբկի
+    tempo_bpm: null
+    is_default: false
+  - file: lorke/rec-06.mp3
+    performer: Լորկե-Lorke
+    tempo_bpm: null
+    is_default: false

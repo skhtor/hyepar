@@ -1,0 +1,46 @@
+slug: qochari-aghqti
+name:
+  hy: Քոչարի Աղքտի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 3
+energy: null
+gender: null
+family_tags:
+  - Qochari
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «Նաիրի» - Աղքտի Քոչարի
+    kind: performance
+recordings:
+  - file: qochari-aghqti/rec-01.mp3
+    performer: Աղքտի-Քոչարի-Akhqti-qochari
+    tempo_bpm: null
+    is_default: true
+  - file: qochari-aghqti/rec-02.mp3
+    performer: Տարոնի-երգեր-Ախքտի-քոչարի-Taroni-ergerAkhqti-qochari
+    tempo_bpm: null
+    is_default: false
+  - file: qochari-aghqti/rec-03.mp3
+    performer: Քոչարի Աղքտի «Կայթ համույթ» Akhqti qochari
+    tempo_bpm: null
+    is_default: false
+  - file: qochari-aghqti/rec-04.mp3
+    performer: Քոչարի Աղքտի Տարոնի երգեր «Արև ֆոլկ անսամբլ» Taroni ergerAkhqti
+    tempo_bpm: null
+    is_default: false

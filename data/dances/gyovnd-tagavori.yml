@@ -1,0 +1,45 @@
+slug: gyovnd-tagavori
+name:
+  hy: Գյովնդ Թագավորի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: null
+energy: null
+gender: null
+family_tags:
+  - Govand
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «Թագվորա գյովնդ» - YouTube
+    kind: performance
+  - url: null
+    title: «Ուս ուսի». Թագավորի գյովնդ - YouTube
+    kind: tutorial
+recordings:
+  - file: gyovnd-tagavori/rec-01.mp3
+    performer: Գյովնդ Թագվորի - «Ղևիկ» -
+    tempo_bpm: null
+    is_default: true
+  - file: gyovnd-tagavori/rec-02.mp3
+    performer: Գյովնդ Թագվորի
+    tempo_bpm: null
+    is_default: false
+  - file: gyovnd-tagavori/rec-03.mp3
+    performer: Թագավորի-գյովնդ-Tagavori-Gyovnd
+    tempo_bpm: null
+    is_default: false

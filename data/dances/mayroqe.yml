@@ -1,0 +1,137 @@
+slug: mayroqe
+name:
+  hy: Մայրոքե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Մայրոքե (Տյառնըդառաջը Գառնիում - 2022) - YouTube
+    kind: performance
+recordings:
+  - file: mayroqe/rec-01.mp3
+    performer: Գյովնդ, Մայրոքե, Քոչարի, Յարխուշտա «Սասնա ծռեր համույթ» Govynd Mayroqe
+    tempo_bpm: null
+    is_default: true
+  - file: mayroqe/rec-02.mp3
+    performer: Գյովնդ Լոռվա և մայրոքե Մուրադյան համույթ
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-03.mp3
+    performer: Գորանի, մայրոքե, հանինա, յարխուշտա «Նուբար խումբ» Gorani
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-04.mp3
+    performer: Մայրոքե (Արման Փարսյան)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-05.mp3
+    performer: Մայրոքե (Կայթ)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-06.mp3
+    performer: Մայրոքե (Մուրադյան անսամբլ)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-07.mp3
+    performer: Մայրոքե (Սասուն - արագ)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-08.mp3
+    performer: Մայրոքե (Սասուն - երգ)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-09.mp3
+    performer: Մայրոքե (Սասուն - հին)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-10.mp3
+    performer: Մայրոքե - cap mayroke - Երկար
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-11.mp3
+    performer: Մայրոքե - cap mayroke 2
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-12.mp3
+    performer: Մայրոքե - cap mayroke
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-13.mp3
+    performer: Մայրոքե - «Ղևիկ» -
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-14.mp3
+    performer: Մայրոքե - Ալլա Լևոնյան
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-15.mp3
+    performer: Մայրոքե 2 - «Գաթա բենդ»
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-16.mp3
+    performer: Մայրոքե Հայ Մերիկ - Hay merik (Mayroke)
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-17.mp3
+    performer: Մայրոքե, Մշո խըռ, Յարխուշտա
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-18.mp3
+    performer: Մայրոքե-Collectif Medz Bazar
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-19.mp3
+    performer: Մայրոքե-Shoghaken-Ensamble-Mayroke
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-20.mp3
+    performer: Մայրոքե-cap-mayroke
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-21.mp3
+    performer: Մայրոքե-mayroke
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-22.mp3
+    performer: Մայրոքե-ընտիի՜ր
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-23.mp3
+    performer: Մայրոքե-ուրիշ
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-24.mp3
+    performer: Մայրոքե «Շողակն անսամբլ» Shoghaken Ensamble Mayroke
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-25.mp3
+    performer: Մայրոքե «Սասնա ծռեր համույթ» Mayroqe Sasna Crer Folk Group
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-26.mp3
+    performer: Մայրոքե Օրորոցային Անդրանիկ Սարկավագ
+    tempo_bpm: null
+    is_default: false
+  - file: mayroqe/rec-27.mp3
+    performer: Մշո խռ, Մայրոքե, Փափուռի «Գաթա բենդ» Ազգագրական
+    tempo_bpm: null
+    is_default: false

@@ -1,0 +1,33 @@
+slug: jumlamer
+name:
+  hy: Ջումլամեր
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Մասունք - Ջումլամեր / Masunq -Jumlamer - YouTube
+    kind: performance
+recordings:
+  - file: jumlamer/rec-01.mp3
+    performer: Ջումլամեր «Մասունք համույթ» Jumlamer
+    tempo_bpm: null
+    is_default: true

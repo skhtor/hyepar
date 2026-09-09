@@ -1,0 +1,34 @@
+slug: mndo
+name:
+  hy: Մնդո
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: mndo/rec-01.mp3
+    performer: Մնդո (Արայիկ Մկոյան)
+    tempo_bpm: null
+    is_default: true
+  - file: mndo/rec-02.mp3
+    performer: Մնդո (Սասուն)
+    tempo_bpm: null
+    is_default: false

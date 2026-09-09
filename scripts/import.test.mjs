@@ -4,6 +4,16 @@ import assert from "node:assert/strict";
 import { parseCsv, normalizeHold } from "./import-sheet.mjs";
 import { splitFolderDances, recordingLabelFromFile } from "./ingest-audio.mjs";
 import { validateDance } from "./validate-dances.mjs";
+import { inferFamilyTags } from "./lib/parse.mjs";
+
+test("inferFamilyTags: Qochari family from name or slug", () => {
+  assert.deepEqual(inferFamilyTags("Քոչարի Սղերդի", "qochari-sgherdi"), ["Qochari"]);
+  assert.deepEqual(inferFamilyTags("Կարնո Քոչարի", "karno-qochari"), ["Qochari"]);
+  assert.deepEqual(inferFamilyTags("Ֆնջան", "fnjan"), []); // standalone, no family
+  assert.deepEqual(inferFamilyTags("Շորոր Վանա", "shoror-vana"), ["Shoror"]);
+  // romanized-only spelling still matches
+  assert.deepEqual(inferFamilyTags("", "kochari-karno"), ["Qochari"]);
+});
 
 test("parseCsv: quoted fields, embedded commas, newlines", () => {
   const rows = parseCsv('a,b,c\n"has, comma","line\nbreak",plain\n');

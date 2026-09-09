@@ -1,0 +1,41 @@
+slug: matsun
+name:
+  hy: Մածուն
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: Left arm around back, right arm on near shoulder
+  en: null
+  status: known
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Անդոկ - Մածուն եմ դրել վըր դարուն
+    kind: performance
+recordings:
+  - file: matsun/rec-01.mp3
+    performer: Մածուն «Կարին համույթ» Մածուն եմ դրել վըր դարում Macun
+    tempo_bpm: null
+    is_default: true
+  - file: matsun/rec-02.mp3
+    performer: Մածուն եմ դրել վըր դարում Մուրադյան անսամբլ
+    tempo_bpm: null
+    is_default: false
+  - file: matsun/rec-03.mp3
+    performer: Մածուն եմ դրել վըր դարուն «Բեկոր ավանդական երգի պարի խումբ» Matsun
+    tempo_bpm: null
+    is_default: false

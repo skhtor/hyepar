@@ -1,0 +1,45 @@
+slug: deriko
+name:
+  hy: Դերիկո
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: shoulders
+difficulty: null
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ՄԱՍՈՒՆՔ» - Դերիկո | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 7) - YouTube
+    kind: performance
+recordings:
+  - file: deriko/rec-01.mp3
+    performer: Դերիկո - «Մասունք համույթ» - Deriko
+    tempo_bpm: null
+    is_default: true
+  - file: deriko/rec-02.mp3
+    performer: Դերիկո - Գաթա
+    tempo_bpm: null
+    is_default: false
+  - file: deriko/rec-03.mp3
+    performer: Դերիկո
+    tempo_bpm: null
+    is_default: false
+  - file: deriko/rec-04.mp3
+    performer: Լորկե, Դաբկի
+    tempo_bpm: null
+    is_default: false

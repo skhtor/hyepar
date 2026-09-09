@@ -1,0 +1,56 @@
+slug: kham-khama
+name:
+  hy: Խամ խամա
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: Held above waist
+  en: null
+  status: known
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: KARIN - KHAMKHAMA | «ԿԱՐԻՆ» - Խամխամա | «ՀԻՐՈՒՐ ԽԵԴ» - YouTube
+    kind: performance
+  - url: null
+    title: Ուս ուսի. Խըմ-խըմա - YouTube
+    kind: tutorial
+recordings:
+  - file: kham-khama/rec-01.flac
+    performer: Kayt - Kham Khama
+    tempo_bpm: null
+    is_default: true
+  - file: kham-khama/rec-02.mp3
+    performer: Խամ խամա - «Թոմ Բոզիկյան» - Kham Khama
+    tempo_bpm: null
+    is_default: false
+  - file: kham-khama/rec-03.mp3
+    performer: Խամխամա (Կարին)
+    tempo_bpm: null
+    is_default: false
+  - file: kham-khama/rec-04.mp3
+    performer: Խամխամա - «Կայթ» - Khamkhama Kayt
+    tempo_bpm: null
+    is_default: false
+  - file: kham-khama/rec-05.mp3
+    performer: Խամխամա 4 - Կաթիլ բենդ
+    tempo_bpm: null
+    is_default: false
+  - file: kham-khama/rec-06.mp3
+    performer: խամ խամա երաժշտություն
+    tempo_bpm: null
+    is_default: false

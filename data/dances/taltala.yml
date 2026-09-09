@@ -1,0 +1,108 @@
+slug: taltala
+name:
+  hy: Տալտալա
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Taltala - ՏԱԼՏԱԼԱ - Սասնա Ծռեր - Sasna Crer - YouTube
+    kind: performance
+  - url: null
+    title: Ուս ուսի. Տալտալա
+    kind: tutorial
+recordings:
+  - file: taltala/rec-01.flac
+    performer: Kayt - Tal Tala
+    tempo_bpm: null
+    is_default: true
+  - file: taltala/rec-02.mp3
+    performer: Tal tala
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-03.mp3
+    performer: Տալտալա (Արման Փարսյան)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-04.mp3
+    performer: Տալտալա (Ծովակ)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-05.mp3
+    performer: Տալտալա (Մուրադյան անսամբլ)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-06.mp3
+    performer: Տալտալա (Չուկազյան անսամբլ)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-07.mp3
+    performer: Տալտալա (Վան)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-08.mp3
+    performer: Տալտալա (երգ)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-09.mp3
+    performer: Տալտալա - Taltala (5)
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-10.mp3
+    performer: Տալտալա - «Ավագ Մարգարյան» - Taltala
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-11.mp3
+    performer: Տալտալա - «Կայթ» - Taltala Kayt
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-12.mp3
+    performer: Տալտալա - «Մասունք համույթ» - Taltala
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-13.mp3
+    performer: Տալտալա Tal tala
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-14.mp3
+    performer: Տալտալա-Taltala-2
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-15.mp3
+    performer: Տալտալա-Taltala-3
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-16.mp3
+    performer: Տալտալա-Taltala
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-17.mp3
+    performer: Տալտալա-Արման Փարսյան
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-18.mp3
+    performer: Տալտալա
+    tempo_bpm: null
+    is_default: false
+  - file: taltala/rec-19.mp3
+    performer: Տալտալա «Սասնա ծռեր համույթ» Taltala Sasna Crer Folk Group
+    tempo_bpm: null
+    is_default: false

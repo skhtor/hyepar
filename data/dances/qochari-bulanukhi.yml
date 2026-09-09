@@ -1,0 +1,39 @@
+slug: qochari-bulanukhi
+name:
+  hy: Քոչարի Բուլանուխի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 3
+energy: null
+gender: null
+family_tags:
+  - Qochari
+notes:
+  hy: Move arms to back when it gets fast
+  en: null
+  status: known
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Masunq Ensemble - Kochari from Bulanekh | Մասունք - Բուլանըխի Քոչարի
+      (ԸՆՏԱՆԻՔԸ ՈՒԺ Է)
+    kind: performance
+recordings:
+  - file: qochari-bulanukhi/rec-01.mp3
+    performer: Բուլանխի-քոչարի-Bulanxi-qochari
+    tempo_bpm: null
+    is_default: true
+  - file: qochari-bulanukhi/rec-02.mp3
+    performer: Քոչարի Բուլանխի «Մասունք համույթ» Bulanxi qochari
+    tempo_bpm: null
+    is_default: false

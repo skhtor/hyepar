@@ -1,0 +1,57 @@
+slug: chachane
+name:
+  hy: Չաչանե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 3
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «Ծովակ» խմբի մենահամերգ | 28.06.2023 | Չաչանե - YouTube
+    kind: performance
+recordings:
+  - file: chachane/rec-01.mp3
+    performer: Չաչանե (Ակունք)
+    tempo_bpm: null
+    is_default: true
+  - file: chachane/rec-02.mp3
+    performer: Չաչանե (Արայիկ Մկոյան)
+    tempo_bpm: null
+    is_default: false
+  - file: chachane/rec-03.mp3
+    performer: Չաչանե (Սասուն)
+    tempo_bpm: null
+    is_default: false
+  - file: chachane/rec-04.mp3
+    performer: Չաչանե Տիգրանակերտ
+    tempo_bpm: null
+    is_default: false
+  - file: chachane/rec-05.mp3
+    performer: Չաչանե-Chachane-2
+    tempo_bpm: null
+    is_default: false
+  - file: chachane/rec-06.mp3
+    performer: Չաչանե-Chachane
+    tempo_bpm: null
+    is_default: false
+  - file: chachane/rec-07.mp3
+    performer: Չաչանե և Ծաղկաձորի Գևորգ Դաբաղյան
+    tempo_bpm: null
+    is_default: false

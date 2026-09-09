@@ -1,0 +1,97 @@
+slug: ishkhanats-par
+name:
+  hy: Իշխանաց պար
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 4
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «Կարին» - Իշխանաց պար
+    kind: performance
+  - url: null
+    title: Իշխանաց պար - Ուսուցողական հոլովակ | Ishkhanats Par (Dance of Lords) -
+      Teaching Video
+    kind: tutorial
+recordings:
+  - file: ishkhanats-par/rec-01.mp3
+    performer: Իշխանաց պար (Գառնի)
+    tempo_bpm: null
+    is_default: true
+  - file: ishkhanats-par/rec-02.mp3
+    performer: Իշխանաց պար (Սասնա ծռեր)
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-03.mp3
+    performer: Իշխանաց պար (Վերադարձ)
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-04.mp3
+    performer: Իշխանաց պար Ակունք)
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-05.mp3
+    performer: Իշխանաց պար Կարին
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-06.mp3
+    performer: Իշխանաց պար, Թամզարա (Սասնա ծռեր)
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-07.mp3
+    performer: Իշխանաց պար-Ակունք
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-08.mp3
+    performer: Իշխանաց պար-Սասնա ծռեր
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-09.mp3
+    performer: Իշխանաց պար
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-10.mp3
+    performer: Իշխանաց-Պար-Շեյխանի-Ishxanac-par-Sheykhani-erkar
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-11.mp3
+    performer: Իշխանաց Պար Շեյխանի Ishxanac par Sheykhani erkar
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-12.mp3
+    performer: Իշխանաց Պար Շեյխանի Շողակն Ishxanac par Sheykhani erkar
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-13.mp3
+    performer: Իշխանաց պար Շեյխանի «Բեկոր ավանդական երգի պարի խումբ» Ishkhanats
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-14.mp3
+    performer: Իշխանաց պար Շեյխանի «Սասնա ծռեր համույթ» Ishkhanats par Sheykhani
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-15.mp3
+    performer: Շեյխանի (Ակունք)
+    tempo_bpm: null
+    is_default: false
+  - file: ishkhanats-par/rec-16.mp3
+    performer: Շեյխանի Երվանդ և Վահան Դավուդյաններ
+    tempo_bpm: null
+    is_default: false

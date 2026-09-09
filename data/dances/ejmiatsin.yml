@@ -1,0 +1,52 @@
+slug: ejmiatsin
+name:
+  hy: Էջմիածին
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: '"Karin" ensemble - Ejmiatsin (Armenian folk dance)'
+    kind: performance
+  - url: null
+    title: Էջմիածին - Ուսուցողական հոլովակ | Ejmiatzin - Teaching Video
+    kind: tutorial
+recordings:
+  - file: ejmiatsin/rec-01.mp3
+    performer: Էջմիածին (Ծովակ)
+    tempo_bpm: null
+    is_default: true
+  - file: ejmiatsin/rec-02.mp3
+    performer: Էջմիածին - «Կարին համույթ» - Ejmiatsin
+    tempo_bpm: null
+    is_default: false
+  - file: ejmiatsin/rec-03.mp3
+    performer: Էջմիածին - Կարին համերգ
+    tempo_bpm: null
+    is_default: false
+  - file: ejmiatsin/rec-04.mp3
+    performer: Էջմիածին-Ejmiatsin
+    tempo_bpm: null
+    is_default: false
+  - file: ejmiatsin/rec-05.mp3
+    performer: Էջմիածին «Նուբար համույթ» Ejmiatsin
+    tempo_bpm: null
+    is_default: false

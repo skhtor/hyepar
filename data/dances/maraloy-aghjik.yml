@@ -1,0 +1,38 @@
+slug: maraloy-aghjik
+name:
+  hy: Մարալոյ աղջիկ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: maraloy-aghjik/rec-01.mp3
+    performer: Մարալոյ աղջիկ - կարճ
+    tempo_bpm: null
+    is_default: true
+  - file: maraloy-aghjik/rec-02.mp3
+    performer: Մարալոյ աղջիկ
+    tempo_bpm: null
+    is_default: false
+  - file: maraloy-aghjik/rec-03.mp3
+    performer: Մարալոյ աղջիկ «Մասունք համույթ» Maraloy axjik
+    tempo_bpm: null
+    is_default: false

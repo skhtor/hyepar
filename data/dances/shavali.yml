@@ -1,0 +1,44 @@
+slug: shavali
+name:
+  hy: Շավալի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: pinkies
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Shavali / Կարին-Շավալի
+    kind: performance
+  - url: null
+    title: Շավալի - Ուսուցողական հոլովակ | Shavali - Teaching Video
+    kind: tutorial
+recordings:
+  - file: shavali/rec-01.mp3
+    performer: Շավալի, Խոշ բիլազիկ «Կարին համույթ» Shavali Xosh bilazig
+    tempo_bpm: null
+    is_default: true
+  - file: shavali/rec-02.mp3
+    performer: Շավալի, խոշ բիլազիգ Օազիս անսամբլ
+    tempo_bpm: null
+    is_default: false
+  - file: shavali/rec-03.mp3
+    performer: Շավալի և խոշ բիլազիկ Թոմ Բոզիգյան
+    tempo_bpm: null
+    is_default: false

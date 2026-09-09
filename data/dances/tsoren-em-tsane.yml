@@ -1,0 +1,34 @@
+slug: tsoren-em-tsane
+name:
+  hy: Ցորեն եմ ցանե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: tsoren-em-tsane/rec-01.mp3
+    performer: Ցորեն եմ ցանել - Վարք Հայոց
+    tempo_bpm: null
+    is_default: true
+  - file: tsoren-em-tsane/rec-02.mp3
+    performer: Ցորեն եմ ցանե «Մասունք համույթ» Coren em cane
+    tempo_bpm: null
+    is_default: false

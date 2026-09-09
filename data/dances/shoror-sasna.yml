@@ -1,0 +1,34 @@
+slug: shoror-sasna
+name:
+  hy: Շորոր Սասնա
+  en: null
+  romanized: null
+  aliases: []
+region: Sasun
+hold_type: pinkies
+difficulty: 2
+energy: null
+gender: null
+family_tags:
+  - Shoror
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Սասուն - Սասնա Շորոր («Պար, որ կռիվ դարձավ» - համերգ-երեկո) - YouTube
+    kind: performance
+recordings:
+  - file: shoror-sasna/rec-01.mp3
+    performer: Շորոր (Սասնա) - (Նորայր Քամալյան)
+    tempo_bpm: null
+    is_default: true

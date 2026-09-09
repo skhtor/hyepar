@@ -1,0 +1,46 @@
+slug: qochari-vana
+name:
+  hy: Քոչարի Վանա
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags:
+  - Qochari
+notes:
+  hy: Starts arancin then joins with arms behind backs
+  en: null
+  status: known
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ՄԱՍՈՒՆՔ» - Վանա Քոչարի | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 21) - YouTube
+    kind: performance
+recordings:
+  - file: qochari-vana/rec-01.mp3
+    performer: Քոչարի (Սղերդի, Վանա) - (Ակունք)
+    tempo_bpm: null
+    is_default: true
+  - file: qochari-vana/rec-02.mp3
+    performer: Քոչարի (Սղերդի, Վանա)
+    tempo_bpm: null
+    is_default: false
+  - file: qochari-vana/rec-03.mp3
+    performer: Քոչարի Սղերդի, Վանա «Կարին համույթ» Sxerdi Vana Qochari
+    tempo_bpm: null
+    is_default: false
+  - file: qochari-vana/rec-04.mp3
+    performer: Քոչարի Սղերդի, Վանա «Կարին համույթ» Sxerdi Vana Qochari 2
+    tempo_bpm: null
+    is_default: false

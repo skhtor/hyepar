@@ -1,0 +1,52 @@
+slug: lutki
+name:
+  hy: Լուտկի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: null
+difficulty: 3
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ԿԱՐԻՆ» - Լուտկի | KARIN - Lutki
+    kind: performance
+  - url: null
+    title: «Ուս ուսի» Լուտկի
+    kind: tutorial
+recordings:
+  - file: lutki/rec-01.mp3
+    performer: Լուտկի (Ակունք)
+    tempo_bpm: null
+    is_default: true
+  - file: lutki/rec-02.mp3
+    performer: Լուտկի (Ավագ Մարգարյան)
+    tempo_bpm: null
+    is_default: false
+  - file: lutki/rec-03.mp3
+    performer: Լուտկի (Վերադարձ)
+    tempo_bpm: null
+    is_default: false
+  - file: lutki/rec-04.mp3
+    performer: Լուտկի - «Կարին համույթ» - Lutki
+    tempo_bpm: null
+    is_default: false
+  - file: lutki/rec-05.mp3
+    performer: Քերծի և Լուտկի-Վերադարձ
+    tempo_bpm: null
+    is_default: false

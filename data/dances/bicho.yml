@@ -1,0 +1,33 @@
+slug: bicho
+name:
+  hy: Բիճո
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 3
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Ավագ դպրոց 11-րդ դասարաններ. «Բիճո» - YouTube
+    kind: performance
+recordings:
+  - file: bicho/rec-01.mp3
+    performer: Բիճո - «Թոմ Բոզիկյան» - Bijo
+    tempo_bpm: null
+    is_default: true

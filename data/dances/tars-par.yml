@@ -1,0 +1,48 @@
+slug: tars-par
+name:
+  hy: Թարս պար
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Կարին - Թարս պար | «ՀԱՅՈՑ ԵՐԳԻ ՀԱՅՐԻԿԸ» - 2
+    kind: performance
+  - url: null
+    title: Թարս պար - Ուսուցողական հոլովակ | Tars Par - Teaching Video
+    kind: tutorial
+recordings:
+  - file: tars-par/rec-01.mp3
+    performer: Tars par
+    tempo_bpm: null
+    is_default: true
+  - file: tars-par/rec-02.mp3
+    performer: Թարս պար - «Կարին համույթ» - Tars par
+    tempo_bpm: null
+    is_default: false
+  - file: tars-par/rec-03.mp3
+    performer: Թարս-պար-Tars-par
+    tempo_bpm: null
+    is_default: false
+  - file: tars-par/rec-04.mp3
+    performer: Թարս պար «Մուրադյան անսայմբլ» Tars par
+    tempo_bpm: null
+    is_default: false

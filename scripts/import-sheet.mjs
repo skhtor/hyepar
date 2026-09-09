@@ -27,6 +27,7 @@ import {
   splitVideoColumns,
   extractRegion,
   slugify,
+  inferFamilyTags,
   HOLD_TYPES,
 } from "./lib/parse.mjs";
 
@@ -141,7 +142,7 @@ async function main() {
       difficulty: parseStarRating(r[3]),
       energy: parseStarRating(r[4]),
       gender: null,
-      family_tags: [],
+      family_tags: inferFamilyTags(name_hy, slug),
       notes: textField(r[9]),
       background: textField(r[10]),
       lyrics: textField(r[11]),

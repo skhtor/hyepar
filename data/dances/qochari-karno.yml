@@ -1,0 +1,41 @@
+slug: qochari-karno
+name:
+  hy: Քոչարի Կարնո
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: palms
+difficulty: 2
+energy: null
+gender: null
+family_tags:
+  - Qochari
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Կարին - Կարնո Քոչարի | Karin - Karno Kochari
+    kind: performance
+  - url: null
+    title: Կարնո Քոչարի - Ուսուցողական հոլովակ | Karno Kochari - Teaching Video
+    kind: tutorial
+recordings:
+  - file: qochari-karno/rec-01.mp3
+    performer: Քոչարի (Կարնո)  Karno Qochari (հին)
+    tempo_bpm: null
+    is_default: true
+  - file: qochari-karno/rec-02.mp3
+    performer: Քոչարի (Կարնո) - (Կարին)
+    tempo_bpm: null
+    is_default: false

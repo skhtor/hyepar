@@ -1,0 +1,40 @@
+slug: ereq-otq-karno
+name:
+  hy: Երեք ոտք Կարնո
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: palms
+difficulty: null
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Erek Votk / Կարին - Երեք ոտք - YouTube
+    kind: performance
+  - url: null
+    title: Ուս ուսի․ Երեք ոտք - YouTube
+    kind: tutorial
+recordings:
+  - file: ereq-otq-karno/rec-01.mp3
+    performer: Երեք-ոտք-Կարնո-Ereq-3-votq-Karno
+    tempo_bpm: null
+    is_default: true
+  - file: ereq-otq-karno/rec-02.mp3
+    performer: Երեք ոտք Կարնո «Կարին համույթ» Ereq 3 votq Karno
+    tempo_bpm: null
+    is_default: false

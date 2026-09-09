@@ -1,0 +1,68 @@
+slug: papuri
+name:
+  hy: Փափուռի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: shoulders
+difficulty: 3
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Կարին - Փափուռի | Karin - Papuri
+    kind: performance
+  - url: null
+    title: Փափուռի - Ուսուցողական հոլովակ | Papuri - Teaching Video
+    kind: tutorial
+recordings:
+  - file: papuri/rec-01.mp3
+    performer: Մշո խռ, Մայրոքե, Փափուռի «Գաթա բենդ» Ազգագրական
+    tempo_bpm: null
+    is_default: true
+  - file: papuri/rec-02.mp3
+    performer: Փափուռի (Ծովակ)
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-03.mp3
+    performer: Փափուռի (Շողակն)
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-04.mp3
+    performer: Փափուռի (Չուկազյան անսամբլ)
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-05.mp3
+    performer: Փափուռի - «Կարին համույթ» - Papuri (2)
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-06.mp3
+    performer: Փափուռի - «Ղևիկ» -
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-07.mp3
+    performer: Փափուռի 2(Խորգոմ)
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-08.mp3
+    performer: Փափուռի «Արման Փարսյան, Կարեն Զադիրյան, Կորյուն Հակոբյան» Papuri
+    tempo_bpm: null
+    is_default: false
+  - file: papuri/rec-09.mp3
+    performer: Փափուռի «Սասուն համույթ» Papuri 2
+    tempo_bpm: null
+    is_default: false

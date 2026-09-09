@@ -1,0 +1,41 @@
+slug: asmar
+name:
+  hy: Ասմար
+  en: null
+  romanized: null
+  aliases: []
+region: Sasun
+hold_type: pinkies
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Սասուն - Ասմար յաման - YouTube
+    kind: performance
+recordings:
+  - file: asmar/rec-01.mp3
+    performer: Ասմար - Սասուն
+    tempo_bpm: null
+    is_default: true
+  - file: asmar/rec-02.mp3
+    performer: Ասմարանի (Շողակն)
+    tempo_bpm: null
+    is_default: false
+  - file: asmar/rec-03.mp3
+    performer: Լաչին Ասմար «Սասուն համույթ» Անդրանիկ Մանուկյան Lachin AsmarSasun
+    tempo_bpm: null
+    is_default: false

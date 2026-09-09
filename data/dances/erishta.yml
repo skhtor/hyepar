@@ -1,0 +1,33 @@
+slug: erishta
+name:
+  hy: Էրիշտա
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: shoulders
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Մասունք - Էրիշտա (ԸՆՏԱՆԻՔԸ ՈՒԺ Է) - YouTube
+    kind: performance
+recordings:
+  - file: erishta/rec-01.mp3
+    performer: Էրիշտա-Erishta
+    tempo_bpm: null
+    is_default: true

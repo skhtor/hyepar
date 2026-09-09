@@ -1,0 +1,36 @@
+slug: fnjan
+name:
+  hy: Ֆնջան
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 5
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ԿԱՐԻՆ» - ՖՆՋԱՆ (ԱԶԳԱՅԻՆ ՄՇԱԿՈՒՅԹԸ ՀԱՆՈՒՆ ԱՌՈՂՋ ՄԱԿՆՈՒԹՅԱՆ)
+    kind: performance
+  - url: null
+    title: Ֆնջան - Ուսուցողական հոլովակ | Fnjan - Teaching Video
+    kind: tutorial
+recordings:
+  - file: fnjan/rec-01.mp3
+    performer: Ֆնջան - «Կարին համույթ» - Fnjan
+    tempo_bpm: null
+    is_default: true

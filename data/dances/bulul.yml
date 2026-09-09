@@ -1,0 +1,45 @@
+slug: bulul
+name:
+  hy: Բուլուլ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags:
+  - Bulul
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Բուլուլ- Խոյ ազգային պարի խումբ - YouTube
+    kind: performance
+  - url: null
+    title: Ուս ուսի. Բուլուլ - YouTube
+    kind: tutorial
+recordings:
+  - file: bulul/rec-01.mp3
+    performer: Բուլուլ - «Կարին համույթ» - Bulul
+    tempo_bpm: null
+    is_default: true
+  - file: bulul/rec-02.mp3
+    performer: Բուլուլ-Bulul
+    tempo_bpm: null
+    is_default: false
+  - file: bulul/rec-03.mp3
+    performer: Բուլուլ «Բեկոր ավանդական երգի պարի խումբ» Bulul Bekor Folk Group
+    tempo_bpm: null
+    is_default: false

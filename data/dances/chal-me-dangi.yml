@@ -1,0 +1,42 @@
+slug: chal-me-dangi
+name:
+  hy: Չալ մը դանգի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: chal-me-dangi/rec-01.mp3
+    performer: Չալմը դանգի (հին)
+    tempo_bpm: null
+    is_default: true
+  - file: chal-me-dangi/rec-02.mp3
+    performer: Չալմը դանկը - Արմեն Մանդակունյան
+    tempo_bpm: null
+    is_default: false
+  - file: chal-me-dangi/rec-03.mp3
+    performer: Չալմը-Դանկի-Chalme-Danki
+    tempo_bpm: null
+    is_default: false
+  - file: chal-me-dangi/rec-04.mp3
+    performer: Չալմը դանգի «Կարին համույթ» Chalme Danki
+    tempo_bpm: null
+    is_default: false

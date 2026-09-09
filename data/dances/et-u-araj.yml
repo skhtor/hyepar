@@ -1,0 +1,53 @@
+slug: et-u-araj
+name:
+  hy: Ետ ու առաջ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «Մենք» - Ետ ու առաջ
+    kind: performance
+recordings:
+  - file: et-u-araj/rec-01.flac
+    performer: Kayt - Yet U Araj
+    tempo_bpm: null
+    is_default: true
+  - file: et-u-araj/rec-02.mp3
+    performer: Ետ ու առաջ (Կարին)
+    tempo_bpm: null
+    is_default: false
+  - file: et-u-araj/rec-03.mp3
+    performer: Ետ ու առաջ (Շողակն)
+    tempo_bpm: null
+    is_default: false
+  - file: et-u-araj/rec-04.mp3
+    performer: Ետ ու առաջ - «Կայթ» - Yet u araj Kayt
+    tempo_bpm: null
+    is_default: false
+  - file: et-u-araj/rec-05.mp3
+    performer: Մինիդուր, Ետ առաջ «Արեգ համույթ» Minindur, Et araj
+    tempo_bpm: null
+    is_default: false
+  - file: et-u-araj/rec-06.mp3
+    performer: Պարերի շարք Մինինդուր և ետ ու առաջ Վերադարձ
+    tempo_bpm: null
+    is_default: false

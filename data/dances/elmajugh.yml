@@ -1,0 +1,37 @@
+slug: elmajugh
+name:
+  hy: Էլմաջուղ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: shoulders
+difficulty: null
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Էլմաջուղ (Համշեն)
+    kind: performance
+recordings:
+  - file: elmajugh/rec-01.mp3
+    performer: Էլմաջուղ (Սպարտակ Սագարյան)
+    tempo_bpm: null
+    is_default: true
+  - file: elmajugh/rec-02.mp3
+    performer: Էլմաջուղ(Համշեն)
+    tempo_bpm: null
+    is_default: false

@@ -1,0 +1,41 @@
+slug: ververi-salmasti
+name:
+  hy: Վերվերի Սալմաստի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 4
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «Բեկոր» - Սալմաստի վերվերի - YouTube
+    kind: performance
+recordings:
+  - file: ververi-salmasti/rec-01.mp3
+    performer: Salmasti ververi
+    tempo_bpm: null
+    is_default: true
+  - file: ververi-salmasti/rec-02.mp3
+    performer: Վերվերի Սալմաստի
+    tempo_bpm: null
+    is_default: false
+  - file: ververi-salmasti/rec-03.mp3
+    performer: Վերվերի Սալմաստի «Բեկոր ավանդական երգի պարի խումբ» Ververi Salmast
+    tempo_bpm: null
+    is_default: false

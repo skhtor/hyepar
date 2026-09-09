@@ -1,0 +1,64 @@
+slug: tsaghkadzori
+name:
+  hy: Ծաղկաձորի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: shoulders
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Tsaghkadzori / Կարին - Ծաղկաձորի
+    kind: performance
+  - url: null
+    title: Ծաղկաձորի - Ուսուցողական հոլովակ | Tsaghkadzori - Teaching Video
+    kind: tutorial
+recordings:
+  - file: tsaghkadzori/rec-01.mp3
+    performer: Karin Ensemble - Tsaxkadzori
+    tempo_bpm: null
+    is_default: true
+  - file: tsaghkadzori/rec-02.mp3
+    performer: Ծաղկաձոր (Սասնա ծռեր)
+    tempo_bpm: null
+    is_default: false
+  - file: tsaghkadzori/rec-03.mp3
+    performer: Ծաղկաձորի (Ակունք)
+    tempo_bpm: null
+    is_default: false
+  - file: tsaghkadzori/rec-04.mp3
+    performer: Ծաղկաձորի (Սևադա Իրիցյան)
+    tempo_bpm: null
+    is_default: false
+  - file: tsaghkadzori/rec-05.mp3
+    performer: Ծաղկաձորի «Բեկոր ավանդական երգի պարի խումբ» Tsaxkadzori Bekor Folk
+    tempo_bpm: null
+    is_default: false
+  - file: tsaghkadzori/rec-06.mp3
+    performer: Ծաղկաձորի «Կարին համույթ» Tsaxkadzori
+    tempo_bpm: null
+    is_default: false
+  - file: tsaghkadzori/rec-07.mp3
+    performer: Ծաղկաձորի «Սասնա ծռեր համույթ» Tsakhkadzori Sasna Crer Folk Group
+    tempo_bpm: null
+    is_default: false
+  - file: tsaghkadzori/rec-08.mp3
+    performer: Չաչանե և Ծաղկաձորի Գևորգ Դաբաղյան
+    tempo_bpm: null
+    is_default: false

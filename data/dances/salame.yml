@@ -1,0 +1,48 @@
+slug: salame
+name:
+  hy: Սալամե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Амшенский танец SALAMA - YouTube
+    kind: performance
+  - url: null
+    title: Амшенский танец SALAMA - YouTube
+    kind: tutorial
+recordings:
+  - file: salame/rec-01.mp3
+    performer: Սալամե (Ակունք)
+    tempo_bpm: null
+    is_default: true
+  - file: salame/rec-02.mp3
+    performer: Սալամե (Սասուն)
+    tempo_bpm: null
+    is_default: false
+  - file: salame/rec-03.mp3
+    performer: Սալամե (Սպարտակ Սագարյան)(1)
+    tempo_bpm: null
+    is_default: false
+  - file: salame/rec-04.mp3
+    performer: Սալամե (Սպարտակ Սագարյան)
+    tempo_bpm: null
+    is_default: false

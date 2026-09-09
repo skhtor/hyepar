@@ -1,0 +1,42 @@
+slug: gyovnd-aparani
+name:
+  hy: Գյովնդ Ապարանի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: null
+energy: null
+gender: null
+family_tags:
+  - Govand
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Շուշվա կեղը, Ապարանի Գյովնդ - YouTube
+    kind: performance
+recordings:
+  - file: gyovnd-aparani/rec-01.mp3
+    performer: Գյովնդ Ապարանի (Հադիգոյ) - Ակունք
+    tempo_bpm: null
+    is_default: true
+  - file: gyovnd-aparani/rec-02.mp3
+    performer: Գյովնդ Ապարանի գյովնդ
+    tempo_bpm: null
+    is_default: false
+  - file: gyovnd-aparani/rec-03.mp3
+    performer: Գյովնդ Ապարանի Շուշվա կեղը «Վարը Վարենկ»
+    tempo_bpm: null
+    is_default: false

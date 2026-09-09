@@ -1,0 +1,36 @@
+slug: chochq
+name:
+  hy: Ճոճք
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: shoulders
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Shoror / Կարին - Շորոր - YouTube
+    kind: performance
+  - url: null
+    title: Շորոր (Ճոճք) - Ուսուցողական հոլովակ | Shoror (Chochq) - Teaching Video
+    kind: tutorial
+recordings:
+  - file: chochq/rec-01.mp3
+    performer: Ճոճք, շորոր - «Կարին համույթ» - Jojq
+    tempo_bpm: null
+    is_default: true

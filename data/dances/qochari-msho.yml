@@ -1,0 +1,46 @@
+slug: qochari-msho
+name:
+  hy: Քոչարի Մշո
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 3
+energy: null
+gender: null
+family_tags:
+  - Qochari
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Ուս ուսի. Մշո քոչարի
+    kind: performance
+recordings:
+  - file: qochari-msho/rec-01.mp3
+    performer: Քոչարի (Մշո) - (Կարին)
+    tempo_bpm: null
+    is_default: true
+  - file: qochari-msho/rec-02.mp3
+    performer: Քոչարի (Մշո) - (հին)
+    tempo_bpm: null
+    is_default: false
+  - file: qochari-msho/rec-03.mp3
+    performer: Քոչարի (Մշո) - «Ղևիկ»
+    tempo_bpm: null
+    is_default: false
+  - file: qochari-msho/rec-04.mp3
+    performer: Քոչարի Մշո «Կարին համույթ» Msho Qochari 2 2 .MP3
+    tempo_bpm: null
+    is_default: false

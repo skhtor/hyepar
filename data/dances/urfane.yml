@@ -1,0 +1,34 @@
+slug: urfane
+name:
+  hy: Ուրֆանե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: ԱԿՈՒՆՔ - Ույ Գոգ աղպար, Ուրֆանե/GUTAN 2015 - AKUNQ - Ui Gog Aghpar,
+      Urfane - YouTube
+    kind: performance
+recordings:
+  - file: urfane/rec-01.mp3
+    performer: Ուրֆանե (Ակունք)
+    tempo_bpm: null
+    is_default: true

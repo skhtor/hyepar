@@ -1,0 +1,49 @@
+slug: likili
+name:
+  hy: Լիկիլի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Likili - Masunq folk ensemble | Լիկիլի - Մասունք - YouTube
+    kind: performance
+recordings:
+  - file: likili/rec-01.mp3
+    performer: Լիկիլի (Մասունք - երգ)
+    tempo_bpm: null
+    is_default: true
+  - file: likili/rec-02.mp3
+    performer: Լիկիլի - «Մասունք համույթ» - Likili
+    tempo_bpm: null
+    is_default: false
+  - file: likili/rec-03.mp3
+    performer: Լիկիլի - Կարին
+    tempo_bpm: null
+    is_default: false
+  - file: likili/rec-04.mp3
+    performer: Լիկիլի Կարաոկե
+    tempo_bpm: null
+    is_default: false
+  - file: likili/rec-05.mp3
+    performer: Լիկիլի-Likili
+    tempo_bpm: null
+    is_default: false

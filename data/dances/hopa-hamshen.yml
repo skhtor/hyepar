@@ -1,0 +1,41 @@
+slug: hopa-hamshen
+name:
+  hy: Հոպա Համշեն
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Hopa - Hamshen (Hemşin) | «Մենք» - Հոպա (Համշեն) - YouTube
+    kind: performance
+recordings:
+  - file: hopa-hamshen/rec-01.flac
+    performer: Kayt - Hopa, Hamshen
+    tempo_bpm: null
+    is_default: true
+  - file: hopa-hamshen/rec-02.mp3
+    performer: Հոպա Համշեն - «Կայթ» - Hopa Hamshen Kayt
+    tempo_bpm: null
+    is_default: false
+  - file: hopa-hamshen/rec-03.mp3
+    performer: Հոպա համշեն(Մարսիս)
+    tempo_bpm: null
+    is_default: false

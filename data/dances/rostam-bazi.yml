@@ -1,0 +1,61 @@
+slug: rostam-bazi
+name:
+  hy: Ռոստամ բազի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: shoulders
+difficulty: 4
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Կարին - Ռստամ Բազի | Karin - Rostam Bazi
+    kind: performance
+  - url: null
+    title: Քաջաց Խաղ (Ռոստամ Բազի) - Ուսուցողական հոլովակ | Rostam Bazi - Teaching
+      Video
+    kind: tutorial
+recordings:
+  - file: rostam-bazi/rec-01.flac
+    performer: Kayt - Rostam Bazi
+    tempo_bpm: null
+    is_default: true
+  - file: rostam-bazi/rec-02.mp3
+    performer: Ռոստամ Բազի - «Կայթ» - Rostam Bazi Kayt
+    tempo_bpm: null
+    is_default: false
+  - file: rostam-bazi/rec-03.mp3
+    performer: Ռոստամ Բազի - «Կարին» - Rostam Bazi Karin
+    tempo_bpm: null
+    is_default: false
+  - file: rostam-bazi/rec-04.mp3
+    performer: Ռոստամ բազի (Ակունք)
+    tempo_bpm: null
+    is_default: false
+  - file: rostam-bazi/rec-05.mp3
+    performer: Ռոստամ բազի (Շողակն)
+    tempo_bpm: null
+    is_default: false
+  - file: rostam-bazi/rec-06.mp3
+    performer: Ռոստամ բազի Rostam bazi (Կարին)
+    tempo_bpm: null
+    is_default: false
+  - file: rostam-bazi/rec-07.mp3
+    performer: Ռոստամ բազի Երվանդ և Վահան Դավուդյաններ
+    tempo_bpm: null
+    is_default: false

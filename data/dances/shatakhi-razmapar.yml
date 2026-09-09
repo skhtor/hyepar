@@ -1,0 +1,73 @@
+slug: shatakhi-razmapar
+name:
+  hy: Շատախի ռազմապար
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: null
+difficulty: 4
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Շատախի Ռազմապար - ԿԱՐԻՆ | Shatakh Military Dance - KARIN | Shatakhi
+      Razmapar
+    kind: performance
+  - url: null
+    title: Ուս ուսի. Շատախի ռազմապար
+    kind: tutorial
+recordings:
+  - file: shatakhi-razmapar/rec-01.mp3
+    performer: Shataxi Razmapar (Drums Only Edit)
+    tempo_bpm: null
+    is_default: true
+  - file: shatakhi-razmapar/rec-02.mp3
+    performer: Shataxi Razmapar
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-03.mp3
+    performer: Լորկե Շատախի ռազմապար Սասուն հին
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-04.mp3
+    performer: Շատախի լորկե
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-05.mp3
+    performer: Շատախի մառտական լորկե
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-06.mp3
+    performer: Շատախի ռազմապար Shataxi razmapar (Կարին)
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-07.mp3
+    performer: Շատախի-ռազմապար-Մարտական-Shataxi-razmapar-Martakan-2
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-08.mp3
+    performer: Շատախի-ռազմապար-Մարտական-Shataxi-razmapar-Martakan-3
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-09.mp3
+    performer: Շատախի ռազմապար Մարտական Արայիկ Մկոյան Shataxi razmapar Martakan
+    tempo_bpm: null
+    is_default: false
+  - file: shatakhi-razmapar/rec-10.mp3
+    performer: Շատախի ռազմապար Շատախի մարտական «Սասուն համույթ» Shataxi razmapar
+    tempo_bpm: null
+    is_default: false

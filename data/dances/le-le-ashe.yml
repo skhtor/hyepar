@@ -1,0 +1,34 @@
+slug: le-le-ashe
+name:
+  hy: Լե լե աշե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ՄԱՍՈՒՆՔ» - Լե-լե աշե պարերգ կամ Թեշուգ-թեշինգո | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 4) -
+      YouTube
+    kind: performance
+recordings:
+  - file: le-le-ashe/rec-01.mp3
+    performer: Լե լե աշե «Մասունք համույթ» le le ashe
+    tempo_bpm: null
+    is_default: true

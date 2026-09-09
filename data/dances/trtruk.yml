@@ -1,0 +1,48 @@
+slug: trtruk
+name:
+  hy: Թրթռուկ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ԿԱՐԻՆ» - Համշենի Թռթռուկ | «ՊԱՐՔ ԲԱՆԱԿԱՑ» - ՄԱՍ 9 - YouTube
+    kind: performance
+  - url: null
+    title: Թռթռուգ - Ուսուցողական հոլովակ | Trtrug - Teaching Video
+    kind: tutorial
+recordings:
+  - file: trtruk/rec-01.mp3
+    performer: Թրթռուգ (արագ) - Վերադարձ
+    tempo_bpm: null
+    is_default: true
+  - file: trtruk/rec-02.mp3
+    performer: Թրթռուկ (Սպարտակ Սագարյան - 2)
+    tempo_bpm: null
+    is_default: false
+  - file: trtruk/rec-03.mp3
+    performer: Թրթռուկ (Սպարտակ Սագարյան)
+    tempo_bpm: null
+    is_default: false
+  - file: trtruk/rec-04.mp3
+    performer: Թրթռուկ Հոռոնու Համշեն «Վովա» Hamshen trtruk horonu
+    tempo_bpm: null
+    is_default: false

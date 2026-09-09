@@ -1,0 +1,72 @@
+slug: qertsi
+name:
+  hy: Քերծի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Qertsi / Կարին - Քերծի
+    kind: performance
+  - url: null
+    title: Քերծի - Ուսուցողական հոլովակ | Kertsi - Teaching Video
+    kind: tutorial
+recordings:
+  - file: qertsi/rec-01.mp3
+    performer: Քերծի (Արայիկ Մկոյան)
+    tempo_bpm: null
+    is_default: true
+  - file: qertsi/rec-02.mp3
+    performer: Քերծի (Արման Փարսյան)
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-03.mp3
+    performer: Քերծի (Կարին)
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-04.mp3
+    performer: Քերծի (Սասուն - հին)
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-05.mp3
+    performer: Քերծի - «Սասուն համույթ» - Qertsi
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-06.mp3
+    performer: Քերծի Ոզմի ռազմական պար
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-07.mp3
+    performer: Քերծի կեսից -Արման Փարսյան
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-08.mp3
+    performer: Քերծի և Լուտկի-Վերադարձ
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-09.mp3
+    performer: Քերծի-Qerci-3
+    tempo_bpm: null
+    is_default: false
+  - file: qertsi/rec-10.mp3
+    performer: Քերծի-Qerci
+    tempo_bpm: null
+    is_default: false

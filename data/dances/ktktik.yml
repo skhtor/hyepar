@@ -1,0 +1,49 @@
+slug: ktktik
+name:
+  hy: Կտկտիկ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Արդվին - Կտկտիկ - YouTube
+    kind: performance
+recordings:
+  - file: ktktik/rec-01.mp3
+    performer: Կտկտիկ (Նորայր Քարտաշյան)
+    tempo_bpm: null
+    is_default: true
+  - file: ktktik/rec-02.mp3
+    performer: Կտկտիկ (Սասուն)
+    tempo_bpm: null
+    is_default: false
+  - file: ktktik/rec-03.mp3
+    performer: Կտկտիկ Ktkrik
+    tempo_bpm: null
+    is_default: false
+  - file: ktktik/rec-04.mp3
+    performer: Կտկտիկ Փալանչո (Գառնի)
+    tempo_bpm: null
+    is_default: false
+  - file: ktktik/rec-05.mp3
+    performer: Կտկտիկ-Ktktik
+    tempo_bpm: null
+    is_default: false

@@ -1,0 +1,49 @@
+slug: lachin
+name:
+  hy: Լաչին
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Ուս ուսի․ Լաչին - YouTube
+    kind: tutorial
+recordings:
+  - file: lachin/rec-01.mp3
+    performer: Լաչին (Կարին) 2.MP3
+    tempo_bpm: null
+    is_default: true
+  - file: lachin/rec-02.mp3
+    performer: Լաչին (Կարին)
+    tempo_bpm: null
+    is_default: false
+  - file: lachin/rec-03.mp3
+    performer: Լաչին Ասմար «Սասուն համույթ» Անդրանիկ Մանուկյան Lachin AsmarSasun
+    tempo_bpm: null
+    is_default: false
+  - file: lachin/rec-04.mp3
+    performer: Լաչինի մանան
+    tempo_bpm: null
+    is_default: false
+  - file: lachin/rec-05.mp3
+    performer: Լաչինու մանան
+    tempo_bpm: null
+    is_default: false

@@ -1,0 +1,46 @@
+slug: tovlama
+name:
+  hy: Թովլամա
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: https://www.youtube.com/clip/UgkxKAS2Ge12yspgXQ2pdNYnGFiClbf65sjk
+    title: https://www.youtube.com/clip/UgkxKAS2Ge12yspgXQ2pdNYnGFiClbf65sjk
+    kind: performance
+recordings:
+  - file: tovlama/rec-01.mp3
+    performer: «Ծովակ» - Իշխանաց պար, Թովլամա, Մամըռ  «Գութան» 2024 - «Մրրո» ազգային
+      արվեստի կենտրոն
+    tempo_bpm: null
+    is_default: true
+  - file: tovlama/rec-02.mp3
+    performer: Թովլամա 1 Երվանդ և Վահան Դավուդյաններ
+    tempo_bpm: null
+    is_default: false
+  - file: tovlama/rec-03.mp3
+    performer: Թովլամա 2 Երվանդ և Վահան Դավուդյաններ
+    tempo_bpm: null
+    is_default: false
+  - file: tovlama/rec-04.mp3
+    performer: Թովլամա 3 Երվանդ և Վահան Դավուդյաններ
+    tempo_bpm: null
+    is_default: false

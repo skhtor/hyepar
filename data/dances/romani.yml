@@ -1,0 +1,46 @@
+slug: romani
+name:
+  hy: Ռոմանի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: romani/rec-01.mp3
+    performer: Ռոմանի (Արմեն Փարսյան)
+    tempo_bpm: null
+    is_default: true
+  - file: romani/rec-02.mp3
+    performer: Ռոմանի (Սասուն) հին
+    tempo_bpm: null
+    is_default: false
+  - file: romani/rec-03.mp3
+    performer: Ռոմանի (Սասուն)
+    tempo_bpm: null
+    is_default: false
+  - file: romani/rec-04.mp3
+    performer: Ռոմանի - Romani (1)
+    tempo_bpm: null
+    is_default: false
+  - file: romani/rec-05.mp3
+    performer: Ռոմանի
+    tempo_bpm: null
+    is_default: false

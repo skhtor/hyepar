@@ -1,0 +1,37 @@
+slug: arzumani
+name:
+  hy: Արզումանի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Sasna Crer folk - ԱՐԶՈՒՄԱՆԻ -ARZUMANI
+    kind: performance
+recordings:
+  - file: arzumani/rec-01.mp3
+    performer: Արզումանի «Վերադարձ համույթ» Arzumani
+    tempo_bpm: null
+    is_default: true
+  - file: arzumani/rec-02.mp3
+    performer: Արզումանի Դանդաղ «Սասնա ծռեր համույթ» Arzumani Sasna Crer Folk Group
+    tempo_bpm: null
+    is_default: false

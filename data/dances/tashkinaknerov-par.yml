@@ -1,0 +1,57 @@
+slug: tashkinaknerov-par
+name:
+  hy: Թաշկինակներով պար
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 2
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: Tashkinaks
+  en: null
+  status: known
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Մասունք - Թաշկինակներով պար - YouTube
+    kind: performance
+recordings:
+  - file: tashkinaknerov-par/rec-01.mp3
+    performer: Գորանի Հանինա, Վերվերի, Թաշկինակներով պար
+    tempo_bpm: null
+    is_default: true
+  - file: tashkinaknerov-par/rec-02.mp3
+    performer: Թաշկինակներով պար (Մասունք - հին)
+    tempo_bpm: null
+    is_default: false
+  - file: tashkinaknerov-par/rec-03.mp3
+    performer: Թաշկինակներով պար (Մասունք - նոր)
+    tempo_bpm: null
+    is_default: false
+  - file: tashkinaknerov-par/rec-04.mp3
+    performer: Թաշկինակներով պար «Նուբար խումբ» Tashkinaknerov par.MP3
+    tempo_bpm: null
+    is_default: false
+  - file: tashkinaknerov-par/rec-05.mp3
+    performer: Թաշկինակներով պար շարան «Նուբար խումբ»
+    tempo_bpm: null
+    is_default: false
+  - file: tashkinaknerov-par/rec-06.mp3
+    performer: Թաշկինակներով պար շարան «Նուբար խումբ» Tashkinaknerov par.MP3
+    tempo_bpm: null
+    is_default: false
+  - file: tashkinaknerov-par/rec-07.mp3
+    performer: Թաշկիներով պար Երկար Մասունք, Նուբար
+    tempo_bpm: null
+    is_default: false

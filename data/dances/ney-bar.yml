@@ -1,0 +1,50 @@
+slug: ney-bar
+name:
+  hy: Նեյ բար
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: ney-bar/rec-01.mp3
+    performer: Նեյ բար (Համշեն)
+    tempo_bpm: null
+    is_default: true
+  - file: ney-bar/rec-02.mp3
+    performer: Նեյ բար (Մասունք)
+    tempo_bpm: null
+    is_default: false
+  - file: ney-bar/rec-03.mp3
+    performer: Նեյ բար (Շողակն)
+    tempo_bpm: null
+    is_default: false
+  - file: ney-bar/rec-04.mp3
+    performer: Նեյ բար (Սպարտակ Սագարյան)
+    tempo_bpm: null
+    is_default: false
+  - file: ney-bar/rec-05.mp3
+    performer: Նեյ բար - «Մասունք համույթ» - Ney bar
+    tempo_bpm: null
+    is_default: false
+  - file: ney-bar/rec-06.mp3
+    performer: Նեյ բար
+    tempo_bpm: null
+    is_default: false

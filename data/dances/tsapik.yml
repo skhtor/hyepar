@@ -1,0 +1,56 @@
+slug: tsapik
+name:
+  hy: Ծափիկ
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: palms
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: «ՄԱՍՈՒՆՔ» - Ծափիկ բար (ՆՎԻՐԻՐ ՀՈՒՅՍ - 2014) - YouTube
+    kind: performance
+  - url: null
+    title: Ուս ուսի. Համշենի ծափիկ
+    kind: tutorial
+recordings:
+  - file: tsapik/rec-01.mp3
+    performer: Ծափիկ (Ակունք)
+    tempo_bpm: null
+    is_default: true
+  - file: tsapik/rec-02.mp3
+    performer: Ծափիկ (Նուբար)
+    tempo_bpm: null
+    is_default: false
+  - file: tsapik/rec-03.mp3
+    performer: Ծափիկ-Համշեն-Tsapik-Hamshen-Arag
+    tempo_bpm: null
+    is_default: false
+  - file: tsapik/rec-04.mp3
+    performer: Ծափիկ
+    tempo_bpm: null
+    is_default: false
+  - file: tsapik/rec-05.mp3
+    performer: Ծափիկ Համշեն Սպարտակ Սագարյան «Քարավան»
+    tempo_bpm: null
+    is_default: false
+  - file: tsapik/rec-06.mp3
+    performer: Հոպա Համշեն - «Կայթ»
+    tempo_bpm: null
+    is_default: false

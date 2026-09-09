@@ -1,0 +1,31 @@
+slug: yalli
+name:
+  hy: Յալլի
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags:
+  - Yalli
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: yalli/rec-01.mp3
+    performer: Յալլի - Մասունք
+    tempo_bpm: null
+    is_default: true

@@ -1,0 +1,57 @@
+slug: lorke-musaleran
+name:
+  hy: Լորկե Մուսալեռան
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: null
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Armenian Dances from Musa Ler - DABKI, LORKE - YouTube
+    kind: performance
+recordings:
+  - file: lorke-musaleran/rec-01.mp3
+    performer: Լորկե (Կարմիր ֆըստան) - (Հին)
+    tempo_bpm: null
+    is_default: true
+  - file: lorke-musaleran/rec-02.mp3
+    performer: Լորկե (Մուսա լեռան) - (հին)
+    tempo_bpm: null
+    is_default: false
+  - file: lorke-musaleran/rec-03.mp3
+    performer: Լորկե Կարմիր Ֆստան Արմեն Մանդակունյան
+    tempo_bpm: null
+    is_default: false
+  - file: lorke-musaleran/rec-04.mp3
+    performer: Լորկե Կարմիր ֆստան «Արեգ համույթ» Karmir fstan
+    tempo_bpm: null
+    is_default: false
+  - file: lorke-musaleran/rec-05.mp3
+    performer: Լորկե Կարմիր ֆստան Նորայր Քարտաշյան
+    tempo_bpm: null
+    is_default: false
+  - file: lorke-musaleran/rec-06.mp3
+    performer: Լորկե Մուսա լեռան Արմեն Մանդակունյան
+    tempo_bpm: null
+    is_default: false
+  - file: lorke-musaleran/rec-07.mp3
+    performer: Լորկե Մուսալեռ «Սասնա ծռեր համույթ» Lorke Musaler Sasna Crer Folk
+    tempo_bpm: null
+    is_default: false

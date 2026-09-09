@@ -1,0 +1,46 @@
+slug: snjane
+name:
+  hy: Սնջանե
+  en: null
+  romanized: null
+  aliases: []
+region: null
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Սնջանե - Մասունք | Վանի տարածաշրջան | Snjane - Masunq Folk Ensemble -
+      YouTube
+    kind: performance
+recordings:
+  - file: snjane/rec-01.mp3
+    performer: Սնջանե (Թոմ Բոզիգյան)
+    tempo_bpm: null
+    is_default: true
+  - file: snjane/rec-02.mp3
+    performer: Սնջանե (Սարո Դանիելյան)
+    tempo_bpm: null
+    is_default: false
+  - file: snjane/rec-03.mp3
+    performer: Սնջանե - Snjane (2)
+    tempo_bpm: null
+    is_default: false
+  - file: snjane/rec-04.mp3
+    performer: Սնջանե Շեյխանա, Վան Լևոն Մադոյան
+    tempo_bpm: null
+    is_default: false

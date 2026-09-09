@@ -1,0 +1,41 @@
+slug: gyovnd
+name:
+  hy: Գյովնդ
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: pinkies
+difficulty: 1
+energy: null
+gender: null
+family_tags:
+  - Govand
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Goevnd / Կարին - Գյովընդ
+    kind: performance
+  - url: null
+    title: Ուս ուսի. Գյոնդ - YouTube
+    kind: tutorial
+recordings:
+  - file: gyovnd/rec-01.mp3
+    performer: Գյովնդ, Մշո Խըռ Հանիգ Նար «Սասնա ծռեր համույթ» Hanig nar Sasna Crer
+    tempo_bpm: null
+    is_default: true
+  - file: gyovnd/rec-02.mp3
+    performer: Գյովնդ, Մշո Խըռ Հարս եմ գնում «Մենուա բենդ» Gyovnd, Msho khr Wedding
+    tempo_bpm: null
+    is_default: false

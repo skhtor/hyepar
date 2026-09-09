@@ -1,0 +1,116 @@
+slug: gorani
+name:
+  hy: Գորանի
+  en: null
+  romanized: null
+  aliases: []
+region: Karin
+hold_type: pinkies
+difficulty: null
+energy: null
+gender: null
+family_tags: []
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: null
+    title: Karin - Gorani / Կարին - Գորանի
+    kind: performance
+  - url: null
+    title: Գորանի - Ուսուցողական հոլովակ | Gorani - Teaching Video
+    kind: tutorial
+recordings:
+  - file: gorani/rec-01.mp3
+    performer: Գորանի (Արայիկ Մկոյան)
+    tempo_bpm: null
+    is_default: true
+  - file: gorani/rec-02.mp3
+    performer: Գորանի (Գաթա բենդ)
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-03.mp3
+    performer: Գորանի - «Կարին համույթ» - Gorani
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-04.mp3
+    performer: Գորանի - Գաթա Բենդ
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-05.mp3
+    performer: Գորանի 2
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-06.mp3
+    performer: Գորանի 3
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-07.mp3
+    performer: Գորանի Ակունք
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-08.mp3
+    performer: Գորանի Խութի - Շողակն
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-09.mp3
+    performer: Գորանի Խութի
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-10.mp3
+    performer: Գորանի Մշո
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-11.mp3
+    performer: Գորանի Սասնա
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-12.mp3
+    performer: Գորանի Սասուն
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-13.mp3
+    performer: Գորանի երգով Gorani Ergov
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-14.mp3
+    performer: Գորանի, մայրոքե, հանինա, յարխուշտա «Նուբար խումբ» Gorani
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-15.mp3
+    performer: Գորանի-Gorani
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-16.mp3
+    performer: Գորանի-Փառիկ Նազարյան
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-17.mp3
+    performer: Գորանի
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-18.mp3
+    performer: Գորանի +Հանինա, Վերվերի, Թաշկինակներով պար
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-19.mp3
+    performer: Գորանի Գաթա բենդ և Անդրանիկ Մանուկյան
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-20.mp3
+    performer: Գորանի Հանինա, Վերվերի, Թաշկինակներով պար
+    tempo_bpm: null
+    is_default: false
+  - file: gorani/rec-21.mp3
+    performer: Գորանիների շարք
+    tempo_bpm: null
+    is_default: false
