@@ -1,0 +1,38 @@
+# Example dance entry — the authoring schema (source of truth).
+# Copy this shape for real dances. Every field is optional; absence of a language
+# key means "not recorded", an explicit `status: unknown` means "deliberately unknown".
+# Delete this file once real entries exist (it is not imported — leading underscore).
+slug: sgherdi-qochari
+name:
+  hy: "Սղերդի Քոչարի"
+  en: "Sgherdi Qochari"
+  romanized: "Sgherdi Qochari"
+  aliases: ["Sgherd Kochari", "Sgherdi Kotchari"]   # search spellings
+region: "Sgherd"            # null / omit = not yet known (shown as a fillable gap)
+hold_type: "shoulders"      # controlled vocab: shoulders | palms | pinkies | interlocked | sticks
+difficulty: 3               # 0-5, null = not yet rated
+energy: null                # 0-5, null = not yet rated
+gender: "men"               # men | women | mixed | null
+family_tags: ["Qochari"]    # flat tags; standalone dances omit
+notes:
+  hy: "..."
+  en: null                  # absent language = not yet translated
+  status: known             # known | unknown | unverified
+  source: "AGD instructor, 2026"
+background:
+  hy: null
+  en: null
+  status: unknown           # deliberately unknown (distinct from not-yet-translated)
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos:
+  - url: "https://youtube.com/watch?v=..."
+    kind: performance       # performance | tutorial
+    title: "..."
+recordings:                 # audio lives in R2; YAML references it by key
+  - file: "sgherdi-qochari/recording-01.mp3"
+    performer: "Karin ensemble"
+    tempo_bpm: null         # optional, human-filled later
+    is_default: true        # exactly one true per dance
