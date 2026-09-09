@@ -11,6 +11,8 @@
     "import": "node scripts/import-sheet.mjs",
     "data:build": "node scripts/build-bundle.mjs",
     "data:validate": "node scripts/validate-dances.mjs",
+    "audio:ingest": "node scripts/ingest-audio.mjs",
+    "audio:upload": "node scripts/upload-r2.mjs",
     "test": "node --test"
   },
   "dependencies": {
