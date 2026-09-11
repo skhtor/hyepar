@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
+hold_type: pinkies
 difficulty: 1
-energy: null
-gender: null
+energy: 1
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -32,3 +32,7 @@ recordings:
     performer: Ցորեն եմ ցանե «Մասունք համույթ» Coren em cane
     tempo_bpm: null
     is_default: false
+regions:
+  - Շիրակ
+genre:
+  - work

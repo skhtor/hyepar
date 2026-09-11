@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: palms
-difficulty: 3
-energy: null
-gender: null
+difficulty: 4
+energy: 2
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -46,3 +46,7 @@ recordings:
     performer: Ձկնորսների պար Վանա ձկնորս Կարին
     tempo_bpm: null
     is_default: false
+regions:
+  - Խորգոմ
+genre:
+  - work

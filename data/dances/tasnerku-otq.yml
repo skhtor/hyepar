@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: pinkies
-difficulty: 1
-energy: null
-gender: null
+difficulty: 4
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -90,3 +90,9 @@ recordings:
     performer: Տասներոկուց ոտք «Կարին համույթ» Tasnerku 12 votq arag
     tempo_bpm: null
     is_default: false
+regions:
+  - Ալաշկերտ
+  - Վան
+  - Վասպուրական
+genre:
+  - festive

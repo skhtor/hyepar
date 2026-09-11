@@ -8,11 +8,13 @@ hold_type: shoulders
 difficulty: 3
 energy: null
 gender: null
-family_tags: []
+family_tags:
+  - Papuri
 notes:
   hy: null
-  en: null
-  status: unknown
+  en: Recordings on this family parent need distributing to regional variants
+    (Papuri).
+  status: known
 background:
   hy: null
   en: null

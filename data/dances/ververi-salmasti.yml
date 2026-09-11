@@ -3,13 +3,15 @@ name:
   hy: Վերվերի Սալմաստի
   en: null
   romanized: null
-  aliases: []
+  aliases:
+    - Հեշտայի
 region: null
-hold_type: palms
+hold_type: pinkies
 difficulty: 4
-energy: null
-gender: null
-family_tags: []
+energy: 3
+gender: mixed
+family_tags:
+  - Ververi
 notes:
   hy: null
   en: null
@@ -39,3 +41,8 @@ recordings:
     performer: Վերվերի Սալմաստի «Բեկոր ավանդական երգի պարի խումբ» Ververi Salmast
     tempo_bpm: null
     is_default: false
+regions:
+  - Սալմաստ
+genre:
+  - ritual
+  - festive
