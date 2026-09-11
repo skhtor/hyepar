@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: palms
-difficulty: 1
-energy: null
-gender: null
+difficulty: 5
+energy: 3
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -46,3 +46,8 @@ recordings:
     performer: Թրթռուկ Հոռոնու Համշեն «Վովա» Hamshen trtruk horonu
     tempo_bpm: null
     is_default: false
+regions:
+  - Համշեն
+genre:
+  - ritual
+  - martial

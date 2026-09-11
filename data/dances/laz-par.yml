@@ -1,13 +1,14 @@
-slug: laz-bar
+slug: laz-par
 name:
-  hy: Լազ բար
+  hy: Լազ պար
   en: null
   romanized: null
-  aliases: []
+  aliases:
+    - Լազ բար
 hold_type: palms
-difficulty: 1
-energy: null
-gender: null
+difficulty: 5
+energy: 3
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -27,15 +28,15 @@ videos:
       group - Laz par - YouTube
     kind: performance
 recordings:
-  - file: laz-bar/laz-bar-tom-bozigyan.mp3
+  - file: laz-par/laz-par-tom-bozigyan.mp3
     performer: Լազ բար (Թոմ Բոզիգյան)
     tempo_bpm: null
     is_default: true
-  - file: laz-bar/laz-bar-mal-barsamyan.mp3
+  - file: laz-par/laz-par-mal-barsamyan.mp3
     performer: Լազ բար (Մալ Բարսամյան)
     tempo_bpm: null
     is_default: false
-  - file: laz-bar/laz-bar-chukazyan-ansambl.mp3
+  - file: laz-par/laz-par-chukazyan-ansambl.mp3
     performer: Լազ բար (Չուկազյան անսամբլ)
     tempo_bpm: null
     is_default: false

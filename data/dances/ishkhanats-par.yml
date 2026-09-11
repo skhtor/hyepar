@@ -3,12 +3,13 @@ name:
   hy: Իշխանաց պար
   en: null
   romanized: null
-  aliases: []
+  aliases:
+    - Շեյխանի
 region: null
-hold_type: null
-difficulty: 4
-energy: null
-gender: null
+hold_type: crossed
+difficulty: 5
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -95,3 +96,8 @@ recordings:
     performer: Շեյխանի Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false
+regions:
+  - Պարսկահայք
+  - Ուրմիա
+genre:
+  - festive

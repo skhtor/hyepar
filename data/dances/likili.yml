@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: palms
-difficulty: 1
-energy: null
-gender: null
+difficulty: 5
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -47,3 +47,6 @@ recordings:
     performer: Լիկիլի-Likili
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին
+  - Ջավախք

@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: palms
+hold_type: shoulders
 difficulty: 3
-energy: null
-gender: null
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -54,3 +54,9 @@ recordings:
     performer: Ինը ոտք «Մուրադյան անսամբլ» Ine 9 vot
     tempo_bpm: null
     is_default: false
+regions:
+  - Տարոն
+  - Մուշ
+  - Սասուն
+genre:
+  - festive

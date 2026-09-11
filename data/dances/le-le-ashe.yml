@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: free
+difficulty: 4
+energy: 2
+gender: women
 family_tags: []
 notes:
   hy: null
@@ -32,3 +32,7 @@ recordings:
     performer: Լե լե աշե «Մասունք համույթ» le le ashe
     tempo_bpm: null
     is_default: true
+regions:
+  - Վան
+  - Վասպուրական
+  - Մուշ
