@@ -1,0 +1,57 @@
+slug: tamir-agha
+name:
+  hy: Թամիր աղա Ալաշկերտի
+  en: null
+  romanized: null
+  aliases: []
+regions:
+  - Ալաշկերտ
+hold_type: pinkies
+difficulty: 3
+energy: 3
+gender: mixed
+family_tags: []
+genre:
+  - commemoration
+notes:
+  hy: null
+  en: null
+  status: unknown
+background:
+  hy: null
+  en: null
+  status: unknown
+lyrics:
+  hy: null
+  en: null
+  status: unknown
+videos: []
+recordings:
+  - file: tamir-agha/tamir-agha-akunq.mp3
+    performer: Թամիր աղա (Ակունք)
+    tempo_bpm: null
+    is_default: true
+  - file: tamir-agha/tamir-agha-berd.mp3
+    performer: Թամիր աղա (Բերդ)
+    tempo_bpm: null
+    is_default: false
+  - file: tamir-agha/tamir-agha-masunq.mp3
+    performer: Թամիր աղա (Մասունք)
+    tempo_bpm: null
+    is_default: false
+  - file: tamir-agha/tamir-agha-shoghakn-hin.mp3
+    performer: Թամիր աղա (Շողակն - հին)
+    tempo_bpm: null
+    is_default: false
+  - file: tamir-agha/tamir-agha-shoghakn-nor.mp3
+    performer: Թամիր աղա (Շողակն - նոր)
+    tempo_bpm: null
+    is_default: false
+  - file: tamir-agha/tamir-agha-theodosii-spassov-heavenly-st.mp3
+    performer: Թամիր աղա-Theodosii Spassov   Heavenly St
+    tempo_bpm: null
+    is_default: false
+  - file: tamir-agha/tamir-agha.mp3
+    performer: Թամիր աղա
+    tempo_bpm: null
+    is_default: false

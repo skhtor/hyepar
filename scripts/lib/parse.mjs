@@ -188,7 +188,7 @@ export const KNOWN_REGIONS = [
 
 // Controlled vocabularies — the validator enforces these at build time so a
 // typo becomes a build error, not a silent filter miss.
-export const HOLD_TYPES = ["shoulders", "palms", "pinkies", "interlocked", "crossed", "back", "sticks", "belt", "free"];
+export const HOLD_TYPES = ["shoulders", "palms", "pinkies", "interlocked", "crossed", "back", "sticks", "belt", "dagger", "free"];
 export const GENDERS = ["men", "women", "mixed"];
 export const VIDEO_KINDS = ["performance", "tutorial"];
 export const FIELD_STATUSES = ["known", "unknown", "unverified"];

@@ -66,6 +66,7 @@ export function parseHold(s) {
     [/ափ/, "palms"],
     [/գոտի/, "belt"],
     [/փայտ|մտրակ/, "sticks"],
+    [/դաշույն|սուր|խանչ/, "dagger"],
     [/խաչ/, "crossed"],
     [/ազատ/, "free"],
     [/ձեռք(?!.*(ճկույթ|ուս|մեջք|ափ|գոտի|փայտ|խաչ))/, "interlocked"], // generic "hands"
@@ -90,6 +91,8 @@ export function parseGenres(s) {
     "Համայնքային": "communal",
     "Սգո": "mourning",
     "Չարխափան": "charkhapan",
+    "Ոգեկոչման": "commemoration",
+    "Թարս": "reverse",
   };
   return String(s)
     .split(",")

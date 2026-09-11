@@ -24,14 +24,32 @@ function arg(name, argv) {
   return i >= 0 ? argv[i + 1] : null;
 }
 
+// Pull recordings for a folder from the audio manifest, if --audio-folder is given.
+async function recordingsForFolder(folderName) {
+  try {
+    const m = JSON.parse(await readFile("audio-manifest.json", "utf8"));
+    const d = m.dances.find((x) => x.folder === folderName);
+    if (!d) return [];
+    return d.recordings.map((r, i) => ({
+      file: r.r2Key,
+      performer: r.performer,
+      tempo_bpm: r.tempo_bpm ?? null,
+      is_default: r.is_default ?? i === 0,
+    }));
+  } catch {
+    return [];
+  }
+}
+
 async function main() {
   const argv = process.argv.slice(2);
   const inPath = arg("--in", argv);
   const slug = arg("--slug", argv);
   const family = arg("--family", argv);
+  const audioFolder = arg("--audio-folder", argv);
   const force = argv.includes("--force");
   if (!inPath || !slug) {
-    console.error("Usage: --in block.txt --slug <slug> [--family <Tag>] [--force]");
+    console.error("Usage: --in block.txt --slug <slug> [--family <Tag>] [--audio-folder <FolderName>] [--force]");
     process.exit(1);
   }
 
@@ -41,6 +59,8 @@ async function main() {
     console.error(`Refusing to overwrite existing ${path} (use --force).`);
     process.exit(1);
   }
+
+  const recordings = audioFolder ? await recordingsForFolder(audioFolder) : [];
 
   const dance = {
     slug,
@@ -61,11 +81,11 @@ async function main() {
     background: { hy: null, en: null, status: "unknown" },
     lyrics: { hy: null, en: null, status: "unknown" },
     videos: [],
-    recordings: [], // audio stays on the family parent until distributed by a human
+    recordings, // from --audio-folder if given, else []
   };
 
   await writeFile(path, YAML.stringify(dance), "utf8");
-  console.log(`Created ${path}  (family=${family || "none"}, regions=${JSON.stringify(dance.regions)})`);
+  console.log(`Created ${path}  (family=${family || "none"}, regions=${JSON.stringify(dance.regions)}, recordings=${recordings.length})`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
