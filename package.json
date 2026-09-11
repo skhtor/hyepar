@@ -13,7 +13,7 @@
     "data:validate": "node scripts/validate-dances.mjs",
     "audio:ingest": "node scripts/ingest-audio.mjs",
     "audio:upload": "node scripts/upload-r2.mjs",
-    "test": "node --test"
+    "test": "node --test 'scripts/**/*.test.mjs'"
   },
   "dependencies": {
     "astro": "^4.15.0",

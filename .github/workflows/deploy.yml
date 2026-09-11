@@ -35,7 +35,7 @@ jobs:
         run: node scripts/validate-dances.mjs
 
       - name: Run tests
-        run: node --test scripts/
+        run: npm test
 
       - name: Build site
         run: npx astro build
