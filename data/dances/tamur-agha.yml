@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: palms
 difficulty: 1
 energy: null
@@ -27,3 +26,5 @@ videos:
     title: Karin - Tamur agha / Կարին - Թամուր աղա - YouTube
     kind: performance
 recordings: []
+regions:
+  - Կարին

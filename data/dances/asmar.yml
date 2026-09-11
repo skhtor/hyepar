@@ -4,11 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Sasun
 hold_type: pinkies
-difficulty: 2
-energy: null
-gender: null
+difficulty: 1
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -39,3 +38,5 @@ recordings:
     performer: Լաչին Ասմար «Սասուն համույթ» Անդրանիկ Մանուկյան Lachin AsmarSasun
     tempo_bpm: null
     is_default: false
+regions:
+  - Սասուն

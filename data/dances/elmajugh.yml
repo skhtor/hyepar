@@ -3,12 +3,13 @@ name:
   hy: Էլմաջուղ
   en: null
   romanized: null
-  aliases: []
+  aliases:
+    - Ջուխտ կրունկ
 region: null
-hold_type: shoulders
-difficulty: null
-energy: null
-gender: null
+hold_type: palms
+difficulty: 3
+energy: 3
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -35,3 +36,8 @@ recordings:
     performer: Էլմաջուղ(Համշեն)
     tempo_bpm: null
     is_default: false
+regions:
+  - Համշեն
+genre:
+  - wedding
+  - charkhapan

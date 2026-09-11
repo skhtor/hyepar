@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: shoulders
 difficulty: 1
 energy: null
@@ -62,3 +61,5 @@ recordings:
     performer: Չաչանե և Ծաղկաձորի Գևորգ Դաբաղյան
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

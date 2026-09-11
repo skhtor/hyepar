@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: shoulders
 difficulty: 1
 energy: null
@@ -34,3 +33,5 @@ recordings:
     performer: Ճոճք, շորոր - «Կարին համույթ» - Jojq
     tempo_bpm: null
     is_default: true
+regions:
+  - Կարին

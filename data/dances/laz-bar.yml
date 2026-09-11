@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: palms
 difficulty: 1
 energy: null
@@ -40,3 +39,5 @@ recordings:
     performer: Լազ բար (Չուկազյան անսամբլ)
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

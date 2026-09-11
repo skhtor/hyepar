@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: pinkies
 difficulty: 2
 energy: null
@@ -42,3 +41,5 @@ recordings:
     performer: Շավալի և խոշ բիլազիկ Թոմ Բոզիգյան
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

@@ -4,11 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-region: null
 hold_type: palms
 difficulty: 1
-energy: null
-gender: null
+energy: 1
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -27,3 +26,5 @@ videos:
     title: Ախ գարուն է (Տյառնըդառաջը Գառնիում - 2022)
     kind: performance
 recordings: []
+regions:
+  - Բասեն

@@ -3,12 +3,13 @@ name:
   hy: Երեք ոտք Ալաշկերտի
   en: null
   romanized: null
-  aliases: []
+  aliases:
+    - Սաքմա
 region: null
 hold_type: pinkies
-difficulty: null
-energy: null
-gender: null
+difficulty: 3
+energy: 1
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -46,3 +47,7 @@ recordings:
     performer: Երեք ոտք , սաքմա Ալաշկերտի Շողակն
     tempo_bpm: null
     is_default: false
+regions:
+  - Ալաշկերտ
+genre:
+  - wedding

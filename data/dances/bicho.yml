@@ -4,11 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-region: null
 hold_type: palms
-difficulty: 3
-energy: null
-gender: null
+difficulty: 2
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -31,3 +30,7 @@ recordings:
     performer: Բիճո - «Թոմ Բոզիկյան» - Bijo
     tempo_bpm: null
     is_default: true
+genre:
+  - pilgrimage
+regions:
+  - Սեբաստիա

@@ -3,12 +3,12 @@ name:
   hy: Երեք ոտք Կարնո
   en: null
   romanized: null
-  aliases: []
-region: Karin
+  aliases:
+    - Պուդուդի Ջամբար ամի
 hold_type: palms
-difficulty: null
-energy: null
-gender: null
+difficulty: 4
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -38,3 +38,8 @@ recordings:
     performer: Երեք ոտք Կարնո «Կարին համույթ» Ereq 3 votq Karno
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին
+genre:
+  - ceremonial
+  - charkhapan

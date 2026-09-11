@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: palms
-difficulty: 2
-energy: null
-gender: null
+difficulty: 5
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -51,3 +51,9 @@ recordings:
     performer: Պարերի շարք Մինինդուր և ետ ու առաջ Վերադարձ
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին
+  - Ջավախք
+genre:
+  - festive
+  - ceremonial

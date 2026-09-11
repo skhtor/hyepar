@@ -28,9 +28,10 @@ async function main() {
   }
 
   // Derive lightweight facet lists + a coverage summary for the UI.
-  const regions = [...new Set(dances.map((d) => d.region).filter(Boolean))].sort();
+  const regions = [...new Set(dances.flatMap((d) => d.regions || []))].sort();
   const families = [...new Set(dances.flatMap((d) => d.family_tags || []))].sort();
   const holds = [...new Set(dances.map((d) => d.hold_type).filter(Boolean))].sort();
+  const genres = [...new Set(dances.flatMap((d) => d.genre || []))].sort();
   const documented = dances.filter((d) =>
     d.notes?.status === "known" || d.background?.status === "known" || (d.recordings || []).length
   ).length;
@@ -39,7 +40,7 @@ async function main() {
     generatedAt: new Date().toISOString(),
     total: dances.length,
     documented,
-    facets: { regions, families, holds },
+    facets: { regions, families, holds, genres },
     dances,
   };
 

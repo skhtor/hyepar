@@ -40,6 +40,11 @@ export function validateDance(d, file) {
       err(`video kind "${v.kind}" not in [${VIDEO_KINDS.join(", ")}]`);
   }
 
+  if (d.genre != null && !Array.isArray(d.genre))
+    err("genre must be an array of tags (or absent)");
+  if (d.family_tags != null && !Array.isArray(d.family_tags))
+    err("family_tags must be an array (or absent)");
+
   const recs = d.recordings || [];
   const defaults = recs.filter((r) => r.is_default === true).length;
   if (recs.length > 0 && defaults === 0)

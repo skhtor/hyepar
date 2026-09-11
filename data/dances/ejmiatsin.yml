@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: palms
-difficulty: 1
-energy: null
-gender: null
+difficulty: 2
+energy: 1
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -50,3 +50,8 @@ recordings:
     performer: Էջմիածին «Նուբար համույթ» Ejmiatsin
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին
+  - Ջավախք
+genre:
+  - ritual

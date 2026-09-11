@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Shatakh
 hold_type: null
 difficulty: 1
 energy: null
@@ -31,3 +30,5 @@ recordings:
     performer: Լորկե (Շատախի) - (Ակունք)
     tempo_bpm: null
     is_default: true
+regions:
+  - Շատախ

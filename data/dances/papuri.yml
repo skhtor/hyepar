@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: shoulders
 difficulty: 3
 energy: null
@@ -66,3 +65,5 @@ recordings:
     performer: Փափուռի «Սասուն համույթ» Papuri 2
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

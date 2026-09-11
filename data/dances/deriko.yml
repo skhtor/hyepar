@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: shoulders
-difficulty: null
-energy: null
-gender: null
+difficulty: 2
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -43,3 +43,7 @@ recordings:
     performer: Լորկե, Դաբկի
     tempo_bpm: null
     is_default: false
+regions:
+  - Հարք
+genre:
+  - festive

@@ -3,12 +3,13 @@ name:
   hy: Զնգրթա
   en: null
   romanized: null
-  aliases: []
-region: null
-hold_type: null
-difficulty: null
-energy: null
-gender: null
+  aliases:
+    - Զնգրթա
+    - Բանդի
+hold_type: crossed
+difficulty: 3
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -35,3 +36,5 @@ recordings:
     performer: Զնգրթա Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false
+regions:
+  - Պարսկահայք

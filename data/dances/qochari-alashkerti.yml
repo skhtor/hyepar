@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 3
 energy: null
@@ -67,3 +66,5 @@ recordings:
     performer: Քոչարի Ալաշկերտի Էմմանուել Հովհաննիսյան
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 1
 energy: null
@@ -70,3 +69,5 @@ recordings:
     performer: Քերծի-Qerci
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

@@ -4,16 +4,17 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: pinkies
 difficulty: null
 energy: null
 gender: null
-family_tags: []
+family_tags:
+  - Gorani
 notes:
   hy: null
-  en: null
-  status: unknown
+  en: Recordings on this family parent need distributing to regional variants
+    (Gorani).
+  status: known
 background:
   hy: null
   en: null
@@ -114,3 +115,5 @@ recordings:
     performer: Գորանիների շարք
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

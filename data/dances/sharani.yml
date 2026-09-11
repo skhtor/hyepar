@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: pinkies
 difficulty: 1
 energy: null
@@ -46,3 +45,5 @@ recordings:
     performer: Շարանի-Sharani
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 3
 energy: null
@@ -50,3 +49,5 @@ recordings:
     performer: Քերծի և Լուտկի-Վերադարձ
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: palms
 difficulty: 2
 energy: null
@@ -39,3 +38,5 @@ recordings:
     performer: Քոչարի (Կարնո) - (Կարին)
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

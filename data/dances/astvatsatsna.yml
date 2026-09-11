@@ -1,14 +1,14 @@
 slug: astvatsatsna
 name:
   hy: Աստվածածնա
-  en: null
+  en: Astvatsatsna
   romanized: null
-  aliases: []
-region: Karin
+  aliases:
+    - Յայլի
 hold_type: palms
-difficulty: 1
-energy: null
-gender: null
+difficulty: 2
+energy: 1
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -34,3 +34,8 @@ recordings:
     performer: Աստվածածնա «Կարին համույթ» Astvacacna par
     tempo_bpm: null
     is_default: true
+genre:
+  - pilgrimage
+regions:
+  - Կարին
+  - Ջավախք

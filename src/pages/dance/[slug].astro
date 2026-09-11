@@ -37,8 +37,8 @@ const related = dance.family_tags.length
     <hr class="rule" />
 
     <div class="badges">
-      {dance.region ? (
-        <span class="badge badge--region">{dance.region}</span>
+      {dance.regions && dance.regions.length ? (
+        dance.regions.map((r) => <span class="badge badge--region">{r}</span>)
       ) : (
         <span class="badge" style="opacity:.7">region: unknown</span>
       )}

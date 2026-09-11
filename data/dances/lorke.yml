@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: pinkies
 difficulty: 1
 energy: null
@@ -54,3 +53,5 @@ recordings:
     performer: Լորկե-Lorke
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

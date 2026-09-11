@@ -105,6 +105,8 @@ export const DANCE_FAMILIES = [
   { tag: "Tamzara", hy: ["Թամզարա"], latin: ["tamzara"] },
   { tag: "Govand", hy: ["Գյովնդ", "Գյովընդ"], latin: ["govand", "gyovnd", "gyovand"] },
   { tag: "Bulul", hy: ["Բուլուլ"], latin: ["bulul"] },
+  { tag: "Gorani", hy: ["Գորանի"], latin: ["gorani"] },
+  { tag: "Dabki", hy: ["Դաբկի", "Դափկի"], latin: ["dabki", "dapki"] },
 ];
 
 /**
@@ -186,7 +188,7 @@ export const KNOWN_REGIONS = [
 
 // Controlled vocabularies — the validator enforces these at build time so a
 // typo becomes a build error, not a silent filter miss.
-export const HOLD_TYPES = ["shoulders", "palms", "pinkies", "interlocked", "sticks", "belt", "free"];
+export const HOLD_TYPES = ["shoulders", "palms", "pinkies", "interlocked", "crossed", "back", "sticks", "belt", "free"];
 export const GENDERS = ["men", "women", "mixed"];
 export const VIDEO_KINDS = ["performance", "tutorial"];
 export const FIELD_STATUSES = ["known", "unknown", "unverified"];

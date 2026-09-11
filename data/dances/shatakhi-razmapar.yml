@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 4
 energy: null
@@ -71,3 +70,5 @@ recordings:
     performer: Շատախի ռազմապար Շատախի մարտական «Սասուն համույթ» Shataxi razmapar
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

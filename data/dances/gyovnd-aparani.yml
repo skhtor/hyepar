@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: pinkies
-difficulty: null
-energy: null
-gender: null
+difficulty: 1
+energy: 1
+gender: mixed
 family_tags:
   - Govand
 notes:
@@ -40,3 +40,8 @@ recordings:
     performer: Գյովնդ Ապարանի Շուշվա կեղը «Վարը Վարենկ»
     tempo_bpm: null
     is_default: false
+regions:
+  - Ալաշկերտ
+  - Մուշ
+genre:
+  - communal

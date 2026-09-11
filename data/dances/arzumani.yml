@@ -4,11 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-region: null
-hold_type: palms
+hold_type: pinkies
 difficulty: 2
-energy: null
-gender: null
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -35,3 +34,7 @@ recordings:
     performer: Արզումանի Դանդաղ «Սասնա ծռեր համույթ» Arzumani Sasna Crer Folk Group
     tempo_bpm: null
     is_default: false
+genre:
+  - wedding
+regions:
+  - Վասպուրական

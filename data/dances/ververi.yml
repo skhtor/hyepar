@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 2
 energy: null
@@ -83,3 +82,5 @@ recordings:
     performer: Վերվերի մանր «Կարին համույթ» Ververi manr
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

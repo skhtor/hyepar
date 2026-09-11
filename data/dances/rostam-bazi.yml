@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: shoulders
 difficulty: 4
 energy: null
@@ -59,3 +58,5 @@ recordings:
     performer: Ռոստամ բազի Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

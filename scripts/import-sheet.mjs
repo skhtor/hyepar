@@ -126,6 +126,7 @@ async function main() {
 
     const videos = splitVideoColumns(r[5], r[6]);
     const region = videos.map((v) => extractRegion(v.title)).find(Boolean) || null;
+    const regions = region ? [region] : null; // list form; Armenian normalization via normalize-regions.mjs
     const recordings = recordingsByName.get(name_hy) || [];
     if (recordings.length) { matchedAudio++; unmatchedAudio.delete(name_hy); }
 
@@ -137,7 +138,7 @@ async function main() {
     const dance = {
       slug,
       name: { hy: name_hy, en: null, romanized: null, aliases: [] },
-      region,
+      regions,
       hold_type: normalizeHold(r[8]),
       difficulty: parseStarRating(r[3]),
       energy: parseStarRating(r[4]),

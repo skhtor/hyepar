@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Sasun
 hold_type: pinkies
 difficulty: 2
 energy: null
@@ -32,3 +31,5 @@ recordings:
     performer: Շորոր (Սասնա) - (Նորայր Քամալյան)
     tempo_bpm: null
     is_default: true
+regions:
+  - Սասուն

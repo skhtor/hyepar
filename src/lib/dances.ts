@@ -28,12 +28,13 @@ export interface Video {
 export interface Dance {
   slug: string;
   name: { hy: string; en: string | null; romanized: string | null; aliases: string[] };
-  region: string | null;
+  regions: string[] | null;
   hold_type: string | null;
   difficulty: number | null;
   energy: number | null;
   gender: "men" | "women" | "mixed" | null;
   family_tags: string[];
+  genre?: string[];
   notes: LangField;
   background: LangField;
   lyrics: LangField;
@@ -45,7 +46,7 @@ export interface Bundle {
   generatedAt: string;
   total: number;
   documented: number;
-  facets: { regions: string[]; families: string[]; holds: string[] };
+  facets: { regions: string[]; families: string[]; holds: string[]; genres?: string[] };
   dances: Dance[];
 }
 

@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: null
-energy: null
-gender: null
+hold_type: free
+difficulty: 4
+energy: 3
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -47,3 +47,8 @@ recordings:
     performer: Զաքենի «Մասունք համույթ» zaqeni zurna
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին
+  - Ջավախք
+genre:
+  - ritual

@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: palms
 difficulty: 1
 energy: null
@@ -28,3 +27,5 @@ videos:
     title: Karin - Minindur Bulul | Կարին - Մինինդուր բուլուլ - YouTube
     kind: performance
 recordings: []
+regions:
+  - Կարին

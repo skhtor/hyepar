@@ -11,7 +11,8 @@ const docs = allDances.map((d) => {
     hy: d.name.hy,
     romanized: d.name.romanized || "",
     aliases: d.name.aliases,
-    region: d.region || "",
+    region: (d.regions || []).join(", "),
+    regions: d.regions || [],
     family: d.family_tags,
     hold: d.hold_type || "",
     energy: d.energy,
@@ -293,7 +294,7 @@ const docs = allDances.map((d) => {
         const d = docs.find((x: any) => x.slug === slug);
         const ok =
           slugs.has(slug) &&
-          (!fRegion.value || d.region === fRegion.value) &&
+          (!fRegion.value || (d.regions || []).includes(fRegion.value)) &&
           (!fFamily.value || d.family.includes(fFamily.value)) &&
           (!fHold.value || d.hold === fHold.value);
         (row.parentElement as HTMLElement).hidden = !ok;

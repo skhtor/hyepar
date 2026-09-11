@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 1
 energy: null
@@ -187,3 +186,5 @@ recordings:
     performer: Քոչարի Մշո խըռ Նորայր Քարտաշյան 2
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

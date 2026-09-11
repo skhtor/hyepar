@@ -4,7 +4,6 @@ name:
   en: null
   romanized: null
   aliases: []
-region: Karin
 hold_type: null
 difficulty: 4
 energy: null
@@ -127,3 +126,5 @@ recordings:
     performer: Յարխուշտա շատ դանդաղ «Սասուն համույթ» Yarkhushta
     tempo_bpm: null
     is_default: false
+regions:
+  - Կարին

@@ -3,12 +3,12 @@ name:
   hy: Արշավապար, Մտրակներով պար
   en: null
   romanized: null
-  aliases: []
-region: null
-hold_type: null
-difficulty: null
-energy: null
-gender: null
+  aliases:
+    - մտրակներով պար
+hold_type: sticks
+difficulty: 3
+energy: 2
+gender: men
 family_tags: []
 notes:
   hy: Holding sticks
@@ -27,3 +27,8 @@ videos:
     title: Մասունք - Մտրակներով պար (ՌՈՒԴԻԿ ՀԱՐՈՅԱՆ - 70) - YouTube
     kind: performance
 recordings: []
+genre:
+  - martial
+regions:
+  - Փերիա
+  - Պարսկահայք
