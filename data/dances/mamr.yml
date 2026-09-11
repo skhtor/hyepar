@@ -26,12 +26,8 @@ videos:
   - url: null
     title: Անդոկ - Մամռ, Թովլամա - YouTube
     kind: performance
-recordings:
-  - file: mamr/mamer-ervand-ev-vahan-davudyanner.mp3
-    performer: Մամըռ Երվանդ և Վահան Դավուդյաններ
-    tempo_bpm: null
-    is_default: true
 regions:
   - Պարսկահայք
 genre:
   - martial
+audio_prefix: mamr/

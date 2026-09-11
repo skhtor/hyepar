@@ -25,12 +25,8 @@ videos:
   - url: null
     title: Ավագ դպրոց 11-րդ դասարաններ. «Բիճո» - YouTube
     kind: performance
-recordings:
-  - file: bicho/bicho-tom-bozikyan-bijo.mp3
-    performer: Բիճո - «Թոմ Բոզիկյան» - Bijo
-    tempo_bpm: null
-    is_default: true
 genre:
   - pilgrimage
 regions:
   - Սեբաստիա
+audio_prefix: bicho/

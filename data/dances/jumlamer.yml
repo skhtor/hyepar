@@ -26,12 +26,8 @@ videos:
   - url: null
     title: Մասունք - Ջումլամեր / Masunq -Jumlamer - YouTube
     kind: performance
-recordings:
-  - file: jumlamer/jumlamer-masunq-hamuyt-jumlamer.mp3
-    performer: Ջումլամեր «Մասունք համույթ» Jumlamer
-    tempo_bpm: null
-    is_default: true
 regions:
   - Հարք
 genre:
   - pilgrimage
+audio_prefix: jumlamer/

@@ -27,15 +27,7 @@ videos:
   - url: null
     title: Abrani Shoror - YouTube
     kind: performance
-recordings:
-  - file: shoror-aparani/vary-varenk-shushva-keghy.mp3
-    performer: Vary Varenk - Shushva Keghy
-    tempo_bpm: null
-    is_default: true
-  - file: shoror-aparani/shoror-aparani.mp3
-    performer: Շորոր Ապարանի
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ալաշկերտ
   - Մուշ
+audio_prefix: shoror-aparani/

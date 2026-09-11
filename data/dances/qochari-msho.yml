@@ -27,25 +27,9 @@ videos:
   - url: null
     title: Ուս ուսի. Մշո քոչարի
     kind: performance
-recordings:
-  - file: qochari-msho/qochari-msho-karin.mp3
-    performer: Քոչարի (Մշո) - (Կարին)
-    tempo_bpm: null
-    is_default: true
-  - file: qochari-msho/qochari-msho-hin.mp3
-    performer: Քոչարի (Մշո) - (հին)
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-msho/qochari-msho-ghevik.mp3
-    performer: Քոչարի (Մշո) - «Ղևիկ»
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-msho/qochari-msho-karin-hamuyt-msho-qochari-2-2-mp3.mp3
-    performer: Քոչարի Մշո «Կարին համույթ» Msho Qochari 2 2 .MP3
-    tempo_bpm: null
-    is_default: false
 regions:
   - Մուշ
 genre:
   - ritual
   - martial
+audio_prefix: qochari-msho/

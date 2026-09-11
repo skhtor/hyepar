@@ -23,14 +23,6 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: mndo/mndo-arayik-mkoyan.mp3
-    performer: Մնդո (Արայիկ Մկոյան)
-    tempo_bpm: null
-    is_default: true
-  - file: mndo/mndo-sasun.mp3
-    performer: Մնդո (Սասուն)
-    tempo_bpm: null
-    is_default: false
 regions:
   - Սասուն
+audio_prefix: mndo/

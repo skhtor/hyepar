@@ -28,28 +28,8 @@ videos:
   - url: null
     title: Խոշ Բիլազիգ - Ուսուցողական հոլովակ | Khosh Bilazig - Teaching Video
     kind: tutorial
-recordings:
-  - file: khosh-bilazik/khosh-bilazik-karin.mp3
-    performer: Խոշ բիլազիկ (Կարին)
-    tempo_bpm: null
-    is_default: true
-  - file: khosh-bilazik/khosh-bilazik-khosh-bilazik.mp3
-    performer: Խոշ-բիլազիկ-Khosh-bilazik
-    tempo_bpm: null
-    is_default: false
-  - file: khosh-bilazik/shavali-khosh-bilazik-karin-hamuyt-shavali-xosh-bilazig.mp3
-    performer: Շավալի, Խոշ բիլազիկ «Կարին համույթ» Shavali Xosh bilazig
-    tempo_bpm: null
-    is_default: false
-  - file: khosh-bilazik/shavali-khosh-bilazig-oazis-ansambl.mp3
-    performer: Շավալի, խոշ բիլազիգ Օազիս անսամբլ
-    tempo_bpm: null
-    is_default: false
-  - file: khosh-bilazik/shavali-ev-khosh-bilazik-tom-bozigyan.mp3
-    performer: Շավալի և խոշ բիլազիկ Թոմ Բոզիգյան
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
 genre:
   - work
+audio_prefix: khosh-bilazik/

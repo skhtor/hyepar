@@ -27,21 +27,9 @@ videos:
   - url: null
     title: Շուշվա կեղը, Ապարանի Գյովնդ - YouTube
     kind: performance
-recordings:
-  - file: gyovnd-aparani/gyovnd-aparani-hadigoy-akunq.mp3
-    performer: Գյովնդ Ապարանի (Հադիգոյ) - Ակունք
-    tempo_bpm: null
-    is_default: true
-  - file: gyovnd-aparani/gyovnd-aparani-gyovnd.mp3
-    performer: Գյովնդ Ապարանի գյովնդ
-    tempo_bpm: null
-    is_default: false
-  - file: gyovnd-aparani/gyovnd-aparani-shushva-keghe-vare-varenk.mp3
-    performer: Գյովնդ Ապարանի Շուշվա կեղը «Վարը Վարենկ»
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ալաշկերտ
   - Մուշ
 genre:
   - communal
+audio_prefix: gyovnd-aparani/

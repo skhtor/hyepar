@@ -28,13 +28,9 @@ videos:
   - url: null
     title: Ուս ուսի. Պոզարե
     kind: tutorial
-recordings:
-  - file: pozare/karin-ensemble-pozare.mp3
-    performer: Karin Ensemble - Պոզարե
-    tempo_bpm: null
-    is_default: true
 regions:
   - Սասուն
 genre:
   - ritual
   - martial
+audio_prefix: pozare/

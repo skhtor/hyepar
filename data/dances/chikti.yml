@@ -26,14 +26,6 @@ videos:
   - url: null
     title: Մասունք - Ճիկտի (ՌՈՒԴԻԿ ՀԱՐՈՅԱՆ - 70) - YouTube
     kind: performance
-recordings:
-  - file: chikti/chikti-masunq.mp3
-    performer: Ճիկտի (Մասունք)
-    tempo_bpm: null
-    is_default: true
-  - file: chikti/chikti-hin.mp3
-    performer: Ճիկտի (հին)
-    tempo_bpm: null
-    is_default: false
 regions:
   - Փերիա
+audio_prefix: chikti/

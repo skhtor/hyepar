@@ -29,13 +29,9 @@ videos:
   - url: null
     title: «Ուս ուսի». Աստվածածնա պար - YouTube
     kind: tutorial
-recordings:
-  - file: astvatsatsna/astvatsatsna-karin-hamuyt-astvacacna-par.mp3
-    performer: Աստվածածնա «Կարին համույթ» Astvacacna par
-    tempo_bpm: null
-    is_default: true
 genre:
   - pilgrimage
 regions:
   - Կարին
   - Ջավախք
+audio_prefix: astvatsatsna/

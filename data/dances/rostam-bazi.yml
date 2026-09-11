@@ -30,36 +30,8 @@ videos:
     title: Քաջաց Խաղ (Ռոստամ Բազի) - Ուսուցողական հոլովակ | Rostam Bazi - Teaching
       Video
     kind: tutorial
-recordings:
-  - file: rostam-bazi/kayt-rostam-bazi.flac
-    performer: Kayt - Rostam Bazi
-    tempo_bpm: null
-    is_default: true
-  - file: rostam-bazi/rostam-bazi-kayt-rostam-bazi-kayt.mp3
-    performer: Ռոստամ Բազի - «Կայթ» - Rostam Bazi Kayt
-    tempo_bpm: null
-    is_default: false
-  - file: rostam-bazi/rostam-bazi-karin-rostam-bazi-karin.mp3
-    performer: Ռոստամ Բազի - «Կարին» - Rostam Bazi Karin
-    tempo_bpm: null
-    is_default: false
-  - file: rostam-bazi/rostam-bazi-akunq.mp3
-    performer: Ռոստամ բազի (Ակունք)
-    tempo_bpm: null
-    is_default: false
-  - file: rostam-bazi/rostam-bazi-shoghakn.mp3
-    performer: Ռոստամ բազի (Շողակն)
-    tempo_bpm: null
-    is_default: false
-  - file: rostam-bazi/rostam-bazi-rostam-bazi-karin.mp3
-    performer: Ռոստամ բազի Rostam bazi (Կարին)
-    tempo_bpm: null
-    is_default: false
-  - file: rostam-bazi/rostam-bazi-ervand-ev-vahan-davudyanner.mp3
-    performer: Ռոստամ բազի Երվանդ և Վահան Դավուդյաններ
-    tempo_bpm: null
-    is_default: false
 regions:
   - Պարսկահայք
 genre:
   - martial
+audio_prefix: rostam-bazi/

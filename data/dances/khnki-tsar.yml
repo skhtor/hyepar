@@ -26,17 +26,9 @@ videos:
   - url: null
     title: «ՄԱՍՈՒՆՔ» - Խնկի ծառ | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 8) - YouTube
     kind: performance
-recordings:
-  - file: khnki-tsar/khnki-tsar-aleqsan-harutyunyan.mp3
-    performer: Խնկի ծառ - Ալեքսան Հարությունյան
-    tempo_bpm: null
-    is_default: true
-  - file: khnki-tsar/khnki-tsar-masunq-hamuyt-khnki-tsar.mp3
-    performer: Խնկի ծառ «Մասունք համույթ» Khnki tsar
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վասպուրական
   - Ջավախք
 genre:
   - ritual
+audio_prefix: khnki-tsar/

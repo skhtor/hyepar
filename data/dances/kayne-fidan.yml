@@ -26,20 +26,4 @@ videos:
   - url: null
     title: «ՄԱՍՈՒՆՔ» «Կայնե, ֆիդան բոյիդ մատաղ» Ջավախքի պարերգ - YouTube
     kind: performance
-recordings:
-  - file: kayne-fidan/momerov-par-kayne-fidan-garni.mp3
-    performer: Մոմերով պար (Կայնե ֆիդան) - (Գառնի)
-    tempo_bpm: null
-    is_default: true
-  - file: kayne-fidan/momerov-par-kayne-fidan-hamlet-barseghyan-kayne-fidan.mp3
-    performer: Մոմերով պար Կայնե ֆիդան «Համլետ բարսեղյան» Kayne fidan
-    tempo_bpm: null
-    is_default: false
-  - file: kayne-fidan/momerov-par-kayne-fidan-masunq-hamuyt-kayne-fidan.mp3
-    performer: Մոմերով պար Կայնե ֆիդան «Մասունք համույթ» Kayne fidan
-    tempo_bpm: null
-    is_default: false
-  - file: kayne-fidan/momerov-par-kayne-fidan-shoghakn.mp3
-    performer: Մոմերով պար կայնե ֆիդան Շողակն
-    tempo_bpm: null
-    is_default: false
+audio_prefix: kayne-fidan/

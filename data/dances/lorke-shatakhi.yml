@@ -25,13 +25,9 @@ videos:
   - url: null
     title: Veradardz Ensemble - Lutki, Lorke, Shatakh - YouTube
     kind: performance
-recordings:
-  - file: lorke-shatakhi/lorke-shatakhi-akunq.mp3
-    performer: Լորկե (Շատախի) - (Ակունք)
-    tempo_bpm: null
-    is_default: true
 regions:
   - Շատախ
 genre:
   - martial
   - hunting
+audio_prefix: lorke-shatakhi/

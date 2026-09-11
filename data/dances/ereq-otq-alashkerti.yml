@@ -30,24 +30,8 @@ videos:
   - url: null
     title: Ուս ուսի. Ուս ուսի. Ալաշկերտի 3 ոտք - YouTube
     kind: tutorial
-recordings:
-  - file: ereq-otq-alashkerti/ereq-otq-saqma-alashkerti.mp3
-    performer: Երեք ոտք , սաքմա - Ալաշկերտի
-    tempo_bpm: null
-    is_default: true
-  - file: ereq-otq-alashkerti/ereq-otq-alashkerti-3-ereq-votq-alashkerti.mp3
-    performer: Երեք-ոտք-Ալաշկերտի-3-Ereq-votq-Alashkerti
-    tempo_bpm: null
-    is_default: false
-  - file: ereq-otq-alashkerti/ereq-otq-saqma-alashkerti-karin.mp3
-    performer: Երեք ոտք , սաքմա Ալաշկերտի Կարին
-    tempo_bpm: null
-    is_default: false
-  - file: ereq-otq-alashkerti/ereq-otq-saqma-alashkerti-shoghakn.mp3
-    performer: Երեք ոտք , սաքմա Ալաշկերտի Շողակն
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ալաշկերտ
 genre:
   - wedding
+audio_prefix: ereq-otq-alashkerti/

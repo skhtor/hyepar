@@ -29,17 +29,9 @@ videos:
   - url: null
     title: Ուս ուսի․ Երեք ոտք - YouTube
     kind: tutorial
-recordings:
-  - file: ereq-otq-karno/ereq-otq-karno-ereq-3-votq-karno.mp3
-    performer: Երեք-ոտք-Կարնո-Ereq-3-votq-Karno
-    tempo_bpm: null
-    is_default: true
-  - file: ereq-otq-karno/ereq-otq-karno-karin-hamuyt-ereq-3-votq-karno.mp3
-    performer: Երեք ոտք Կարնո «Կարին համույթ» Ereq 3 votq Karno
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
 genre:
   - ceremonial
   - charkhapan
+audio_prefix: ereq-otq-karno/

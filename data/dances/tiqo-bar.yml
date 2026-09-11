@@ -29,8 +29,4 @@ videos:
   - url: null
     title: "?"
     kind: tutorial
-recordings:
-  - file: tiqo-bar/tiqo-bar-spartak-sagaryan.mp3
-    performer: Թիքո բար (Սպարտակ Սագարյան)
-    tempo_bpm: null
-    is_default: true
+audio_prefix: tiqo-bar/

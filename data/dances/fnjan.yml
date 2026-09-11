@@ -29,13 +29,9 @@ videos:
   - url: null
     title: Ֆնջան - Ուսուցողական հոլովակ | Fnjan - Teaching Video
     kind: tutorial
-recordings:
-  - file: fnjan/fnjan-karin-hamuyt-fnjan.mp3
-    performer: Ֆնջան - «Կարին համույթ» - Fnjan
-    tempo_bpm: null
-    is_default: true
 regions:
   - Կարին
   - Ջավախք
 genre:
   - festive
+audio_prefix: fnjan/

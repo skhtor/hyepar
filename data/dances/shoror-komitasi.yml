@@ -27,17 +27,9 @@ videos:
   - url: null
     title: «ԿԱՐԻՆ» - Շորոր (Կոմիտաս) | «ՀԱՅՈՑ ԵՐԳԻ ՀԱՅՐԻԿԸ»
     kind: performance
-recordings:
-  - file: shoror-komitasi/shoror-komitasi-karin.mp3
-    performer: Շորոր (Կոմիտասի) - (Կարին)
-    tempo_bpm: null
-    is_default: true
-  - file: shoror-komitasi/shoror-komitasi-karin-hamuyt-komitasi-shoror.mp3
-    performer: Շորոր Կոմիտասի «Կարին համույթ» Komitasi shoror
-    tempo_bpm: null
-    is_default: false
 genre:
   - ritual
   - wedding
   - memorial
   - reverse
+audio_prefix: shoror-komitasi/

@@ -27,20 +27,8 @@ videos:
   - url: null
     title: «Բեկոր» - Վանա շորոր - YouTube
     kind: performance
-recordings:
-  - file: shoror-vana/shoror-vana-18-tom-bozigian-vana-oror-shoror.mp3
-    performer: Շորոր Վանա 18) Tom Bozigian - Vana Oror Shoror
-    tempo_bpm: null
-    is_default: true
-  - file: shoror-vana/shoror-vana-ev-tars-u-shitak.mp3
-    performer: Շորոր Վանա և Թարս ու շիտակ
-    tempo_bpm: null
-    is_default: false
-  - file: shoror-vana/shoror-vana-bekor-avandakan-ergi-pari-khumb-shoror-vana-bekor-folk.mp3
-    performer: Շորոր Վանա «Բեկոր ավանդական երգի պարի խումբ» Shoror Vana Bekor Folk
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վասպուրական
 genre:
   - ritual
+audio_prefix: shoror-vana/

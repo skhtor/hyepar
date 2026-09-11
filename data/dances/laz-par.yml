@@ -27,18 +27,6 @@ videos:
     title: Կարին ավանդական երգի-պարի խումբ - Լազ պար | Karin folk dance and song
       group - Laz par - YouTube
     kind: performance
-recordings:
-  - file: laz-par/laz-par-tom-bozigyan.mp3
-    performer: Լազ բար (Թոմ Բոզիգյան)
-    tempo_bpm: null
-    is_default: true
-  - file: laz-par/laz-par-mal-barsamyan.mp3
-    performer: Լազ բար (Մալ Բարսամյան)
-    tempo_bpm: null
-    is_default: false
-  - file: laz-par/laz-par-chukazyan-ansambl.mp3
-    performer: Լազ բար (Չուկազյան անսամբլ)
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
+audio_prefix: laz-par/

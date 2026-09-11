@@ -25,18 +25,6 @@ videos:
   - url: null
     title: Սասուն - Ասմար յաման - YouTube
     kind: performance
-recordings:
-  - file: asmar/asmar-sasun.mp3
-    performer: Ասմար - Սասուն
-    tempo_bpm: null
-    is_default: true
-  - file: asmar/asmarani-shoghakn.mp3
-    performer: Ասմարանի (Շողակն)
-    tempo_bpm: null
-    is_default: false
-  - file: asmar/lachin-asmar-sasun-hamuyt-andranik-manukyan-lachin-asmarsasun.mp3
-    performer: Լաչին Ասմար «Սասուն համույթ» Անդրանիկ Մանուկյան Lachin AsmarSasun
-    tempo_bpm: null
-    is_default: false
 regions:
   - Սասուն
+audio_prefix: asmar/

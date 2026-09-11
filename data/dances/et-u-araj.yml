@@ -26,34 +26,10 @@ videos:
   - url: null
     title: «Մենք» - Ետ ու առաջ
     kind: performance
-recordings:
-  - file: et-u-araj/kayt-yet-u-araj.flac
-    performer: Kayt - Yet U Araj
-    tempo_bpm: null
-    is_default: true
-  - file: et-u-araj/et-u-araj-karin.mp3
-    performer: Ետ ու առաջ (Կարին)
-    tempo_bpm: null
-    is_default: false
-  - file: et-u-araj/et-u-araj-shoghakn.mp3
-    performer: Ետ ու առաջ (Շողակն)
-    tempo_bpm: null
-    is_default: false
-  - file: et-u-araj/et-u-araj-kayt-yet-u-araj-kayt.mp3
-    performer: Ետ ու առաջ - «Կայթ» - Yet u araj Kayt
-    tempo_bpm: null
-    is_default: false
-  - file: et-u-araj/minidur-et-araj-areg-hamuyt-minindur-et-araj.mp3
-    performer: Մինիդուր, Ետ առաջ «Արեգ համույթ» Minindur, Et araj
-    tempo_bpm: null
-    is_default: false
-  - file: et-u-araj/pareri-sharq-minindur-ev-et-u-araj-veradardz.mp3
-    performer: Պարերի շարք Մինինդուր և ետ ու առաջ Վերադարձ
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
   - Ջավախք
 genre:
   - festive
   - ceremonial
+audio_prefix: et-u-araj/

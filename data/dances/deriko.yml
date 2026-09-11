@@ -26,24 +26,8 @@ videos:
   - url: null
     title: «ՄԱՍՈՒՆՔ» - Դերիկո | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 7) - YouTube
     kind: performance
-recordings:
-  - file: deriko/deriko-masunq-hamuyt-deriko.mp3
-    performer: Դերիկո - «Մասունք համույթ» - Deriko
-    tempo_bpm: null
-    is_default: true
-  - file: deriko/deriko-gata.mp3
-    performer: Դերիկո - Գաթա
-    tempo_bpm: null
-    is_default: false
-  - file: deriko/deriko.mp3
-    performer: Դերիկո
-    tempo_bpm: null
-    is_default: false
-  - file: deriko/lorke-dabki.mp3
-    performer: Լորկե, Դաբկի
-    tempo_bpm: null
-    is_default: false
 regions:
   - Հարք
 genre:
   - festive
+audio_prefix: deriko/

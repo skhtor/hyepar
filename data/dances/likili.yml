@@ -26,27 +26,7 @@ videos:
   - url: null
     title: Likili - Masunq folk ensemble | Լիկիլի - Մասունք - YouTube
     kind: performance
-recordings:
-  - file: likili/likili-masunq-erg.mp3
-    performer: Լիկիլի (Մասունք - երգ)
-    tempo_bpm: null
-    is_default: true
-  - file: likili/likili-masunq-hamuyt-likili.mp3
-    performer: Լիկիլի - «Մասունք համույթ» - Likili
-    tempo_bpm: null
-    is_default: false
-  - file: likili/likili-karin.mp3
-    performer: Լիկիլի - Կարին
-    tempo_bpm: null
-    is_default: false
-  - file: likili/likili-karaoke.mp3
-    performer: Լիկիլի Կարաոկե
-    tempo_bpm: null
-    is_default: false
-  - file: likili/likili-likili.mp3
-    performer: Լիկիլի-Likili
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
   - Ջավախք
+audio_prefix: likili/

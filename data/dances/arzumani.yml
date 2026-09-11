@@ -25,16 +25,8 @@ videos:
   - url: null
     title: Sasna Crer folk - ԱՐԶՈՒՄԱՆԻ -ARZUMANI
     kind: performance
-recordings:
-  - file: arzumani/arzumani-veradardz-hamuyt-arzumani.mp3
-    performer: Արզումանի «Վերադարձ համույթ» Arzumani
-    tempo_bpm: null
-    is_default: true
-  - file: arzumani/arzumani-dandagh-sasna-tsrer-hamuyt-arzumani-sasna-crer-folk-group.mp3
-    performer: Արզումանի Դանդաղ «Սասնա ծռեր համույթ» Arzumani Sasna Crer Folk Group
-    tempo_bpm: null
-    is_default: false
 genre:
   - wedding
 regions:
   - Վասպուրական
+audio_prefix: arzumani/

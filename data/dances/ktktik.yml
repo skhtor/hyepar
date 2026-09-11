@@ -28,28 +28,8 @@ videos:
   - url: null
     title: Արդվին - Կտկտիկ - YouTube
     kind: performance
-recordings:
-  - file: ktktik/ktktik-norayr-qartashyan.mp3
-    performer: Կտկտիկ (Նորայր Քարտաշյան)
-    tempo_bpm: null
-    is_default: true
-  - file: ktktik/ktktik-sasun.mp3
-    performer: Կտկտիկ (Սասուն)
-    tempo_bpm: null
-    is_default: false
-  - file: ktktik/ktktik-ktkrik.mp3
-    performer: Կտկտիկ Ktkrik
-    tempo_bpm: null
-    is_default: false
-  - file: ktktik/ktktik-palancho-garni.mp3
-    performer: Կտկտիկ Փալանչո (Գառնի)
-    tempo_bpm: null
-    is_default: false
-  - file: ktktik/ktktik-ktktik.mp3
-    performer: Կտկտիկ-Ktktik
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վասպուրական
 genre:
   - ceremonial
+audio_prefix: ktktik/

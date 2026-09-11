@@ -26,13 +26,9 @@ videos:
   - url: null
     title: «ՄԱՍՈՒՆՔ» - Քեչին վրեն | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 5) - YouTube
     kind: performance
-recordings:
-  - file: qechin-vren/qechin-vren-masunq-hamuyt-qechin-vren.mp3
-    performer: Քեչին վրեն «Մասունք համույթ» Qechin vren
-    tempo_bpm: null
-    is_default: true
 regions:
   - Շիրակ
   - Ջավախք
 genre:
   - work
+audio_prefix: qechin-vren/

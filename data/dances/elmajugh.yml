@@ -27,17 +27,9 @@ videos:
   - url: null
     title: Էլմաջուղ (Համշեն)
     kind: performance
-recordings:
-  - file: elmajugh/elmajugh-spartak-sagaryan.mp3
-    performer: Էլմաջուղ (Սպարտակ Սագարյան)
-    tempo_bpm: null
-    is_default: true
-  - file: elmajugh/elmajugh-hamshen.mp3
-    performer: Էլմաջուղ(Համշեն)
-    tempo_bpm: null
-    is_default: false
 regions:
   - Համշեն
 genre:
   - wedding
   - charkhapan
+audio_prefix: elmajugh/

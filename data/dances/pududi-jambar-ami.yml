@@ -23,8 +23,4 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: pududi-jambar-ami/pududi-jambar-ami-pududi-jambar-ami.mp3
-    performer: Պուդուդի-Ջամբար-ամի-Pududi-Jambar-ami
-    tempo_bpm: null
-    is_default: true
+audio_prefix: pududi-jambar-ami/

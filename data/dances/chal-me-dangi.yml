@@ -23,25 +23,9 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: chal-me-dangi/chalme-dangi-hin.mp3
-    performer: Չալմը դանգի (հին)
-    tempo_bpm: null
-    is_default: true
-  - file: chal-me-dangi/chalme-danke-armen-mandakunyan.mp3
-    performer: Չալմը դանկը - Արմեն Մանդակունյան
-    tempo_bpm: null
-    is_default: false
-  - file: chal-me-dangi/chalme-danki-chalme-danki.mp3
-    performer: Չալմը-Դանկի-Chalme-Danki
-    tempo_bpm: null
-    is_default: false
-  - file: chal-me-dangi/chalme-dangi-karin-hamuyt-chalme-danki.mp3
-    performer: Չալմը դանգի «Կարին համույթ» Chalme Danki
-    tempo_bpm: null
-    is_default: false
 regions:
   - Մուսալեռ
 genre:
   - wedding
   - martial
+audio_prefix: chal-me-dangi/

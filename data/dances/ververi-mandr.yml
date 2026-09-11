@@ -28,16 +28,4 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: ververi-mandr/ververi-manr-karin-hamuyt.mp3
-    performer: Վերվերի մանր - «Կարին համույթ»
-    tempo_bpm: null
-    is_default: true
-  - file: ververi-mandr/ververi-manr-ververi-manr.mp3
-    performer: Վերվերի-մանր-Ververi-manr
-    tempo_bpm: null
-    is_default: false
-  - file: ververi-mandr/ververi-manr-menua-bend-tamada.mp3
-    performer: Վերվերի մանր «Մենուա բենդ» Թամադա
-    tempo_bpm: null
-    is_default: false
+audio_prefix: ververi-mandr/

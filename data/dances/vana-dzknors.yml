@@ -29,24 +29,8 @@ videos:
   - url: null
     title: Ուս ուսի. Վանա ձկնորս
     kind: tutorial
-recordings:
-  - file: vana-dzknors/karin-ensemble-vana-dzknors.mp3
-    performer: Karin Ensemble - Vana Dzknors
-    tempo_bpm: null
-    is_default: true
-  - file: vana-dzknors/dzknorsneri-par-vana-dzknors-hamuyt.mp3
-    performer: Ձկնորսների պար (Վանա ձկնորս) - Համույտ
-    tempo_bpm: null
-    is_default: false
-  - file: vana-dzknors/dzknorsneri-par-vana-dzknors-tom-bozigyan.mp3
-    performer: Ձկնորսների պար Վանա ձկնորս Թոմ Բոզիգյան
-    tempo_bpm: null
-    is_default: false
-  - file: vana-dzknors/dzknorsneri-par-vana-dzknors-karin.mp3
-    performer: Ձկնորսների պար Վանա ձկնորս Կարին
-    tempo_bpm: null
-    is_default: false
 regions:
   - Խորգոմ
 genre:
   - work
+audio_prefix: vana-dzknors/

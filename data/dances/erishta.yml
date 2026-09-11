@@ -26,14 +26,10 @@ videos:
   - url: null
     title: Մասունք - Էրիշտա (ԸՆՏԱՆԻՔԸ ՈՒԺ Է) - YouTube
     kind: performance
-recordings:
-  - file: erishta/erishta-erishta.mp3
-    performer: Էրիշտա-Erishta
-    tempo_bpm: null
-    is_default: true
 regions:
   - Արթիկ
   - Կարին
   - Ջավախք
 genre:
   - work
+audio_prefix: erishta/

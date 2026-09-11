@@ -27,13 +27,9 @@ videos:
     title: ԱԿՈՒՆՔ - Ույ Գոգ աղպար, Ուրֆանե/GUTAN 2015 - AKUNQ - Ui Gog Aghpar,
       Urfane - YouTube
     kind: performance
-recordings:
-  - file: urfane/urfane-akunq.mp3
-    performer: Ուրֆանե (Ակունք)
-    tempo_bpm: null
-    is_default: true
 regions:
   - Ուրֆա
 genre:
   - procession
   - wedding
+audio_prefix: urfane/

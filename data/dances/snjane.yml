@@ -27,22 +27,6 @@ videos:
     title: Սնջանե - Մասունք | Վանի տարածաշրջան | Snjane - Masunq Folk Ensemble -
       YouTube
     kind: performance
-recordings:
-  - file: snjane/snjane-tom-bozigyan.mp3
-    performer: Սնջանե (Թոմ Բոզիգյան)
-    tempo_bpm: null
-    is_default: true
-  - file: snjane/snjane-saro-danielyan.mp3
-    performer: Սնջանե (Սարո Դանիելյան)
-    tempo_bpm: null
-    is_default: false
-  - file: snjane/snjane-snjane-2.mp3
-    performer: Սնջանե - Snjane (2)
-    tempo_bpm: null
-    is_default: false
-  - file: snjane/snjane-sheykhana-van-levon-madoyan.mp3
-    performer: Սնջանե Շեյխանա, Վան Լևոն Մադոյան
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վասպուրական
+audio_prefix: snjane/

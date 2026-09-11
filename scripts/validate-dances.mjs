@@ -45,12 +45,16 @@ export function validateDance(d, file) {
   if (d.family_tags != null && !Array.isArray(d.family_tags))
     err("family_tags must be an array (or absent)");
 
-  const recs = d.recordings || [];
-  const defaults = recs.filter((r) => r.is_default === true).length;
-  if (recs.length > 0 && defaults === 0)
-    err("has recordings but none marked is_default (exactly one required)");
-  if (defaults > 1)
-    err(`${defaults} recordings marked is_default (exactly one allowed)`);
+  // Audio is authored as a prefix; recordings[] are generated into the bundle at
+  // build time by listing R2 under audio_prefix. Validate the authored fields only.
+  if (d.audio_prefix != null && (typeof d.audio_prefix !== "string" || !d.audio_prefix.endsWith("/")))
+    err(`audio_prefix must be a string ending in "/" (got ${JSON.stringify(d.audio_prefix)})`);
+  if (d.default_recording != null && typeof d.default_recording !== "string")
+    err("default_recording must be a string (an R2 key) or absent");
+  if (d.default_recording != null && d.audio_prefix != null && !d.default_recording.startsWith(d.audio_prefix))
+    err(`default_recording "${d.default_recording}" is not under audio_prefix "${d.audio_prefix}"`);
+  if (d.recordings != null)
+    err("recordings[] should not be authored in YAML — use audio_prefix (recordings are generated at build)");
 
   return errors;
 }

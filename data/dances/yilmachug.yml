@@ -23,8 +23,4 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: yilmachug/yilmachug-jukht-krunk-masunq-hamuyt.mp3
-    performer: Յիլմաճուգ, Ջուխտ կրունկ «Մասունք համույթ»
-    tempo_bpm: null
-    is_default: true
+audio_prefix: yilmachug/

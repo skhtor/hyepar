@@ -26,29 +26,9 @@ videos:
   - url: null
     title: «Զաքենի» Մասունք / Masunq folk ensemble - Zaqeni - YouTube
     kind: performance
-recordings:
-  - file: zaqeni/masunk-ensemble-zakeni.mp3
-    performer: Masunk Ensemble - Zakeni
-    tempo_bpm: null
-    is_default: true
-  - file: zaqeni/zaqeni-masunq-hamuyt-zaqeni.mp3
-    performer: Զաքենի - «Մասունք համույթ» - zaqeni
-    tempo_bpm: null
-    is_default: false
-  - file: zaqeni/zaqeni-masunq-hamuyt-zaqeni-2.mp3
-    performer: Զաքենի - «Մասունք համույթ» - zaqeni
-    tempo_bpm: null
-    is_default: false
-  - file: zaqeni/zaqeni-masunq-hamuyt-zaqeni-pku.mp3
-    performer: Զաքենի «Մասունք համույթ» zaqeni pku
-    tempo_bpm: null
-    is_default: false
-  - file: zaqeni/zaqeni-masunq-hamuyt-zaqeni-zurna.mp3
-    performer: Զաքենի «Մասունք համույթ» zaqeni zurna
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
   - Ջավախք
 genre:
   - ritual
+audio_prefix: zaqeni/

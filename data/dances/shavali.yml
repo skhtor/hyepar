@@ -29,22 +29,10 @@ videos:
   - url: null
     title: Շավալի - Ուսուցողական հոլովակ | Shavali - Teaching Video
     kind: tutorial
-recordings:
-  - file: shavali/shavali-khosh-bilazik-karin-hamuyt-shavali-xosh-bilazig.mp3
-    performer: Շավալի, Խոշ բիլազիկ «Կարին համույթ» Shavali Xosh bilazig
-    tempo_bpm: null
-    is_default: true
-  - file: shavali/shavali-khosh-bilazig-oazis-ansambl.mp3
-    performer: Շավալի, խոշ բիլազիգ Օազիս անսամբլ
-    tempo_bpm: null
-    is_default: false
-  - file: shavali/shavali-ev-khosh-bilazik-tom-bozigyan.mp3
-    performer: Շավալի և խոշ բիլազիկ Թոմ Բոզիգյան
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
   - Ջավախք
 genre:
   - wedding
   - in-laws
+audio_prefix: shavali/

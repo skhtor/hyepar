@@ -24,12 +24,8 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: yalli/yalli-masunq.mp3
-    performer: Յալլի - Մասունք
-    tempo_bpm: null
-    is_default: true
 regions:
   - Փերիա
 genre:
   - communal
+audio_prefix: yalli/

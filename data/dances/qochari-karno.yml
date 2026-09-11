@@ -29,17 +29,9 @@ videos:
   - url: null
     title: Կարնո Քոչարի - Ուսուցողական հոլովակ | Karno Kochari - Teaching Video
     kind: tutorial
-recordings:
-  - file: qochari-karno/qochari-karno-karno-qochari-hin.mp3
-    performer: Քոչարի (Կարնո)  Karno Qochari (հին)
-    tempo_bpm: null
-    is_default: true
-  - file: qochari-karno/qochari-karno-karin.mp3
-    performer: Քոչարի (Կարնո) - (Կարին)
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
 genre:
   - ritual
   - martial
+audio_prefix: qochari-karno/

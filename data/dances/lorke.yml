@@ -28,30 +28,6 @@ videos:
   - url: null
     title: Լորկե - Ուսուցողական հոլովակ | Lorke - Teaching Video
     kind: tutorial
-recordings:
-  - file: lorke/aida-sargsyan-lorke.mp3
-    performer: Aida Sargsyan - Lorke
-    tempo_bpm: null
-    is_default: true
-  - file: lorke/dabki-lorke.mp3
-    performer: Դաբկի, Լորկե
-    tempo_bpm: null
-    is_default: false
-  - file: lorke/lorke-lorke.mp3
-    performer: Լորկե - Lorke
-    tempo_bpm: null
-    is_default: false
-  - file: lorke/lorke-mal-barsamyan.mp3
-    performer: Լորկե - Մալ Բարսամյան
-    tempo_bpm: null
-    is_default: false
-  - file: lorke/lorke-dabki.mp3
-    performer: Լորկե, Դաբկի
-    tempo_bpm: null
-    is_default: false
-  - file: lorke/lorke-lorke-2.mp3
-    performer: Լորկե-Lorke
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
+audio_prefix: lorke/

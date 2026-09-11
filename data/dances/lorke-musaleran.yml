@@ -26,36 +26,8 @@ videos:
   - url: null
     title: Armenian Dances from Musa Ler - DABKI, LORKE - YouTube
     kind: performance
-recordings:
-  - file: lorke-musaleran/lorke-karmir-festan-hin.mp3
-    performer: Լորկե (Կարմիր ֆըստան) - (Հին)
-    tempo_bpm: null
-    is_default: true
-  - file: lorke-musaleran/lorke-musa-leran-hin.mp3
-    performer: Լորկե (Մուսա լեռան) - (հին)
-    tempo_bpm: null
-    is_default: false
-  - file: lorke-musaleran/lorke-karmir-fstan-armen-mandakunyan.mp3
-    performer: Լորկե Կարմիր Ֆստան Արմեն Մանդակունյան
-    tempo_bpm: null
-    is_default: false
-  - file: lorke-musaleran/lorke-karmir-fstan-areg-hamuyt-karmir-fstan.mp3
-    performer: Լորկե Կարմիր ֆստան «Արեգ համույթ» Karmir fstan
-    tempo_bpm: null
-    is_default: false
-  - file: lorke-musaleran/lorke-karmir-fstan-norayr-qartashyan.mp3
-    performer: Լորկե Կարմիր ֆստան Նորայր Քարտաշյան
-    tempo_bpm: null
-    is_default: false
-  - file: lorke-musaleran/lorke-musa-leran-armen-mandakunyan.mp3
-    performer: Լորկե Մուսա լեռան Արմեն Մանդակունյան
-    tempo_bpm: null
-    is_default: false
-  - file: lorke-musaleran/lorke-musaler-sasna-tsrer-hamuyt-lorke-musaler-sasna-crer-folk.mp3
-    performer: Լորկե Մուսալեռ «Սասնա ծռեր համույթ» Lorke Musaler Sasna Crer Folk
-    tempo_bpm: null
-    is_default: false
 regions:
   - Մուսալեռ
 genre:
   - wedding
+audio_prefix: lorke-musaleran/

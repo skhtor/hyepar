@@ -27,25 +27,9 @@ videos:
   - url: null
     title: «ՄԱՍՈՒՆՔ» - Վանա Քոչարի | (ՄԵՆԱՀԱՄԵՐԳ - ՄԱՍ 21) - YouTube
     kind: performance
-recordings:
-  - file: qochari-vana/qochari-sgherdi-vana-akunq.mp3
-    performer: Քոչարի (Սղերդի, Վանա) - (Ակունք)
-    tempo_bpm: null
-    is_default: true
-  - file: qochari-vana/qochari-sgherdi-vana.mp3
-    performer: Քոչարի (Սղերդի, Վանա)
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-vana/qochari-sgherdi-vana-karin-hamuyt-sxerdi-vana-qochari.mp3
-    performer: Քոչարի Սղերդի, Վանա «Կարին համույթ» Sxerdi Vana Qochari
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-vana/qochari-sgherdi-vana-karin-hamuyt-sxerdi-vana-qochari-2.mp3
-    performer: Քոչարի Սղերդի, Վանա «Կարին համույթ» Sxerdi Vana Qochari 2
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վան
 genre:
   - ritual
   - martial
+audio_prefix: qochari-vana/

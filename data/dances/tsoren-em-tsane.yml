@@ -23,16 +23,8 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: tsoren-em-tsane/tsoren-em-tsanel-varq-hayots.mp3
-    performer: Ցորեն եմ ցանել - Վարք Հայոց
-    tempo_bpm: null
-    is_default: true
-  - file: tsoren-em-tsane/tsoren-em-tsane-masunq-hamuyt-coren-em-cane.mp3
-    performer: Ցորեն եմ ցանե «Մասունք համույթ» Coren em cane
-    tempo_bpm: null
-    is_default: false
 regions:
   - Շիրակ
 genre:
   - work
+audio_prefix: tsoren-em-tsane/

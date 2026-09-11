@@ -23,18 +23,6 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: maraloy-aghjik/maraloy-aghjik-karch.mp3
-    performer: Մարալոյ աղջիկ - կարճ
-    tempo_bpm: null
-    is_default: true
-  - file: maraloy-aghjik/maraloy-aghjik.mp3
-    performer: Մարալոյ աղջիկ
-    tempo_bpm: null
-    is_default: false
-  - file: maraloy-aghjik/maraloy-aghjik-masunq-hamuyt-maraloy-axjik.mp3
-    performer: Մարալոյ աղջիկ «Մասունք համույթ» Maraloy axjik
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ջավախք
+audio_prefix: maraloy-aghjik/

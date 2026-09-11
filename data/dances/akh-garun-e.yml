@@ -25,18 +25,6 @@ videos:
   - url: null
     title: Ախ գարուն է (Տյառնըդառաջը Գառնիում - 2022)
     kind: performance
-recordings:
-  - file: akh-garun-e/akh-garun-e-masunq-1.mp3
-    performer: Ախ, գարուն է - Մասունք (1)
-    tempo_bpm: null
-    is_default: true
-  - file: akh-garun-e/akh-garun-e-masunq-nvag.mp3
-    performer: Ախ, գարուն է - Մասունք - Նվագ
-    tempo_bpm: null
-    is_default: false
-  - file: akh-garun-e/akh-garun-e-masunq.mp3
-    performer: Ախ, գարուն է - Մասունք
-    tempo_bpm: null
-    is_default: false
 regions:
   - Բասեն
+audio_prefix: akh-garun-e/

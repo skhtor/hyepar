@@ -29,49 +29,9 @@ videos:
   - url: null
     title: Ուս ուսի. Շատախի ռազմապար
     kind: tutorial
-recordings:
-  - file: shatakhi-razmapar/shataxi-razmapar-drums-only-edit.mp3
-    performer: Shataxi Razmapar (Drums Only Edit)
-    tempo_bpm: null
-    is_default: true
-  - file: shatakhi-razmapar/shataxi-razmapar.mp3
-    performer: Shataxi Razmapar
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/lorke-shatakhi-razmapar-sasun-hin.mp3
-    performer: Լորկե Շատախի ռազմապար Սասուն հին
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-lorke.mp3
-    performer: Շատախի լորկե
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-martakan-lorke.mp3
-    performer: Շատախի մառտական լորկե
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-razmapar-shataxi-razmapar-karin.mp3
-    performer: Շատախի ռազմապար Shataxi razmapar (Կարին)
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-razmapar-martakan-shataxi-razmapar-martakan-2.mp3
-    performer: Շատախի-ռազմապար-Մարտական-Shataxi-razmapar-Martakan-2
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-razmapar-martakan-shataxi-razmapar-martakan-3.mp3
-    performer: Շատախի-ռազմապար-Մարտական-Shataxi-razmapar-Martakan-3
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-razmapar-martakan-arayik-mkoyan-shataxi-razmapar-martakan.mp3
-    performer: Շատախի ռազմապար Մարտական Արայիկ Մկոյան Shataxi razmapar Martakan
-    tempo_bpm: null
-    is_default: false
-  - file: shatakhi-razmapar/shatakhi-razmapar-shatakhi-martakan-sasun-hamuyt-shataxi-razmapar.mp3
-    performer: Շատախի ռազմապար Շատախի մարտական «Սասուն համույթ» Shataxi razmapar
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վասպուրական
   - Շատախ
 genre:
   - martial
+audio_prefix: shatakhi-razmapar/

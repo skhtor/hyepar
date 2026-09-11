@@ -29,29 +29,9 @@ videos:
   - url: null
     title: Էջմիածին - Ուսուցողական հոլովակ | Ejmiatzin - Teaching Video
     kind: tutorial
-recordings:
-  - file: ejmiatsin/ejmiatsin-tsovak.mp3
-    performer: Էջմիածին (Ծովակ)
-    tempo_bpm: null
-    is_default: true
-  - file: ejmiatsin/ejmiatsin-karin-hamuyt-ejmiatsin.mp3
-    performer: Էջմիածին - «Կարին համույթ» - Ejmiatsin
-    tempo_bpm: null
-    is_default: false
-  - file: ejmiatsin/ejmiatsin-karin-hamerg.mp3
-    performer: Էջմիածին - Կարին համերգ
-    tempo_bpm: null
-    is_default: false
-  - file: ejmiatsin/ejmiatsin-ejmiatsin.mp3
-    performer: Էջմիածին-Ejmiatsin
-    tempo_bpm: null
-    is_default: false
-  - file: ejmiatsin/ejmiatsin-nubar-hamuyt-ejmiatsin.mp3
-    performer: Էջմիածին «Նուբար համույթ» Ejmiatsin
-    tempo_bpm: null
-    is_default: false
 regions:
   - Կարին
   - Ջավախք
 genre:
   - ritual
+audio_prefix: ejmiatsin/

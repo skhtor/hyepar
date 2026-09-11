@@ -29,25 +29,9 @@ videos:
   - url: null
     title: Թռթռուգ - Ուսուցողական հոլովակ | Trtrug - Teaching Video
     kind: tutorial
-recordings:
-  - file: trtruk/trtrug-arag-veradardz.mp3
-    performer: Թրթռուգ (արագ) - Վերադարձ
-    tempo_bpm: null
-    is_default: true
-  - file: trtruk/trtruk-spartak-sagaryan-2.mp3
-    performer: Թրթռուկ (Սպարտակ Սագարյան - 2)
-    tempo_bpm: null
-    is_default: false
-  - file: trtruk/trtruk-spartak-sagaryan.mp3
-    performer: Թրթռուկ (Սպարտակ Սագարյան)
-    tempo_bpm: null
-    is_default: false
-  - file: trtruk/trtruk-horonu-hamshen-vova-hamshen-trtruk-horonu.mp3
-    performer: Թրթռուկ Հոռոնու Համշեն «Վովա» Hamshen trtruk horonu
-    tempo_bpm: null
-    is_default: false
 regions:
   - Համշեն
 genre:
   - ritual
   - martial
+audio_prefix: trtruk/

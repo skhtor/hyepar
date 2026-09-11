@@ -39,21 +39,27 @@ test("recordingLabelFromFile: strips ext + underscores", () => {
   assert.equal(recordingLabelFromFile("Շավալի_Կարին_համույթ.mp3"), "Շավալի Կարին համույթ");
 });
 
-test("validateDance: catches bad vocab and is_default violations", () => {
+test("validateDance: catches bad vocab, authored recordings[], and audio_prefix rules", () => {
   const bad = {
     slug: "x", name: { hy: "Տեստ" }, hold_type: "elbows",
-    recordings: [{ is_default: true }, { is_default: true }],
+    recordings: [{ file: "x/a.mp3" }], // recordings must NOT be authored in YAML now
   };
   const errs = validateDance(bad, "x.yml");
   assert.ok(errs.some((e) => e.includes("hold_type")));
-  assert.ok(errs.some((e) => e.includes("is_default")));
+  assert.ok(errs.some((e) => e.includes("recordings")));
 
+  // valid: audio via prefix, no authored recordings
   const good = {
     slug: "fnjan", name: { hy: "Ֆնջան" }, hold_type: "palms", difficulty: 2, energy: null,
-    recordings: [{ is_default: true }, { is_default: false }],
+    audio_prefix: "fnjan/",
   };
   assert.equal(validateDance(good, "fnjan.yml").length, 0);
 
-  const noDefault = { slug: "y", name: { hy: "Յ" }, recordings: [{ is_default: false }] };
-  assert.ok(validateDance(noDefault, "y.yml").some((e) => e.includes("is_default")));
+  // audio_prefix must end in "/"
+  const badPrefix = { slug: "y", name: { hy: "Յ" }, audio_prefix: "yy" };
+  assert.ok(validateDance(badPrefix, "y.yml").some((e) => e.includes("audio_prefix")));
+
+  // default_recording must live under the prefix
+  const badDefault = { slug: "z", name: { hy: "Զ" }, audio_prefix: "z/", default_recording: "other/x.mp3" };
+  assert.ok(validateDance(badDefault, "z.yml").some((e) => e.includes("default_recording")));
 });

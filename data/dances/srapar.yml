@@ -28,12 +28,8 @@ videos:
   - url: null
     title: Սրաբար - Ուսուցողական հոլովակ | Srabar - Teaching Video
     kind: tutorial
-recordings:
-  - file: srapar/srapar-srapar.mp3
-    performer: Սրապար-Srapar
-    tempo_bpm: null
-    is_default: true
 regions:
   - Համշեն
 genre:
   - wedding
+audio_prefix: srapar/

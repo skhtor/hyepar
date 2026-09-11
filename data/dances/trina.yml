@@ -26,16 +26,4 @@ videos:
   - url: null
     title: Ակունք - Տրինա - YouTube
     kind: performance
-recordings:
-  - file: trina/trina-sharq-ev-urfane.mp3
-    performer: Տրինա (շարք), և ուրֆանե
-    tempo_bpm: null
-    is_default: true
-  - file: trina/trina-tsisakan.mp3
-    performer: Տրինա Ծիսական
-    tempo_bpm: null
-    is_default: false
-  - file: trina/trina.mp3
-    performer: Տրինա
-    tempo_bpm: null
-    is_default: false
+audio_prefix: trina/

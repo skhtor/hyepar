@@ -24,24 +24,8 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: momerov-par/momerov-par-kayne-fidan-garni.mp3
-    performer: Մոմերով պար (Կայնե ֆիդան) - (Գառնի)
-    tempo_bpm: null
-    is_default: true
-  - file: momerov-par/momerov-par-kayne-fidan-hamlet-barseghyan-kayne-fidan.mp3
-    performer: Մոմերով պար Կայնե ֆիդան «Համլետ բարսեղյան» Kayne fidan
-    tempo_bpm: null
-    is_default: false
-  - file: momerov-par/momerov-par-kayne-fidan-masunq-hamuyt-kayne-fidan.mp3
-    performer: Մոմերով պար Կայնե ֆիդան «Մասունք համույթ» Kayne fidan
-    tempo_bpm: null
-    is_default: false
-  - file: momerov-par/momerov-par-kayne-fidan-shoghakn.mp3
-    performer: Մոմերով պար կայնե ֆիդան Շողակն
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ջավախք
 genre:
   - wedding
+audio_prefix: momerov-par/

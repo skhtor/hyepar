@@ -28,17 +28,9 @@ videos:
     title: Masunq Ensemble - Kochari from Bulanekh | Մասունք - Բուլանըխի Քոչարի
       (ԸՆՏԱՆԻՔԸ ՈՒԺ Է)
     kind: performance
-recordings:
-  - file: qochari-bulanukhi/bulankhi-qochari-bulanxi-qochari.mp3
-    performer: Բուլանխի-քոչարի-Bulanxi-qochari
-    tempo_bpm: null
-    is_default: true
-  - file: qochari-bulanukhi/qochari-bulankhi-masunq-hamuyt-bulanxi-qochari.mp3
-    performer: Քոչարի Բուլանխի «Մասունք համույթ» Bulanxi qochari
-    tempo_bpm: null
-    is_default: false
 regions:
   - Բուլանուխ
 genre:
   - ritual
   - martial
+audio_prefix: qochari-bulanukhi/

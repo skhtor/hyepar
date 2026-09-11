@@ -28,32 +28,4 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: minindur/minidur-et-araj-areg-hamuyt-minindur-et-araj.mp3
-    performer: Մինիդուր, Ետ առաջ «Արեգ համույթ» Minindur, Et araj
-    tempo_bpm: null
-    is_default: true
-  - file: minindur/minindur-akunq-nor.mp3
-    performer: Մինինդուր (Ակունք - նոր)
-    tempo_bpm: null
-    is_default: false
-  - file: minindur/minindur-ev-bulul-karin-hin.mp3
-    performer: Մինինդուր և բուլուլ (Կարին - հին)
-    tempo_bpm: null
-    is_default: false
-  - file: minindur/minindur-akunq-hamuyt-minindur.mp3
-    performer: Մինինդուր «Ակունք համույթ» minindur
-    tempo_bpm: null
-    is_default: false
-  - file: minindur/minindur-bulul-karin-hamuyt-minindur-bulul.mp3
-    performer: Մինինդուր բուլուլ «Կարին համույթ» minindur bulul
-    tempo_bpm: null
-    is_default: false
-  - file: minindur/pareri-sharq-minindur-ev-et-u-araj-akunq.mp3
-    performer: Պարերի շարք Մինինդուր և ետ ու առաջ Ակունք
-    tempo_bpm: null
-    is_default: false
-  - file: minindur/pareri-sharq-minindur-ev-et-u-araj-veradardz.mp3
-    performer: Պարերի շարք Մինինդուր և ետ ու առաջ Վերադարձ
-    tempo_bpm: null
-    is_default: false
+audio_prefix: minindur/

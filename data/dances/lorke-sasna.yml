@@ -23,12 +23,8 @@ lyrics:
   en: null
   status: unknown
 videos: []
-recordings:
-  - file: lorke-sasna/lorke-sasna-akunq.mp3
-    performer: Լորկե (Սասնա) - (Ակունք)
-    tempo_bpm: null
-    is_default: true
 regions:
   - Սասուն
 genre:
   - wedding
+audio_prefix: lorke-sasna/

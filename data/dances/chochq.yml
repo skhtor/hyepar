@@ -28,13 +28,9 @@ videos:
   - url: null
     title: Շորոր (Ճոճք) - Ուսուցողական հոլովակ | Shoror (Chochq) - Teaching Video
     kind: tutorial
-recordings:
-  - file: chochq/chochq-shoror-karin-hamuyt-jojq.mp3
-    performer: Ճոճք, շորոր - «Կարին համույթ» - Jojq
-    tempo_bpm: null
-    is_default: true
 regions:
   - Կարին
   - Ջավախք
 genre:
   - wedding
+audio_prefix: chochq/

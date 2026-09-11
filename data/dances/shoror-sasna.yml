@@ -26,12 +26,8 @@ videos:
   - url: null
     title: Սասուն - Սասնա Շորոր («Պար, որ կռիվ դարձավ» - համերգ-երեկո) - YouTube
     kind: performance
-recordings:
-  - file: shoror-sasna/shoror-sasna-norayr-qamalyan.mp3
-    performer: Շորոր (Սասնա) - (Նորայր Քամալյան)
-    tempo_bpm: null
-    is_default: true
 regions:
   - Սասուն
 genre:
   - ritual
+audio_prefix: shoror-sasna/

@@ -29,45 +29,9 @@ videos:
   - url: null
     title: «Ուս ուսի» Ալաշկերտի քոչարի
     kind: tutorial
-recordings:
-  - file: qochari-alashkerti/alashkert-qochari-alashkerti-qochari-2.mp3
-    performer: Ալաշկերտ քոչարի-Alashkerti-qochari-2
-    tempo_bpm: null
-    is_default: true
-  - file: qochari-alashkerti/alashkert-qochari-alashkerti-qochari-1.mp3
-    performer: Ալաշկերտ-քոչարի-Alashkerti-qochari-1
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-masunq.mp3
-    performer: Քոչարի (Ալաշկերտի)  (Մասունք)
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-akunq-hamuyt-alashkerti-qochari-1.mp3
-    performer: Քոչարի Ալաշկերտի «Ակունք համույթ» Alashkerti qochari 1
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-avag-margaryan-alashkerti-qochari-3.mp3
-    performer: Քոչարի Ալաշկերտի «Ավագ Մարգարյան» Alashkerti qochari 3
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-karin-hamuyt-alashkerti-qochari.mp3
-    performer: Քոչարի Ալաշկերտի «Կարին համույթ» Alashkerti qochari
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-shoghakn-ansambl.mp3
-    performer: Քոչարի Ալաշկերտի «Շողակն անսամբլ»
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-avag-margaryan.mp3
-    performer: Քոչարի Ալաշկերտի Ավագ Մարգարյան
-    tempo_bpm: null
-    is_default: false
-  - file: qochari-alashkerti/qochari-alashkerti-emmanuel-hovhannisyan.mp3
-    performer: Քոչարի Ալաշկերտի Էմմանուել Հովհաննիսյան
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ալաշկերտ
 genre:
   - ritual
   - martial
+audio_prefix: qochari-alashkerti/

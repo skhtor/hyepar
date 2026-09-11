@@ -26,50 +26,10 @@ videos:
   - url: null
     title: Ուս ուսի. Նարե
     kind: tutorial
-recordings:
-  - file: nare/nare.mp3
-    performer: Nare
-    tempo_bpm: null
-    is_default: true
-  - file: nare/nare-akunq.mp3
-    performer: Նարե (Ակունք)
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-shoghakn.mp3
-    performer: Նարե (Շողակն)
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-sasun.mp3
-    performer: Նարե (Սասուն)
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-nare-arants-heyeri-erkar.mp3
-    performer: Նարե-Nare-առանց-հեյերի-երկար
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-nare-heyerov.mp3
-    performer: Նարե-Nare-հեյերով
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-nare.mp3
-    performer: Նարե-Nare
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-2.mp3
-    performer: Նարե
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-karin-hamuyt-nare-arants-heyeri-erkar.mp3
-    performer: Նարե «Կարին համույթ» Nare առանց հեյերի, երկար
-    tempo_bpm: null
-    is_default: false
-  - file: nare/nare-karin-hamuyt-nare-heyerov.mp3
-    performer: Նարե «Կարին համույթ» Nare հեյերով
-    tempo_bpm: null
-    is_default: false
 regions:
   - Վասպուրական
   - Սասուն
 genre:
   - ritual
   - festive
+audio_prefix: nare/

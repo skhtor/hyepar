@@ -26,27 +26,6 @@ videos:
   - url: null
     title: Ուս ուսի․ Լաչին - YouTube
     kind: tutorial
-recordings:
-  - file: lachin/lachin-karin-2-mp3.mp3
-    performer: Լաչին (Կարին) 2.MP3
-    tempo_bpm: null
-    is_default: true
-  - file: lachin/lachin-karin.mp3
-    performer: Լաչին (Կարին)
-    tempo_bpm: null
-    is_default: false
-  - file: lachin/lachin-asmar-sasun-hamuyt-andranik-manukyan-lachin-asmarsasun.mp3
-    performer: Լաչին Ասմար «Սասուն համույթ» Անդրանիկ Մանուկյան Lachin AsmarSasun
-    tempo_bpm: null
-    is_default: false
-  - file: lachin/lachini-manan.mp3
-    performer: Լաչինի մանան
-    tempo_bpm: null
-    is_default: false
-  - file: lachin/lachinu-manan.mp3
-    performer: Լաչինու մանան
-    tempo_bpm: null
-    is_default: false
 regions:
   - Ալաշկերտ
   - Տարոն
@@ -55,3 +34,4 @@ regions:
   - Սասուն
 genre:
   - communal
+audio_prefix: lachin/

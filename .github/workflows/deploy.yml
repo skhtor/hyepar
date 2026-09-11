@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch: {}
+  # Nightly rebuild so audio dropped into R2 folders appears without a code change.
+  # R2 is listed at build time (see scripts/lib/r2-list.mjs); this re-lists + redeploys.
+  schedule:
+    - cron: "0 6 * * *"  # 06:00 UTC daily
 
 # Prevent overlapping deploys; cancel superseded runs.
 concurrency:
@@ -30,6 +34,14 @@ jobs:
 
       - name: Build data bundle from YAML
         run: node scripts/build-bundle.mjs
+        env:
+          # R2 S3 credentials — build lists each dance's audio_prefix to generate
+          # the recordings. Object-Read-only token scoped to the hyepar-audio bucket.
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: hyepar-audio
+          PUBLIC_AUDIO_BASE: ${{ vars.PUBLIC_AUDIO_BASE }}
 
       - name: Validate dance data (build-time guardrail)
         run: node scripts/validate-dances.mjs

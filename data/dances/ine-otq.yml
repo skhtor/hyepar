@@ -29,34 +29,10 @@ videos:
   - url: null
     title: Ուս ուսի. 9 ոտք
     kind: tutorial
-recordings:
-  - file: ine-otq/ine-otq-karin-hamuyt-ine-9-vot.mp3
-    performer: Ինը ոտք - «Կարին համույթ» -  Ine 9 vot
-    tempo_bpm: null
-    is_default: true
-  - file: ine-otq/ine-otq-ghevik-ine-votq.mp3
-    performer: Ինը ոտք - «Ղևիկ» - Ine votq
-    tempo_bpm: null
-    is_default: false
-  - file: ine-otq/ine-otq-shoghakn-ansambl-ine-9-vot.mp3
-    performer: Ինը ոտք - «Շողակն անսամբլ» -  Ine 9 vot
-    tempo_bpm: null
-    is_default: false
-  - file: ine-otq/ine-otq-sasun-hamuyt-ine-9-vot.mp3
-    performer: Ինը ոտք - «Սասուն համույթ» -  Ine 9 vot
-    tempo_bpm: null
-    is_default: false
-  - file: ine-otq/ine-otq-ine-9-vot.mp3
-    performer: Ինը-ոտք-Ine-9-vot
-    tempo_bpm: null
-    is_default: false
-  - file: ine-otq/ine-otq-muradyan-ansambl-ine-9-vot.mp3
-    performer: Ինը ոտք «Մուրադյան անսամբլ» Ine 9 vot
-    tempo_bpm: null
-    is_default: false
 regions:
   - Տարոն
   - Մուշ
   - Սասուն
 genre:
   - festive
+audio_prefix: ine-otq/
