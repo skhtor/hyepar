@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: crossed
+difficulty: 4
+energy: 3
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -31,3 +31,7 @@ recordings:
     performer: Մամըռ Երվանդ և Վահան Դավուդյաններ
     tempo_bpm: null
     is_default: true
+regions:
+  - Պարսկահայք
+genre:
+  - martial

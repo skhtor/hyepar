@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: shoulders
+difficulty: 3
+energy: 3
+gender: women
 family_tags: []
 notes:
   hy: Left arm around back, right arm on near shoulder
@@ -39,3 +39,8 @@ recordings:
     performer: Մածուն եմ դրել վըր դարուն «Բեկոր ավանդական երգի պարի խումբ» Matsun
     tempo_bpm: null
     is_default: false
+regions:
+  - Վասպուրական
+genre:
+  - work
+  - ceremonial

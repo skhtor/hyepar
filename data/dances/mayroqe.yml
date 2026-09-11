@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: pinkies
-difficulty: 1
-energy: null
-gender: null
+difficulty: 3
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -135,3 +135,11 @@ recordings:
     performer: Մշո խռ, Մայրոքե, Փափուռի «Գաթա բենդ» Ազգագրական
     tempo_bpm: null
     is_default: false
+regions:
+  - Տարոն
+  - Մուշ
+  - Սասուն
+genre:
+  - ritual
+  - work
+  - reverse

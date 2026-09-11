@@ -5,9 +5,9 @@ name:
   romanized: null
   aliases: []
 hold_type: shoulders
-difficulty: 1
-energy: null
-gender: null
+difficulty: 4
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -35,3 +35,6 @@ recordings:
     is_default: true
 regions:
   - Կարին
+  - Ջավախք
+genre:
+  - wedding
