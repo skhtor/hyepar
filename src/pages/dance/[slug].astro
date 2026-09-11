@@ -72,7 +72,20 @@ const related = dance.family_tags.length
                     allowfullscreen
                   />
                 ) : (
-                  <p lang="hy" class="vtitle">{v.title}</p>
+                  <a
+                    class="vsearch"
+                    href={`https://www.youtube.com/results?search_query=${encodeURIComponent(
+                      v.title.replace(/\s*-?\s*YouTube\s*$/i, "").trim()
+                    )}`}
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <span class="vsearch-play" aria-hidden="true">▶</span>
+                    <span class="vsearch-text">
+                      <span lang="hy" class="vsearch-title">{v.title.replace(/\s*-?\s*YouTube\s*$/i, "").trim()}</span>
+                      <span class="vsearch-cta">Search on YouTube ↗</span>
+                    </span>
+                  </a>
                 )}
                 <figcaption>{v.kind === "tutorial" ? "Tutorial (ուս ուսի)" : "Performance"}</figcaption>
               </figure>
@@ -184,11 +197,49 @@ const related = dance.family_tags.length
       color: var(--ink-soft);
       margin-top: 6px;
     }
-    .vtitle {
+    .vsearch {
+      display: flex;
+      align-items: center;
+      gap: var(--md);
+      width: 100%;
+      aspect-ratio: 16 / 9;
       background: var(--vellum-2);
       border: 1px solid var(--hair);
       border-radius: var(--r-md);
       padding: var(--md);
+      text-decoration: none;
+      color: var(--ink);
+      transition: border-color var(--dur-short) var(--ease-out);
+    }
+    .vsearch:hover {
+      border-color: var(--vermilion);
+    }
+    .vsearch-play {
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      border-radius: var(--r-pill);
+      background: var(--vermilion);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 16px;
+    }
+    .vsearch-text {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 0;
+    }
+    .vsearch-title {
+      font-family: var(--serif);
+      font-size: 16px;
+      line-height: 1.3;
+    }
+    .vsearch-cta {
+      font-family: var(--ui);
+      font-size: 12px;
+      color: var(--ink-soft);
     }
     .story h2,
     .related h2 {
