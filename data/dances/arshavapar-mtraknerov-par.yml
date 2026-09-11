@@ -26,7 +26,11 @@ videos:
   - url: null
     title: Մասունք - Մտրակներով պար (ՌՈՒԴԻԿ ՀԱՐՈՅԱՆ - 70) - YouTube
     kind: performance
-recordings: []
+recordings:
+  - file: arshavapar-mtraknerov-par/arshavapar-mtraknerov-par-masunq.mp3
+    performer: Արշավապար, Մտրակներով պար - Մասունք
+    tempo_bpm: null
+    is_default: true
 genre:
   - martial
 regions:
