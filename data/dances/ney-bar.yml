@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: palms
-difficulty: 1
-energy: null
-gender: null
+difficulty: 4
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -48,3 +48,7 @@ recordings:
     performer: Նեյ բար
     tempo_bpm: null
     is_default: false
+regions:
+  - Համշեն
+genre:
+  - wedding

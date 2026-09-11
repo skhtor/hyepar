@@ -94,12 +94,18 @@ export function parseGenres(s) {
     "Ոգեկոչման": "commemoration",
     "Թարս": "reverse",
     "Որսորդական": "hunting",
+    "Խնամիների": "in-laws",
   };
   return String(s)
     .split(",")
     .map((x) => x.trim())
     .filter(Boolean)
-    .map((hy) => map[hy] || hy); // keep the Armenian term if unmapped
+    .map((hy) => {
+      if (map[hy]) return map[hy];
+      // multi-word labels (e.g. "Խնամիների պար"): match a known key as a token/prefix
+      const hit = Object.keys(map).find((k) => hy.includes(k));
+      return hit ? map[hit] : hy; // keep raw Armenian if truly unmapped
+    });
 }
 
 /** The name line may carry an alternate after "/": "A / B" → { name, aliases:[B] }. */

@@ -4,10 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-hold_type: null
-difficulty: 4
-energy: null
-gender: null
+hold_type: free
+difficulty: 5
+energy: 2
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -127,4 +127,8 @@ recordings:
     tempo_bpm: null
     is_default: false
 regions:
-  - Կարին
+  - Տարոն
+  - Մուշ
+  - Սասուն
+genre:
+  - martial

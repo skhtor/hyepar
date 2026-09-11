@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: shoulders
+difficulty: 4
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -67,3 +67,9 @@ recordings:
     performer: Նարե «Կարին համույթ» Nare հեյերով
     tempo_bpm: null
     is_default: false
+regions:
+  - Վասպուրական
+  - Սասուն
+genre:
+  - ritual
+  - festive

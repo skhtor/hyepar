@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: palms
+difficulty: 3
+energy: 2
+gender: mixed
 family_tags:
   - Yalli
 notes:
@@ -29,3 +29,7 @@ recordings:
     performer: Յալլի - Մասունք
     tempo_bpm: null
     is_default: true
+regions:
+  - Փերիա
+genre:
+  - communal

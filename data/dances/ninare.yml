@@ -7,8 +7,8 @@ name:
 region: null
 hold_type: shoulders
 difficulty: 2
-energy: null
-gender: null
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
