@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
+hold_type: crossed
 difficulty: 3
-energy: null
-gender: null
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -55,3 +55,7 @@ recordings:
     performer: Չաչանե և Ծաղկաձորի Գևորգ Դաբաղյան
     tempo_bpm: null
     is_default: false
+regions:
+  - Տիգրանակերտ
+genre:
+  - charkhapan

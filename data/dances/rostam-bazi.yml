@@ -3,11 +3,12 @@ name:
   hy: Ռոստամ բազի
   en: null
   romanized: null
-  aliases: []
+  aliases:
+    - Քաջաց խաղ
 hold_type: shoulders
 difficulty: 4
-energy: null
-gender: null
+energy: 3
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -59,4 +60,6 @@ recordings:
     tempo_bpm: null
     is_default: false
 regions:
-  - Կարին
+  - Պարսկահայք
+genre:
+  - martial
