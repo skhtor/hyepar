@@ -95,6 +95,7 @@ export function parseGenres(s) {
     "Թարս": "reverse",
     "Որսորդական": "hunting",
     "Խնամիների": "in-laws",
+    "Հիշատակի": "memorial",
   };
   return String(s)
     .split(",")

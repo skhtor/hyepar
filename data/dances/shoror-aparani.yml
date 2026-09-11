@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
+hold_type: free
 difficulty: 1
 energy: null
-gender: null
+gender: mixed
 family_tags:
   - Shoror
 notes:
@@ -36,3 +36,6 @@ recordings:
     performer: Շորոր Ապարանի
     tempo_bpm: null
     is_default: false
+regions:
+  - Ալաշկերտ
+  - Մուշ

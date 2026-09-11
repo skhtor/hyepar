@@ -5,9 +5,9 @@ name:
   romanized: null
   aliases: []
 hold_type: pinkies
-difficulty: 1
-energy: null
-gender: null
+difficulty: 2
+energy: 2
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -46,4 +46,6 @@ recordings:
     tempo_bpm: null
     is_default: false
 regions:
-  - Կարին
+  - Ալաշկերտ
+genre:
+  - martial

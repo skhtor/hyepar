@@ -4,10 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-hold_type: null
+hold_type: crossed
 difficulty: 4
-energy: null
-gender: null
+energy: 2
+gender: men
 family_tags: []
 notes:
   hy: null
@@ -71,4 +71,7 @@ recordings:
     tempo_bpm: null
     is_default: false
 regions:
-  - Կարին
+  - Վասպուրական
+  - Շատախ
+genre:
+  - martial

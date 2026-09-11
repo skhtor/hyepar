@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: dagger
+difficulty: 4
+energy: 1
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -40,3 +40,8 @@ recordings:
     performer: Չալմը դանգի «Կարին համույթ» Chalme Danki
     tempo_bpm: null
     is_default: false
+regions:
+  - Մուսալեռ
+genre:
+  - wedding
+  - martial

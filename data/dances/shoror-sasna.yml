@@ -5,9 +5,9 @@ name:
   romanized: null
   aliases: []
 hold_type: pinkies
-difficulty: 2
-energy: null
-gender: null
+difficulty: 3
+energy: 1
+gender: women
 family_tags:
   - Shoror
 notes:
@@ -33,3 +33,5 @@ recordings:
     is_default: true
 regions:
   - Սասուն
+genre:
+  - ritual

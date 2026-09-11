@@ -6,9 +6,9 @@ name:
   aliases: []
 region: null
 hold_type: pinkies
-difficulty: 1
-energy: null
-gender: null
+difficulty: 2
+energy: 1
+gender: mixed
 family_tags:
   - Shoror
 notes:
@@ -28,3 +28,9 @@ videos:
     title: Erzerumi Shoror/ Էրզրումի շորոր
     kind: performance
 recordings: []
+regions:
+  - Կարին
+  - Ջավախք
+genre:
+  - ritual
+  - memorial
