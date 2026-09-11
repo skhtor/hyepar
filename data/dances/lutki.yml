@@ -4,15 +4,17 @@ name:
   en: null
   romanized: null
   aliases: []
-hold_type: null
-difficulty: 3
-energy: null
-gender: null
-family_tags: []
+hold_type: pinkies
+difficulty: 4
+energy: 3
+gender: mixed
+family_tags:
+  - Lutki
 notes:
   hy: null
-  en: null
-  status: unknown
+  en: Recordings on this family parent need distributing to regional variants
+    (Lutki).
+  status: known
 background:
   hy: null
   en: null
@@ -50,4 +52,7 @@ recordings:
     tempo_bpm: null
     is_default: false
 regions:
-  - Կարին
+  - Վասպուրական
+genre:
+  - ceremonial
+  - festive

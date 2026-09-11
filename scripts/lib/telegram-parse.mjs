@@ -93,6 +93,7 @@ export function parseGenres(s) {
     "Չարխափան": "charkhapan",
     "Ոգեկոչման": "commemoration",
     "Թարս": "reverse",
+    "Որսորդական": "hunting",
   };
   return String(s)
     .split(",")

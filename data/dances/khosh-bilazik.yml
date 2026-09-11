@@ -5,9 +5,9 @@ name:
   romanized: null
   aliases: []
 hold_type: shoulders
-difficulty: 1
-energy: null
-gender: null
+difficulty: 3
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -51,3 +51,5 @@ recordings:
     is_default: false
 regions:
   - Կարին
+genre:
+  - work
