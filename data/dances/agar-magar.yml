@@ -1,10 +1,10 @@
-slug: agar-magar
+slug: akar-makar
 name:
-  hy: Ագար մագար
+  hy: Ակար մակար
   en: null
   romanized: null
   aliases:
-    - Ակար մակար
+    - Ագար մագար
 hold_type: shoulders
 difficulty: 4
 energy: 3
@@ -30,3 +30,4 @@ genre:
   - wedding
 regions:
   - Ալաշկերտ
+audio_prefix: akar-makar/
