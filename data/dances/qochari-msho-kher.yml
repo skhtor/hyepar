@@ -4,10 +4,10 @@ name:
   en: null
   romanized: null
   aliases: []
-hold_type: null
-difficulty: 1
-energy: null
-gender: null
+hold_type: crossed
+difficulty: 4
+energy: 2
+gender: mixed
 family_tags:
   - Qochari
 notes:
@@ -187,4 +187,9 @@ recordings:
     tempo_bpm: null
     is_default: false
 regions:
-  - Կարին
+  - Տարոն
+  - Մուշ
+  - Սասուն
+genre:
+  - ritual
+  - martial

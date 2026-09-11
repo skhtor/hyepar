@@ -5,10 +5,10 @@ name:
   romanized: null
   aliases: []
 region: null
-hold_type: null
+hold_type: crossed
 difficulty: 3
-energy: null
-gender: null
+energy: 2
+gender: mixed
 family_tags:
   - Qochari
 notes:
@@ -44,3 +44,8 @@ recordings:
     performer: Քոչարի Մշո «Կարին համույթ» Msho Qochari 2 2 .MP3
     tempo_bpm: null
     is_default: false
+regions:
+  - Մուշ
+genre:
+  - ritual
+  - martial

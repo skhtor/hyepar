@@ -7,8 +7,8 @@ name:
 region: null
 hold_type: palms
 difficulty: 5
-energy: null
-gender: null
+energy: 3
+gender: mixed
 family_tags: []
 notes:
   hy: null
@@ -34,3 +34,8 @@ recordings:
     performer: Ֆնջան - «Կարին համույթ» - Fnjan
     tempo_bpm: null
     is_default: true
+regions:
+  - Կարին
+  - Ջավախք
+genre:
+  - festive

@@ -6,8 +6,8 @@ name:
   aliases: []
 hold_type: palms
 difficulty: 2
-energy: null
-gender: null
+energy: 3
+gender: mixed
 family_tags:
   - Qochari
 notes:
@@ -40,3 +40,6 @@ recordings:
     is_default: false
 regions:
   - Կարին
+genre:
+  - ritual
+  - martial
